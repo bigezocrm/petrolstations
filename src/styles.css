@@ -52,10 +52,8 @@ textarea {
 ::before {
   box-sizing: border-box;
 }
-user
-  agent
-  stylesheet
-  input:not(
+
+input:not(
     [type="image" i],
     [type="range" i],
     [type="checkbox" i],
@@ -64,19 +62,9 @@ user
   overflow-clip-margin: 0px !important;
   overflow: clip !important;
 }
-user agent stylesheet input[type="email" i] {
+input[type="email" i] {
   padding-block: 1px;
   padding-inline: 2px;
-}
-user
-  agent
-  stylesheet
-  input:not(
-    [type="file" i],
-    [type="image" i],
-    [type="checkbox" i],
-    [type="radio" i]
-  ) {
 }
 
 .bg-body-tertiary {
@@ -110,7 +98,7 @@ body {
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
+  --bs-body-bg: #000000;
   --bs-body-bg-rgb: 33, 37, 41;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
@@ -261,6 +249,6 @@ body {
   box-sizing: border-box;
 }
 
-.sidebar {
+.sidebarbg {
   background-color: #000000;
 }

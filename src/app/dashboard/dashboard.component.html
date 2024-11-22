@@ -1,7 +1,7 @@
-<div class="container-fluid">
-  <div class="row flex-nowrap">
-    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0">
-      <!-- Sidebar Toggle Button -->
+<div class="container-fluid vh-100 overflow-hidden">
+  <div class="row flex-nowrap h-100">
+    <!-- Sidebar -->
+    <div class="col-auto col-md-3 col-xl-2 sidebarbg px-sm-2 px-0">
       <button
         class="btn btn-primary d-md-none mb-3"
         type="button"
@@ -14,12 +14,7 @@
         <i class="bi bi-list"></i> Menu
       </button>
 
-      <!-- Sidebar -->
-      <div
-        id="sidebar"
-        class="collapse d-md-block bg-dark sidebar"
-        style="transition: width 0.3s ease"
-      >
+      <div id="sidebar" class="collapse d-md-block sidebar h-100">
         <div
           class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
         >
@@ -28,13 +23,15 @@
             id="menu"
           >
             <li>
-              <h2 class="text-danger mt-3 mb-1 text-center mx-auto display-1">
+              <h2 class="text-danger mt-3 mb-1 text-center mx-auto">
                 <span class="bi bi-geo-fill"></span>
               </h2>
             </li>
             <li>
               <h6 class="text-danger mt-0 mb-5">VIVO MAPS - UGANDA</h6>
             </li>
+
+            <!-- Sidebar Navigation Links -->
             <li class="nav-item">
               <a href="#" class="nav-link text-warning align-middle px-0">
                 <i class="fs-4 bi-arrow-bar-up text-warning me-2"></i>
@@ -75,11 +72,17 @@
                     <span class="d-none d-sm-inline">A </span>
                   </a>
                 </li>
+                <li class="w-100">
+                  <a href="#" class="nav-link px-0 text-light">
+                    <span class="d-none d-sm-inline">B </span>
+                  </a>
+                </li>
               </ul>
             </li>
           </ul>
+
           <hr />
-          <p class="mt-5 mb-3 text-secondary text-center">© Brema Kabenge</p>
+          <p class="mt-auto mb-3 text-secondary text-center">© Brema Kabenge</p>
           <div class="dropdown pb-4">
             <a
               href="#"
@@ -104,6 +107,9 @@
       </div>
     </div>
 
-    <div class="col py-3 bg-light">Content area...</div>
+    <!-- Main Content -->
+    <div class="col py-3 bg-light h-100">
+      <app-map></app-map>
+    </div>
   </div>
 </div>
