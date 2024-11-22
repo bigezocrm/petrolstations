@@ -1,0 +1,109 @@
+<div class="container-fluid">
+  <div class="row flex-nowrap">
+    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0">
+      <!-- Sidebar Toggle Button -->
+      <button
+        class="btn btn-primary d-md-none mb-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#sidebar"
+        aria-controls="sidebar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-list"></i> Menu
+      </button>
+
+      <!-- Sidebar -->
+      <div
+        id="sidebar"
+        class="collapse d-md-block bg-dark sidebar"
+        style="transition: width 0.3s ease"
+      >
+        <div
+          class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
+        >
+          <ul
+            class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+            id="menu"
+          >
+            <li>
+              <h2 class="text-danger mt-3 mb-1 text-center mx-auto display-1">
+                <span class="bi bi-geo-fill"></span>
+              </h2>
+            </li>
+            <li>
+              <h6 class="text-danger mt-0 mb-5">VIVO MAPS - UGANDA</h6>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-warning align-middle px-0">
+                <i class="fs-4 bi-arrow-bar-up text-warning me-2"></i>
+                <span class="ms-1 d-none d-sm-inline">NORTH</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-warning align-middle px-0">
+                <i class="fs-4 bi-arrow-bar-right text-warning me-2"></i>
+                <span class="ms-1 d-none d-sm-inline">EAST</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-warning align-middle px-0">
+                <i class="fs-4 bi-arrow-bar-left text-warning me-2"></i>
+                <span class="ms-1 d-none d-sm-inline">WEST</span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#submenu3"
+                data-bs-toggle="collapse"
+                class="nav-link px-0 align-middle"
+              >
+                <i class="fs-4 bi-arrow-repeat text-warning me-2"></i>
+                <span class="ms-1 d-none d-sm-inline text-warning"
+                  >CENTRAL</span
+                >
+              </a>
+              <ul
+                class="collapse nav flex-column ms-1"
+                id="submenu3"
+                data-bs-parent="#menu"
+              >
+                <li class="w-100">
+                  <a href="#" class="nav-link px-0 text-light">
+                    <span class="d-none d-sm-inline">A </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+          <p class="mt-5 mb-3 text-secondary text-center">© Brema Kabenge</p>
+          <div class="dropdown pb-4">
+            <a
+              href="#"
+              class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+              id="dropdownUser1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span class="bi bi-arrow-left"></span>
+              <span class="d-none d-sm-inline mx-1">Account</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col py-3 bg-light">Content area...</div>
+  </div>
+</div>
