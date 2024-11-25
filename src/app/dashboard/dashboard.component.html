@@ -11,7 +11,10 @@
             id="menu"
           >
             <li class="nav-item mt-5">
-              <a href="#" class="btn blackbtn px-3 align-middle px-0">
+              <a
+                (click)="toggleMapVisibility()"
+                class="btn blackbtn px-3 align-middle px-0"
+              >
                 <span class="ms-1 d-none d-sm-inline">ALL STATIONS</span>
                 <i class="fs-4 bi-geo-alt-fill ms-2"></i>
               </a>
@@ -135,7 +138,17 @@
 
     <!-- Main Content -->
     <div class="col py-3 bg-light h-100">
-      <app-map></app-map>
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-6">
+          <h1 class="title my-1 text-center">VIVO MAPS - UGANDA</h1>
+          <h5 class="dashboardtitle mb-3 fw-normal">
+            Discover All Petrol Stations In Uganda
+          </h5>
+          <img src="map.png" alt="Map Image" class="img-fluid" />
+        </div>
+      </div>
+
+      <app-map *ngIf="showMap"></app-map>
     </div>
   </div>
 </div>
