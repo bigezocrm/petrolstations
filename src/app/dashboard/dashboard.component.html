@@ -2,18 +2,6 @@
   <div class="row flex-nowrap h-100">
     <!-- Sidebar -->
     <div class="col-auto col-md-3 col-xl-2 sidebarbg px-sm-2 px-0">
-      <button
-        class="btn btn-primary d-md-none mb-3"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#sidebar"
-        aria-controls="sidebar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="bi bi-list"></i> Menu
-      </button>
-
       <div id="sidebar" class="collapse d-md-block sidebar h-100">
         <div
           class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
@@ -22,36 +10,28 @@
             class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
             id="menu"
           >
-            <li>
-              <h2 class="text-danger mt-3 mb-1 text-center mx-auto">
-                <span class="bi bi-geo-fill"></span>
-              </h2>
-            </li>
-            <li>
-              <h6 class="text-danger mt-0 mb-5">VIVO MAPS - UGANDA</h6>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="btn btn-light px-3 align-middle px-0">
-                <i class="fs-4 bi-geo-alt-fill me-2"></i>
+            <li class="nav-item mt-5">
+              <a href="#" class="btn blackbtn px-3 align-middle px-0">
                 <span class="ms-1 d-none d-sm-inline">ALL STATIONS</span>
+                <i class="fs-4 bi-geo-alt-fill ms-2"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-warning align-middle px-0">
-                <i class="fs-4 bi-arrow-bar-up text-warning me-2"></i>
-                <span class="ms-1 d-none d-sm-inline">NORTH</span>
+              <a href="#" class="nav-link align-middle px-0">
+                <span class="ms-1 d-none d-sm-inline ps-3">NORTH</span>
+                <i class="fs-4 bi-arrow-bar-up ms-2"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-warning align-middle px-0">
-                <i class="fs-4 bi-arrow-bar-right text-warning me-2"></i>
-                <span class="ms-1 d-none d-sm-inline">EAST</span>
+              <a href="#" class="nav-link align-middle px-0">
+                <span class="ms-1 d-none d-sm-inline ps-3">EAST</span>
+                <i class="fs-4 bi-arrow-bar-right ms-2"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-warning align-middle px-0">
-                <i class="fs-4 bi-arrow-bar-left text-warning me-2"></i>
-                <span class="ms-1 d-none d-sm-inline">WEST</span>
+              <a href="#" class="nav-link align-middle px-0">
+                <span class="ms-1 d-none d-sm-inline ps-3">WEST</span>
+                <i class="fs-4 bi-arrow-bar-left ms-2"></i>
               </a>
             </li>
 
@@ -61,10 +41,8 @@
                 data-bs-toggle="collapse"
                 class="nav-link px-0 align-middle"
               >
-                <i class="fs-4 bi-arrow-repeat text-warning me-2"></i>
-                <span class="ms-1 d-none d-sm-inline text-warning"
-                  >CENTRAL</span
-                >
+                <span class="ms-1 d-none d-sm-inline ps-3">CENTRAL</span>
+                <i class="fs-4 bi-arrow-repeat ms-2"></i>
               </a>
               <ul
                 class="collapse nav flex-column ms-1"
@@ -72,37 +50,44 @@
                 data-bs-parent="#menu"
               >
                 <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-light">
+                  <a href="#" class="nav-link px-0 text-dark">
                     <span class="d-none d-sm-inline">
-                      <span class="text-secondary">SUB REGION </span> A
+                      <span class="text-dark ps-5">ALL CENTRAL </span>
                     </span>
                   </a>
                 </li>
                 <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-light">
+                  <a href="#" class="nav-link px-0 text-dark">
                     <span class="d-none d-sm-inline">
-                      <span class="text-secondary">SUB REGION </span> B
+                      <span class="text-secondary ps-5">SUB REGION </span> A
                     </span>
                   </a>
                 </li>
                 <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-light">
+                  <a href="#" class="nav-link px-0 text-dark">
                     <span class="d-none d-sm-inline">
-                      <span class="text-secondary">SUB REGION </span> C
+                      <span class="text-secondary ps-5">SUB REGION </span> B
                     </span>
                   </a>
                 </li>
                 <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-light">
+                  <a href="#" class="nav-link px-0 text-dark">
                     <span class="d-none d-sm-inline">
-                      <span class="text-secondary">SUB REGION </span> D
+                      <span class="text-secondary ps-5">SUB REGION </span> C
                     </span>
                   </a>
                 </li>
                 <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-light">
+                  <a href="#" class="nav-link px-0 text-dark">
                     <span class="d-none d-sm-inline">
-                      <span class="text-secondary">SUB REGION </span> E
+                      <span class="text-secondary ps-5">SUB REGION </span> D
+                    </span>
+                  </a>
+                </li>
+                <li class="w-100">
+                  <a href="#" class="nav-link px-0 text-dark">
+                    <span class="d-none d-sm-inline">
+                      <span class="text-secondary ps-5">SUB REGION </span> E
                     </span>
                   </a>
                 </li>
@@ -111,11 +96,11 @@
           </ul>
 
           <hr />
-          <p class="mt-auto mb-3 text-secondary text-center">© Brema Kabenge</p>
+          <p class="mt-auto mb-3 text-primary text-center">© Brema Kabenge</p>
           <div class="dropdown pb-4">
             <a
               href="#"
-              class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+              class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle"
               id="dropdownUser1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -139,7 +124,7 @@
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  <span class="bi bi-power me-2"></span> Sign out</a
+                  <span class="bi bi-power me-2"></span> Logout</a
                 >
               </li>
             </ul>
