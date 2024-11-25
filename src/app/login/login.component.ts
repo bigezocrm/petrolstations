@@ -1,49 +1,61 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthService } from '../service/auth.service';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, RouterModule],
+  imports: [ReactiveFormsModule, RouterModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
 
   constructor(
     private fb: FormBuilder,
     private auth: AuthService,
     private router: Router
-  ) {
+  ) {}
+
+  ngOnInit(): void {
+    this.initializeForm();
+
+    // Redirect if user is already logged in
+    this.checkIfLoggedIn();
+  }
+
+  private initializeForm(): void {
     this.loginForm = this.fb.group({
-      email: fb.control('', [
-        Validators.required,
-        Validators.minLength(5),
-        Validators.pattern(
-          /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        ),
-      ]),
-      password: fb.control('', [Validators.required, Validators.minLength(7)]),
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(7)]],
     });
   }
 
-  public onSubmit() {
-    console.log(this.loginForm.value);
-    console.log(this.loginForm.value);
+  private async checkIfLoggedIn() {
+    try {
+      const user = await this.auth.getUser(); // Wait for the Promise to resolve
+      if (user) {
+        this.router.navigate(['/dashboard']);
+      }
+    } catch (error) {
+      console.error('Error checking user login status:', error);
+    }
+  }
+
+  public onSubmit(): void {
+    if (this.loginForm.invalid) return;
+
     this.auth
       .signIn(this.loginForm.value.email, this.loginForm.value.password)
       .then((res) => {
-        console.log(res.data.user.role);
-        if (res.data.user.role === 'authenticated') {
+        if (res.data.user && res.data.user.role === 'authenticated') {
           this.router.navigate(['/dashboard']);
         }
       })
       .catch((err) => {
-        console.log(err);
+        console.error('Login failed:', err);
       });
   }
 }
