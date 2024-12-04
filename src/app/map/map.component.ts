@@ -37,23 +37,25 @@ export class MapComponent implements AfterViewInit {
         console.log('GeoJSON Data:', data);
 
         data.features.forEach((feature: any) => {
-          if (feature.geometry.type === 'Point') {
+          const geometryType = feature.geometry.type;
+
+          if (geometryType === 'Point') {
+            console.log('Processing Point feature:', feature);
             const coordinates = feature.geometry.coordinates;
             const latLng = new google.maps.LatLng(coordinates[1], coordinates[0]);
             const name = feature.properties.name || 'No name';
             const iconUrl = feature.properties.icon || '/shell.png';
 
-            // Scale the icon using scaledSize
             const icon = {
-              url: iconUrl, // URL to the icon image
-              scaledSize: new google.maps.Size(16, 16), // Adjust size here
+              url: iconUrl,
+              scaledSize: new google.maps.Size(16, 16),
             };
 
             const marker = new google.maps.Marker({
               position: latLng,
               map: this.map,
               title: name,
-              icon: icon, // Use scaled icon
+              icon: icon,
             });
 
             const infoWindow = new google.maps.InfoWindow({
@@ -63,6 +65,28 @@ export class MapComponent implements AfterViewInit {
             marker.addListener('click', () => {
               infoWindow.open(this.map, marker);
             });
+
+          } else if (geometryType === 'Polygon') {
+            console.log('Processing Polygon feature:', feature);
+            const paths = feature.geometry.coordinates[0].map((coords: number[]) => ({
+              lat: coords[1],
+              lng: coords[0],
+            }));
+
+            console.log('Polygon paths:', paths);
+
+            const polygon = new google.maps.Polygon({
+              paths: paths,
+              strokeColor: feature.properties.stroke || '#000000',
+              strokeOpacity: feature.properties['stroke-opacity'] || 1.0,
+              strokeWeight: feature.properties['stroke-width'] || 2,
+              fillColor: feature.properties.fill || '#FF0000',
+              fillOpacity: feature.properties['fill-opacity'] || 0.35,
+            });
+
+            polygon.setMap(this.map);
+          } else {
+            console.log('Unhandled geometry type:', geometryType);
           }
         });
       })
