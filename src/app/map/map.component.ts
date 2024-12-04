@@ -1,34 +1,56 @@
-import { Component } from '@angular/core';
-import { GoogleMapsModule } from '@angular/google-maps';
+import { Component, AfterViewInit } from '@angular/core';
+
+declare var google: any;
 
 @Component({
   selector: 'app-map',
-  standalone: true,
-  imports: [GoogleMapsModule],
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent {
+export class MapComponent implements AfterViewInit {
   title: string = 'All Petrol Stations in Uganda';
+  map: any;
 
-  // Coordinates for Uganda (Center of the map)
-  center: google.maps.LatLngLiteral = { lat: 1.3733, lng: 32.2903 };
-  zoom = 6;
+  ngAfterViewInit() {
+    this.initMap();
+  }
 
-  // The mapId used to reference the styles
-  mapId: string = '9921d5aa4e4ee104'; // Replace with your actual map ID
+  initMap() {
+    // Initialize the map
+    this.map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
+      center: { lat: 0.3740605, lng: 32.7256175 }, // Center point in Uganda
+      zoom: 6,
+      mapTypeId: 'roadmap',
+    });
 
-  // Optional: Custom marker or other configurations
-  
-  markers: google.maps.MarkerOptions[] = [
-    {
-      position: { lat: 1.3733, lng: 32.2903 },
-      title: "Uganda",
-      icon: {
-        url: "/assets/shell.png",
-        scaledSize: new google.maps.Size(32, 32) // Adjust size if necessary
-      }
-    }
-  ];
-  
+    // Load the GeoJSON data
+    this.loadGeoJSON();
+  }
+
+  loadGeoJSON() {
+    const geoJSONPath = '/uganda.json'; // Path to the GeoJSON file in the public folder
+    this.map.data.loadGeoJson(geoJSONPath);
+
+    // Apply custom styles to the GeoJSON data
+    this.map.data.setStyle({
+      icon: (feature: any) => ({
+        url: feature.getProperty('icon'), // Use icon from GeoJSON properties
+        scaledSize: new google.maps.Size(32, 32), // Adjust size as needed
+      }),
+      fillColor: 'green',
+      strokeWeight: 2,
+      strokeColor: 'blue',
+    });
+
+    // Add info windows (optional)
+    this.map.data.addListener('click', (event: any) => {
+      const name = event.feature.getProperty('name');
+      const description = event.feature.getProperty('description');
+      const infoWindow = new google.maps.InfoWindow({
+        content: `<h3>${name}</h3><p>${description}</p>`,
+        position: event.latLng,
+      });
+      infoWindow.open(this.map);
+    });
+  }
 }
