@@ -27,7 +27,10 @@ export class DashboardComponent {
   }
 
     toggleMapVisibility() {
+
       this.showMap = !this.showMap;  // Toggle the visibility
+      if(this.showMap){}
+      else {}
     }
 
 }

@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthService } from '../service/auth.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-login',
-    imports: [ReactiveFormsModule, RouterModule],
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
     templateUrl: './login.component.html',
     styleUrls: ['./login.component.css']
 })
@@ -44,7 +45,8 @@ export class LoginComponent implements OnInit {
   }
 
   public onSubmit(): void {
-    if (this.loginForm.invalid) return;
+    if (this.loginForm.invalid)
+      console.log(`------------------------- Wrong Credentials`);
 
     this.auth
       .signIn(this.loginForm.value.email, this.loginForm.value.password)
@@ -54,7 +56,7 @@ export class LoginComponent implements OnInit {
         }
       })
       .catch((err) => {
-        console.error('Login failed:', err);
+        console.log(`------------------------- Wrong Credentials`);
       });
   }
 }
