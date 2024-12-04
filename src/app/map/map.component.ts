@@ -73,8 +73,7 @@ export class MapComponent implements AfterViewInit {
               lng: coords[0],
             }));
 
-            console.log('Polygon paths:', paths);
-
+            // Define the polygon
             const polygon = new google.maps.Polygon({
               paths: paths,
               strokeColor: feature.properties.stroke || '#000000',
@@ -85,6 +84,9 @@ export class MapComponent implements AfterViewInit {
             });
 
             polygon.setMap(this.map);
+
+            // Add the white overlay outside the polygon
+            this.addWhiteOverlayOutsidePolygon(polygon);
           } else {
             console.log('Unhandled geometry type:', geometryType);
           }
@@ -93,5 +95,42 @@ export class MapComponent implements AfterViewInit {
       .catch((error) => {
         console.error('Error fetching GeoJSON:', error);
       });
+  }
+
+  private addWhiteOverlayOutsidePolygon(polygon: any) {
+    // Create an overlay to cover the map with a white layer
+    const overlay = new google.maps.OverlayView();
+
+    overlay.onAdd = () => {
+      const layer = this.createWhiteOverlayLayer(polygon, overlay);
+      const panes = overlay.getPanes();
+      panes.overlayLayer.appendChild(layer);
+    };
+
+    overlay.draw = function () {};
+    overlay.setMap(this.map);
+  }
+
+  private createWhiteOverlayLayer(polygon: any, overlay: any): HTMLElement {
+    const bounds = polygon.getBounds();
+    const topLeft = bounds.getNorthEast();
+    const bottomRight = bounds.getSouthWest();
+
+    const projection = overlay.getProjection();
+    const topLeftPixel = projection.fromLatLngToDivPixel(topLeft);
+    const bottomRightPixel = projection.fromLatLngToDivPixel(bottomRight);
+
+    // Create a div element for the overlay
+    const layer = document.createElement('div');
+    layer.style.position = 'absolute';
+    layer.style.top = `${topLeftPixel.y}px`;
+    layer.style.left = `${topLeftPixel.x}px`;
+    layer.style.width = `${bottomRightPixel.x - topLeftPixel.x}px`;
+    layer.style.height = `${bottomRightPixel.y - topLeftPixel.y}px`;
+    layer.style.backgroundColor = 'white';
+    layer.style.zIndex = '0';
+    layer.style.pointerEvents = 'none'; // Ensures it doesn't block interactions
+
+    return layer;
   }
 }
