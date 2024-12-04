@@ -20,6 +20,7 @@ export class MapComponent implements AfterViewInit {
       center: { lat: 0.3740605, lng: 32.7256175 },
       zoom: 7,
       mapTypeId: 'roadmap',
+      minZoom: 6,
     });
 
     this.loadGeoJSON();

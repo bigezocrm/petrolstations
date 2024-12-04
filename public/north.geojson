@@ -3,96 +3,63 @@
     "features": [
       {
         "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            32.7256175,
-            0.3740605,
-            0
-          ]
-        },
         "properties": {
-          "name": "Najeera station",
-          "description": "{\"@type\":\"html\",\"value\":\"<img src=\\\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr_I2JQL0vY3bzA8jORoZF6d_RakSkKZAim1KUbXQTNFOtC8wD2wnma1RNCOcfntJG5uqfy92tAry53vWjwDGey6O-w4rlFS9chtxYq4u30BP9vU-Cxd2dMcKIQs6VelXjV7PzTsXL2jRAtixsNP18nW47rNMNfpK3YHwFD6seF5c_pMkQ2urnvi-MO3ZmpAFHrqkzyG1XjuTPwtXyXKssn-6xHb_0cF0jF4i_utmNnIGyFk6uu69-Ogec?authuser=0&fife=s16383\\\" height=\\\"200\\\" width=\\\"auto\\\" /><br><br>\"}",
-          "styleUrl": "#icon-1899-DB4436",
-          "icon-opacity": 1,
-          "icon-color": "#db4436",
-          "icon-scale": 1,
-          "icon-offset": "[32,64]",
-          "icon-offset-units": "[\"pixels\",\"insetPixels\"]",
-          "icon": "https://ibb.co/ZLmFFmS",
-          "gx_media_links": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr_I2JQL0vY3bzA8jORoZF6d_RakSkKZAim1KUbXQTNFOtC8wD2wnma1RNCOcfntJG5uqfy92tAry53vWjwDGey6O-w4rlFS9chtxYq4u30BP9vU-Cxd2dMcKIQs6VelXjV7PzTsXL2jRAtixsNP18nW47rNMNfpK3YHwFD6seF5c_pMkQ2urnvi-MO3ZmpAFHrqkzyG1XjuTPwtXyXKssn-6xHb_0cF0jF4i_utmNnIGyFk6uu69-Ogec?authuser=0&fife=s16383"
+          "stroke": "#555555",
+          "stroke-width": 2,
+          "stroke-opacity": 1,
+          "fill": "#ffffff",
+          "fill-opacity": 0.9
         },
-        "id": 0
-      },
-      {
-        "type": "Feature",
         "geometry": {
-          "type": "Point",
           "coordinates": [
-            32.3525442,
-            0.5058866,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mityana station",
-          "styleUrl": "#icon-1899-DB4436-nodesc",
-          "icon-opacity": 1,
-          "icon-color": "#db4436",
-          "icon-scale": 1,
-          "icon-offset": "[32,64]",
-          "icon-offset-units": "[\"pixels\",\"insetPixels\"]",
-          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
+            [
+              [
+                -8.082438444104156,
+                49.02965503015514
+              ],
+              [
+                -34.10130792669378,
+                16.580900015937132
+              ],
+              [
+                -40.88417914266006,
+                -50.32121032982951
+              ],
+              [
+                81.74863939828613,
+                -65.64716462009923
+              ],
+              [
+                103.1874780781283,
+                -36.04828534768893
+              ],
+              [
+                86.60966418612,
+                35.829399043344395
+              ],
+              [
+                -8.082438444104156,
+                49.02965503015514
+              ]
+            ]
+          ],
+          "type": "Polygon"
         },
         "id": 1
       },
       {
         "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            32.632822,
-            0.8673577,
-            0
-          ]
-        },
         "properties": {
-          "name": "Upper central",
-          "styleUrl": "#icon-1899-E65100-nodesc",
-          "icon-opacity": 1,
-          "icon-color": "#e65100",
-          "icon-scale": 1,
-          "icon-offset": "[32,64]",
-          "icon-offset-units": "[\"pixels\",\"insetPixels\"]",
-          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
+          "name": "NORTH",
+          "description": "North region",
+          "styleUrl": "#poly-E65100-3401-217",
+          "fill-opacity": 0.8,
+          "fill": "#e65100",
+          "stroke-opacity": 1,
+          "stroke": "#e65100",
+          "stroke-width": 3
         },
-        "id": 2
-      },
-      {
-        "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            33.1912588,
-            2.5360794,
-            0
-          ]
-        },
-        "properties": {
-          "name": "north region",
-          "styleUrl": "#icon-1603-FF5252-nodesc",
-          "icon-opacity": 1,
-          "icon-color": "#ff5252",
-          "icon-scale": 1,
-          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
-        },
-        "id": 3
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
           "coordinates": [
             [
               [
@@ -261,30 +228,117 @@
                 0
               ]
             ]
-          ]
-        },
-        "properties": {
-          "name": "NORTH",
-          "description": "North region",
-          "styleUrl": "#poly-E65100-3401-217",
-          "fill-opacity": 0.8,
-          "fill": "#edfe6c",
-          "stroke-opacity": 1,
-          "stroke": "#000000",
-          "stroke-width": 3
-        },
-        "id": 4
+          ],
+          "type": "Polygon"
+        }
       },
       {
         "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            31.3016103,
-            3.0627919,
-            0
-          ]
+        "properties": {
+          "name": "Najeera station",
+          "description": {
+            "@type": "html",
+            "value": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr_I2JQL0vY3bzA8jORoZF6d_RakSkKZAim1KUbXQTNFOtC8wD2wnma1RNCOcfntJG5uqfy92tAry53vWjwDGey6O-w4rlFS9chtxYq4u30BP9vU-Cxd2dMcKIQs6VelXjV7PzTsXL2jRAtixsNP18nW47rNMNfpK3YHwFD6seF5c_pMkQ2urnvi-MO3ZmpAFHrqkzyG1XjuTPwtXyXKssn-6xHb_0cF0jF4i_utmNnIGyFk6uu69-Ogec?authuser=0&fife=s16383\" height=\"200\" width=\"auto\" /><br><br>"
+          },
+          "styleUrl": "#icon-1899-DB4436",
+          "icon-opacity": 1,
+          "icon-color": "#db4436",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://i.ibb.co/8Kcffcb/shell.png",
+          "gx_media_links": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AEDAZkr_I2JQL0vY3bzA8jORoZF6d_RakSkKZAim1KUbXQTNFOtC8wD2wnma1RNCOcfntJG5uqfy92tAry53vWjwDGey6O-w4rlFS9chtxYq4u30BP9vU-Cxd2dMcKIQs6VelXjV7PzTsXL2jRAtixsNP18nW47rNMNfpK3YHwFD6seF5c_pMkQ2urnvi-MO3ZmpAFHrqkzyG1XjuTPwtXyXKssn-6xHb_0cF0jF4i_utmNnIGyFk6uu69-Ogec?authuser=0&fife=s16383"
         },
+        "geometry": {
+          "coordinates": [
+            32.7256175,
+            0.3740605,
+            0
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mityana station",
+          "styleUrl": "#icon-1899-DB4436-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#db4436",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
+        },
+        "geometry": {
+          "coordinates": [
+            32.3525442,
+            0.5058866,
+            0
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Upper central",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
+        },
+        "geometry": {
+          "coordinates": [
+            32.632822,
+            0.8673577,
+            0
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "north region",
+          "styleUrl": "#icon-1603-FF5252-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ff5252",
+          "icon-scale": 1,
+          "icon": "https://i.ibb.co/8Kcffcb/shell.png"
+        },
+        "geometry": {
+          "coordinates": [
+            33.1912588,
+            2.5360794,
+            0
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
         "properties": {
           "name": "arua shell",
           "styleUrl": "#icon-1603-0288D1-nodesc",
@@ -293,7 +347,15 @@
           "icon-scale": 1,
           "icon": "https://i.ibb.co/8Kcffcb/shell.png"
         },
-        "id": 5
+        "geometry": {
+          "coordinates": [
+            31.3016103,
+            3.0627919,
+            0
+          ],
+          "type": "Point"
+        }
       }
     ]
   }
+  
