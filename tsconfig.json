@@ -20,6 +20,9 @@
     "lib": [
       "ES2022",
       "dom"
+    ],
+    "types": [
+      "google.maps"
     ]
   },
   "angularCompilerOptions": {
