@@ -27,7 +27,7 @@ export class MapComponent implements AfterViewInit {
 
   loadGeoJSON() {
     const geoJSONPath = 'north.geojson';
-  
+
     fetch(geoJSONPath)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -41,13 +41,19 @@ export class MapComponent implements AfterViewInit {
             const coordinates = feature.geometry.coordinates;
             const latLng = new google.maps.LatLng(coordinates[1], coordinates[0]);
             const name = feature.properties.name || 'No name';
-            const icon = feature.properties.icon || '/shell.png';
+            const iconUrl = feature.properties.icon || '/shell.png';
+
+            // Scale the icon using scaledSize
+            const icon = {
+              url: iconUrl, // URL to the icon image
+              scaledSize: new google.maps.Size(16, 16), // Adjust size here
+            };
 
             const marker = new google.maps.Marker({
               position: latLng,
               map: this.map,
               title: name,
-              icon: icon,
+              icon: icon, // Use scaled icon
             });
 
             const infoWindow = new google.maps.InfoWindow({
