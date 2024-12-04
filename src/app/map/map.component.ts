@@ -28,7 +28,7 @@ export class MapComponent implements AfterViewInit {
   }
 
   loadGeoJSON() {
-    const geoJSONPath = 'uganda.geojson';
+    const geoJSONPath = 'north.geojson';
 
     fetch(geoJSONPath)
       .then((response) => {
@@ -58,7 +58,7 @@ export class MapComponent implements AfterViewInit {
 
           // Add info window for each marker
           const infoWindow = new google.maps.InfoWindow({
-            content: `<h3>${name}</h3><p>${feature.properties.description || 'No description'}</p>`,
+            content: `<h3 class="text-danger">${name}</h3><p>${feature.properties.description || 'No description'}</p>`,
           });
 
           marker.addListener('click', () => {
