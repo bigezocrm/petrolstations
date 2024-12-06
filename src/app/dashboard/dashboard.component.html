@@ -254,47 +254,101 @@
               </button>
               <div class="collapse" id="Central-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <!-- Station options -->
                   <li>
                     <a
                       (click)="loadStation('Central', 'all')"
                       class="link-dark rounded"
-                      >All Central</a
+                      >All Stations</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadStation('Central', 'subregionA')"
+                      (click)="loadStation('Central', 'shell')"
                       class="link-dark rounded"
-                      >Sub Region A</a
+                      >Central Shell</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadStation('Central', 'subregionB')"
+                      (click)="loadStation('Central', 'mogas')"
                       class="link-dark rounded"
-                      >Sub Region B</a
+                      >Central Mogas</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadStation('Central', 'subregionC')"
+                      (click)="loadStation('Central', 'stabex')"
                       class="link-dark rounded"
-                      >Sub Region C</a
+                      >Central Stabex</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadStation('Central', 'subregionD')"
+                      (click)="loadStation('Central', 'independent')"
                       class="link-dark rounded"
-                      >Sub Region D</a
+                      >Central Independent</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadStation('Central', 'subregionE')"
+                      (click)="loadStation('Central', 'total')"
                       class="link-dark rounded"
-                      >Sub Region E</a
+                      >Central Total</a
                     >
+                  </li>
+
+                  <!-- Sub Regions collapsible option -->
+                  <li>
+                    <button
+                      class="btn btn-toggle align-items-center rounded"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CentralSubregions-collapse"
+                      aria-expanded="false"
+                    >
+                      Sub Regions
+                    </button>
+                    <div class="collapse" id="CentralSubregions-collapse">
+                      <ul
+                        class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                      >
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionA')"
+                            class="link-dark rounded"
+                            >Sub Region A</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionB')"
+                            class="link-dark rounded"
+                            >Sub Region B</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionC')"
+                            class="link-dark rounded"
+                            >Sub Region C</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionD')"
+                            class="link-dark rounded"
+                            >Sub Region D</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionE')"
+                            class="link-dark rounded"
+                            >Sub Region E</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>
