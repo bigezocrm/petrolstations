@@ -24,6 +24,7 @@ entireMapPolygonData: any  = null;
 ugandaPolygonData:any=null;
 eastPolygonData:any=null;
 westPolygonData:any=null;
+centralPolygonData:any=null;
 
 
   northPolygon =   {
@@ -334,6 +335,72 @@ westPolygon= {
   }
 };
 
+centralPolygon= {
+  "type": "Feature",
+  "properties": {
+    "stroke": "#ffffff",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#fbff1a",
+    "fill-opacity": 0.5
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [32.85653926494075, -0.17164261606885134],
+        [32.860616879377346, 0.14209908579509545],
+        [32.90135698538873, 0.2724883571537333],
+        [32.86469232512863, 0.35802452036031696],
+        [32.96653578680559, 0.41099477438955034],
+        [32.95024246721411, 0.45985864443454716],
+        [32.97468914973794, 0.5494631024929362],
+        [33.02357628132657, 0.5291011725810364],
+        [33.08875774644412, 0.5291066841322731],
+        [33.052098599888126, 0.5983501442249661],
+        [33.08877016206239, 0.6513075687060876],
+        [33.19470511637769, 0.6961199840554997],
+        [33.2680318370476, 0.7857483614416338],
+        [33.345490414847035, 1.0913054378280833],
+        [33.42292248504913, 1.2950079359950166],
+        [33.35772598371943, 1.3642605625468889],
+        [33.24363210639251, 1.3275976492049892],
+        [33.15806169839826, 1.3601869328248029],
+        [33.01136957040649, 1.4579521007705978],
+        [32.87282794654965, 1.4660872241529859],
+        [32.685387238633524, 1.4253637163883894],
+        [32.612045836230976, 1.449795190439744],
+        [32.56314575929753, 1.5231222975107812],
+        [32.318670375286246, 1.6330852505059426],
+        [32.196413303788376, 1.6738347339206854],
+        [32.110857401848364, 1.653454277375232],
+        [32.07417425450052, 1.559782396654768],
+        [31.992674343322932, 1.5394197591400598],
+        [31.960088063302436, 1.4579439095196278],
+        [31.813430642403347, 1.3479430795561598],
+        [31.907211106890117, 1.079061912213433],
+        [32.029415657968116, 0.9487073146561471],
+        [32.13126405244034, 0.9038956975310555],
+        [32.22502526984178, 0.773526405690987],
+        [32.15987704826577, 0.6716847078064916],
+        [31.91973848597945, 0.626913325874142],
+        [31.89933468944494, 0.48434900855025376],
+        [31.935931503179944, 0.4028607130636317],
+        [31.73642073345016, 0.2236730555427897],
+        [31.55720668333379, 0.34994351050373496],
+        [31.341330142231385, 0.2725548923100831],
+        [31.300531183822983, 0.19106660145993715],
+        [31.40238292058234, 0.19922035520649217],
+        [31.605989949455306, 0.07291605369115928],
+        [31.817742634023517, 0.036207275368866476],
+        [31.98877844711629, -0.1227287870010656],
+        [32.85653926494075, -0.17164261606885134]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "id": 4
+};
+
   constructor(private router: Router, private supabaseService: SupabaseService) {}
 
   // Logout function
@@ -410,6 +477,13 @@ westPolygon= {
       console.log(`Loading West region polygon for location: ${location}`);
       this.loadEntireMapPolygon();
       this.loadWestPolygon();
+    }
+
+    else  if (location === 'Central') {
+      this.clearMap();
+      console.log(`Loading Central region polygon for location: ${location}`);
+      this.loadEntireMapPolygon();
+      this.loadCentralPolygon();
     }
     else if (location === 'all') {
       this.clearMap();
@@ -573,6 +647,26 @@ loadWestPolygon() {
   this.westPolygonData = polygonData;
 }
 
+
+loadCentralPolygon() {
+  const map = this.map;
+  const centralPolygon = this.centralPolygon;
+
+  // Create a new Data instance and store it
+  const polygonData = new google.maps.Data();
+  polygonData.addGeoJson(centralPolygon);
+  polygonData.setStyle({
+    fillColor: centralPolygon.properties.fill,
+    fillOpacity: centralPolygon.properties['fill-opacity'],
+    strokeColor: centralPolygon.properties.stroke,
+    strokeWeight: centralPolygon.properties['stroke-width'],
+    strokeOpacity: centralPolygon.properties['stroke-opacity']
+  });
+  polygonData.setMap(map); // Add the polygon to the map
+
+  // Save reference for clearing later
+  this.centralPolygonData = polygonData;
+}
 loadEntireMapPolygon() {
   const map = this.map;
   const entiremapPolygon = this.entiremapPolygon;
@@ -660,6 +754,12 @@ loadUgandaMapPolygon() {
     if (this.westPolygonData) {
       this.westPolygonData.setMap(null); // Remove the polygon
       this.westPolygonData = null; // Clear reference
+    }
+
+    
+    if (this.centralPolygonData) {
+      this.centralPolygonData.setMap(null); // Remove the polygon
+      this.centralPolygonData = null; // Clear reference
     }
   
     // Remove any custom markers
