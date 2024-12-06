@@ -23,28 +23,45 @@
               <div class="collapse" id="home-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                   <li>
-                    <a (click)="showAllStations()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('all', 'stations')"
+                      class="link-dark rounded"
                       >All Stations</a
                     >
                   </li>
                   <li>
-                    <a (click)="showAllShell()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('all', 'shell')"
+                      class="link-dark rounded"
                       >All Shell</a
                     >
                   </li>
                   <li>
-                    <a (click)="showAllMogas()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('all', 'mogas')"
+                      class="link-dark rounded"
                       >All Mogas</a
                     >
                   </li>
                   <li>
-                    <a (click)="showAllStabex()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('all', 'stabex')"
+                      class="link-dark rounded"
                       >All Stabex</a
                     >
                   </li>
                   <li>
-                    <a (click)="showAllIndependent()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('all', 'independent')"
+                      class="link-dark rounded"
                       >All Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'total')"
+                      class="link-dark rounded"
+                      >All Total</a
                     >
                   </li>
                 </ul>
@@ -64,30 +81,45 @@
               <div class="collapse" id="north-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                   <li>
-                    <a (click)="loadNorthStations()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('north', 'stations')"
+                      class="link-dark rounded"
                       >All Stations</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadNorthShell()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('north', 'shell')"
+                      class="link-dark rounded"
                       >All Shell</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadNorthMogas()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('north', 'mogas')"
+                      class="link-dark rounded"
                       >All Mogas</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadNorthStabex()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('north', 'stabex')"
+                      class="link-dark rounded"
                       >All Stabex</a
                     >
                   </li>
                   <li>
                     <a
-                      (click)="loadNorthIndependent()"
+                      (click)="loadStation('north', 'independent')"
                       class="link-dark rounded"
                       >All Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('north', 'total')"
+                      class="link-dark rounded"
+                      >All Total</a
                     >
                   </li>
                 </ul>
@@ -107,28 +139,45 @@
               <div class="collapse" id="east-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                   <li>
-                    <a (click)="loadEastStations()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('east', 'stations')"
+                      class="link-dark rounded"
                       >All Stations</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadEastShell()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('east', 'shell')"
+                      class="link-dark rounded"
                       >All Shell</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadEastMogas()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('east', 'mogas')"
+                      class="link-dark rounded"
                       >All Mogas</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadEastStabex()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('east', 'stabex')"
+                      class="link-dark rounded"
                       >All Stabex</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadEastIndependent()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('east', 'independent')"
+                      class="link-dark rounded"
                       >All Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('east', 'total')"
+                      class="link-dark rounded"
+                      >All Total</a
                     >
                   </li>
                 </ul>
@@ -148,28 +197,45 @@
               <div class="collapse" id="west-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                   <li>
-                    <a (click)="loadWestStations()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('west', 'stations')"
+                      class="link-dark rounded"
                       >All Stations</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadWestShell()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('west', 'shell')"
+                      class="link-dark rounded"
                       >All Shell</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadWestMogas()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('west', 'mogas')"
+                      class="link-dark rounded"
                       >All Mogas</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadWestStabex()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('west', 'stabex')"
+                      class="link-dark rounded"
                       >All Stabex</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadWestIndependent()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('west', 'independent')"
+                      class="link-dark rounded"
                       >All Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('west', 'total')"
+                      class="link-dark rounded"
+                      >All Total</a
                     >
                   </li>
                 </ul>
@@ -189,32 +255,44 @@
               <div class="collapse" id="central-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                   <li>
-                    <a (click)="loadCentralStations()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'stations')"
+                      class="link-dark rounded"
                       >All Central</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadSubRegionA()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'subregionA')"
+                      class="link-dark rounded"
                       >Sub Region A</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadSubRegionB()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'subregionB')"
+                      class="link-dark rounded"
                       >Sub Region B</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadSubRegionC()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'subregionC')"
+                      class="link-dark rounded"
                       >Sub Region C</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadSubRegionD()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'subregionD')"
+                      class="link-dark rounded"
                       >Sub Region D</a
                     >
                   </li>
                   <li>
-                    <a (click)="loadSubRegionE()" class="link-dark rounded"
+                    <a
+                      (click)="loadStation('central', 'subregionE')"
+                      class="link-dark rounded"
                       >Sub Region E</a
                     >
                   </li>
@@ -239,12 +317,12 @@
               <span class="d-none d-sm-inline mx-1">Options</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-              <li>
+              <li class="d-none">
                 <a class="dropdown-item" href="#"
                   ><span class="bi bi-plus me-2"></span> New Station</a
                 >
               </li>
-              <li>
+              <li class="d-none">
                 <a class="dropdown-item" href="#"
                   ><span class="bi bi-person-circle me-2"></span> Profile</a
                 >
@@ -265,7 +343,7 @@
     <div class="col py-3 bg-light h-100">
       <div
         class="d-flex justify-content-center align-items-center h-100"
-        *ngIf="!showMap"
+        *ngIf="!showMap && !showNorthShellMap"
       >
         <div class="col-md-6">
           <h1 class="title my-1 text-center">VIVO MAPS - UGANDA</h1>
@@ -276,7 +354,12 @@
         </div>
       </div>
 
-      <div *ngIf="showMap">
+      <div *ngIf="showNorthShellMap && !showMap">
+        <h1>{{ title }}</h1>
+        <div id="northshellmap" style="height: 680px; width: 100%"></div>
+      </div>
+
+      <div *ngIf="showMap && !showNorthShellMap">
         <h1>{{ title }}</h1>
         <div id="map" style="height: 680px; width: 100%"></div>
       </div>

@@ -19,7 +19,7 @@ body {
   background-color: #fff94e;
   padding: 10px;
   font-weight: bold;
-  color: #b70000;
+  color: #b70000 !important;
 }
 .dashboardtitle {
   color: #6a6a6a;
