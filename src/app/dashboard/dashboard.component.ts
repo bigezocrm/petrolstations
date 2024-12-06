@@ -33,8 +33,8 @@ ugandaPolygonData:any=null;
       "fill-opacity": 0.6,
       "fill": "#e65100",
       "stroke-opacity": 1,
-      "stroke": "#e65100",
-      "stroke-width": 3
+      "stroke": "#ffffff",
+      "stroke-width": 2
     },
     "geometry": {
       "coordinates": [
@@ -82,10 +82,10 @@ ugandaPolygonData:any=null;
     "type": "Feature",
     "properties": {
       "stroke": "#555555",
-      "stroke-width": 2,
-      "stroke-opacity": 1,
-      "fill": "#ffffff",
-      "fill-opacity": 0.9
+      "stroke-width": 0,
+      "stroke-opacity": 0,
+      "fill": "#000000",
+      "fill-opacity": 0.6
     },
     "geometry": {
       "coordinates": [
@@ -107,11 +107,11 @@ ugandaPolygonData:any=null;
   ugandaMapPolygon= {
     "type": "Feature",
     "properties": {
-      "stroke": "#555555",
+      "stroke": "#ffffff",
       "stroke-width": 2,
       "stroke-opacity": 1,
-      "fill": "#ffffff",
-      "fill-opacity": 0.9
+      "fill": "#33cc33",
+      "fill-opacity": 0.7
     },
     "geometry": {
       "coordinates": [
@@ -394,6 +394,11 @@ loadUgandaMapPolygon() {
     if (this.entireMapPolygonData) {
       this.entireMapPolygonData.setMap(null); // Remove the polygon
       this.entireMapPolygonData = null; // Clear reference
+    }
+
+    if (this.ugandaPolygonData) {
+      this.ugandaPolygonData.setMap(null); // Remove the polygon
+      this.ugandaPolygonData = null; // Clear reference
     }
   
     // Remove any custom markers
