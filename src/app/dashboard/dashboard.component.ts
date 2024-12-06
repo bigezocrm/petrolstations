@@ -13,22 +13,7 @@ declare var google: any; // Declare Google Maps for TypeScript
 })
 export class DashboardComponent implements AfterViewInit, AfterViewChecked {
 
-  
-  showAllShell() {
-    alert('Displaying all Shell stations...');
-  }
-  
-  showAllMogas() {
-    alert('Displaying all Mogas stations...');
-  }
-  
-  showAllStabex() {
-    alert('Displaying all Stabex stations...');
-  }
-  
-  showAllIndependent() {
-    alert('Displaying all Independent stations...');
-  }
+
   
   showMap = false; // Track map visibility
   title: string = 'All Petrol Stations in Uganda';
@@ -49,13 +34,7 @@ export class DashboardComponent implements AfterViewInit, AfterViewChecked {
       });
   }
 
-  // Function to show all stations
-  showAllStations() {
-    this.showMap = true; // Toggle visibility
-    if (this.showMap && !this.mapInitialized) {
-      this.initMap(); // Initialize the map after DOM is ready
-    }
-  }
+
 
   ngAfterViewInit() {
     // Initialize map when the view has been initialized, but rely on ngAfterViewChecked to ensure it initializes once.
@@ -84,6 +63,35 @@ export class DashboardComponent implements AfterViewInit, AfterViewChecked {
     });
 
     this.loadShellStationsGeoJSON('/map.geojson');
+  }
+
+    // Function to show all stations
+    showAllStations() {
+      alert('Displaying all Petrol stations in Uganda...');
+      this.showMap = true; // Toggle visibility
+      if (this.showMap && !this.mapInitialized) {
+        this.initMap(); // Initialize the map after DOM is ready
+      }
+    }
+  
+  showAllShell() {
+    this.showMap = true; // Toggle visibility
+    if (this.showMap && !this.mapInitialized) {
+      this.initMap(); // Initialize the map after DOM is ready
+    }
+   
+  }
+  
+  showAllMogas() {
+    alert('Displaying all Mogas stations...');
+  }
+  
+  showAllStabex() {
+    alert('Displaying all Stabex stations...');
+  }
+  
+  showAllIndependent() {
+    alert('Displaying all Independent stations...');
   }
 
   // Function to load Shell stations
