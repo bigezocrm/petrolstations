@@ -232,75 +232,91 @@ ugandaPolygonData:any=null;
   }
 
   // Function to load stations and the polygon based on location and station type
-loadStationsGeoJSON(url: string, location: string, stationType: string) {
-  const map = this.map;
-
-  // Dynamically handle different locations
-  if (location === 'north') {
-    this.clearMap();
-    console.log(`Loading North region polygon for location: ${location}`);
-    this.loadEntireMapPolygon(); 
-    this.loadNorthPolygon();
-  } else if (location === 'all') {
-    this.clearMap();
-    console.log(`Loading entire map polygon for location: ${location}`);
-    this.loadEntireMapPolygon(); // Example for handling another location
-    this.loadUgandaMapPolygon();
-  } else {
-    console.log(`No polygon defined for location: ${location}`);
-  }
-
-  // Load GeoJSON data
-  map.data.loadGeoJson(url, { location: location, stationType: stationType }, (data: any) => {
-    if (!data) {
-      console.error('Error loading GeoJSON data');
-      return;
+  loadStationsGeoJSON(url: string, location: string, station: string) {
+    const map = this.map;
+  
+    // Dynamically handle different locations and load polygons
+    if (location === 'north') {
+      this.clearMap();
+      console.log(`Loading North region polygon for location: ${location}`);
+      this.loadEntireMapPolygon();
+      this.loadNorthPolygon();
+    } else if (location === 'all') {
+      this.clearMap();
+      console.log(`Loading entire map polygon for location: ${location}`);
+      this.loadEntireMapPolygon();
+      this.loadUgandaMapPolygon();
+    } else {
+      console.log(`No polygon defined for location: ${location}`);
     }
-    console.log('GeoJSON data loaded successfully for:', location);
-  });
-
-  // Set the style for markers
-  map.data.setStyle({
-    icon: {
-      url: 'shell.png',
-      scaledSize: new google.maps.Size(16, 16),
-      origin: new google.maps.Point(0, 0),
-      anchor: new google.maps.Point(0, 16),
-    },
-  });
-
-  // Add click listener to display popup with details
-  map.data.addListener('click', (event: any) => {
-    const feature = event.feature;
-    if (!feature) {
-      console.error('No feature found on click event');
-      return;
-    }
-
-    const properties = feature.getProperties();
-    if (!properties) {
-      console.error('No properties found for this feature');
-      return;
-    }
-
-    const contentString = `
-      <div>
-        <h3>${properties.Code || 'N/A'}</h3>
-        <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
-        <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
-        <p><strong>Description:</strong> ${properties.description?.value || 'N/A'}</p>
-      </div>
-    `;
-
-    const infoWindow = new google.maps.InfoWindow({
-      content: contentString,
-      position: event.latLng,
+  
+    // Load GeoJSON data
+    map.data.loadGeoJson(url, null, (features: any[]) => {
+      if (!features || features.length === 0) {
+        console.error('No data loaded from GeoJSON');
+        return;
+      }
+      console.log('GeoJSON data loaded successfully:', features);
+  
+      // Apply filtering based on location and station
+      map.data.forEach((feature: any) => {
+        const properties = feature.getProperty('properties');
+        if (
+          properties.location === location &&
+          properties.stationType === station
+        ) {
+          console.log('Feature matches:', properties);
+        } else {
+          // Optionally remove features not matching the filters
+          map.data.remove(feature);
+        }
+      });
+  
+      console.log(`Filtered features displayed for ${station} in ${location}.`);
     });
-
-    infoWindow.open(map);
-    console.log('InfoWindow opened with details for:', properties.Code);
-  });
-}
+  
+    // Set the style for markers
+    map.data.setStyle((feature: any) => {
+      const properties = feature.getProperty('properties');
+      if (properties.stationType === station) {
+        return {
+          icon: {
+            url: `${station}.png`, // Adjust icon dynamically
+            scaledSize: new google.maps.Size(16, 16),
+          },
+        };
+      }
+      return null; // Exclude non-matching features
+    });
+  
+    // Add click listener to display popup with details
+    map.data.addListener('click', (event: any) => {
+      const feature = event.feature;
+      const properties = feature.getProperty('properties');
+      if (!properties) {
+        console.error('No properties found for this feature');
+        return;
+      }
+  
+      const contentString = `
+        <div>
+          <h3>${properties.Code || 'N/A'}</h3>
+          <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+          <p><strong>Station Type:</strong> ${properties.stationType || 'N/A'}</p>
+          <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+          <p><strong>Description:</strong> ${properties.description || 'N/A'}</p>
+        </div>
+      `;
+  
+      const infoWindow = new google.maps.InfoWindow({
+        content: contentString,
+        position: event.latLng,
+      });
+  
+      infoWindow.open(map);
+    });
+  }
+  
 
 loadNorthPolygon() {
   const map = this.map;
