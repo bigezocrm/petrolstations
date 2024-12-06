@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { SupabaseService } from '../superbase.service';
 
+
 declare var google: any; // Declare Google Maps for TypeScript
 
 @Component({
@@ -18,8 +19,9 @@ export class DashboardComponent implements AfterViewInit, AfterViewChecked {
   mapInitialized = false; // Track if the map has been initialized
   markers: any;
   overlay: any;
-  northPolygonData: any = null;
-entireMapPolygonData: any = null;
+  northPolygonData: any  = null;
+entireMapPolygonData: any  = null;
+ugandaPolygonData:any=null;
 
 
   northPolygon =   {
@@ -102,6 +104,82 @@ entireMapPolygonData: any = null;
     "id": 1
   };
 
+  ugandaMapPolygon= {
+    "type": "Feature",
+    "properties": {
+      "stroke": "#555555",
+      "stroke-width": 2,
+      "stroke-opacity": 1,
+      "fill": "#ffffff",
+      "fill-opacity": 0.9
+    },
+    "geometry": {
+      "coordinates": [
+        [
+          [30.733968396403156, -0.9987046322610098],
+          [33.94409756835438, -0.99377174522931],
+          [33.92698192289549, -0.46418390366360995],
+          [33.986814388751554, -0.13959652669909417],
+          [33.91846511365466, 0.09958864184245897],
+          [34.072205450596215, 0.3302276319047053],
+          [34.12346046634369, 0.5437755209200077],
+          [34.251530519762724, 0.6548101779279278],
+          [34.4812742446681, 0.9023235887892724],
+          [34.550704476828884, 1.0775992130084546],
+          [34.703871446886154, 1.1824067449789197],
+          [34.85953559197449, 1.465790648034897],
+          [35.033319796852254, 1.8547847044679031],
+          [34.937614333183745, 2.5414895632306553],
+          [34.670278471763254, 2.972769951112383],
+          [34.507115520952, 3.210914755544877],
+          [34.452194734046174, 3.481731409095758],
+          [34.41299067794091, 3.753719588770153],
+          [34.17131625962938, 3.8703551317858995],
+          [34.07537019123552, 4.29497995240088],
+          [33.501117148872254, 3.7525109424339718],
+          [33.20156849386791, 3.779479557972053],
+          [32.99283116013382, 3.878929577751677],
+          [32.80250069610895, 3.788697977844805],
+          [32.41246504761659, 3.7436193764661],
+          [32.24916471766224, 3.644066225527027],
+          [32.203808620667246, 3.5263683797518866],
+          [31.98605357495586, 3.5988528923882512],
+          [31.81362557757069, 3.825101271655285],
+          [31.532357941630664, 3.6440638645056964],
+          [31.2329327443164, 3.7979039959189578],
+          [31.03332827612016, 3.734457039149163],
+          [30.842816559427916, 3.5351378992598512],
+          [30.94261520921188, 3.5170156843908984],
+          [30.797453230535552, 3.0732165169747674],
+          [30.88818074975231, 2.846694839829425],
+          [30.724928370860653, 2.4478138521402997],
+          [30.9063665045677, 2.366214845502114],
+          [31.060559329279897, 2.302885329929083],
+          [31.30552320909777, 2.1398573400621785],
+          [31.05145575678722, 1.7589810089014293],
+          [30.48891697496083, 1.2328795461190225],
+          [30.28932249325061, 1.187524014226625],
+          [30.162358786971737, 0.9244649635365647],
+          [29.99909482001425, 0.8428350091894288],
+          [29.96287439413689, 0.561650967046802],
+          [29.726881528923315, -0.06440583906929476],
+          [29.59133085567555, -1.3698722868038686],
+          [29.854241724680662, -1.3700774153996917],
+          [29.91773648476763, -1.46981548444451],
+          [30.14436290109748, -1.3250439688654296],
+          [30.325736082883623, -1.1438028994494118],
+          [30.343876442778765, -1.0531091450474293],
+          [30.61602379565045, -1.0712978353660247],
+          [30.733968396403156, -0.9987046322610098]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "id": 1
+  };
+
+
+
   constructor(private router: Router, private supabaseService: SupabaseService) {}
 
   // Logout function
@@ -159,11 +237,15 @@ loadStationsGeoJSON(url: string, location: string, stationType: string) {
 
   // Dynamically handle different locations
   if (location === 'north') {
+    this.clearMap();
     console.log(`Loading North region polygon for location: ${location}`);
+    this.loadEntireMapPolygon(); 
     this.loadNorthPolygon();
-  } else if (location === 'entiremap') {
+  } else if (location === 'all') {
+    this.clearMap();
     console.log(`Loading entire map polygon for location: ${location}`);
     this.loadEntireMapPolygon(); // Example for handling another location
+    this.loadUgandaMapPolygon();
   } else {
     console.log(`No polygon defined for location: ${location}`);
   }
@@ -260,7 +342,25 @@ loadEntireMapPolygon() {
   this.entireMapPolygonData = polygonData;
 }
 
+loadUgandaMapPolygon() {
+  const map = this.map;
+  const ugandaMapPolygon = this.ugandaMapPolygon;
 
+  // Create a new Data instance and store it
+  const polygonData = new google.maps.Data();
+  polygonData.addGeoJson(ugandaMapPolygon);
+  polygonData.setStyle({
+    fillColor: ugandaMapPolygon.properties.fill,
+    fillOpacity: ugandaMapPolygon.properties['fill-opacity'],
+    strokeColor: ugandaMapPolygon.properties.stroke,
+    strokeWeight: ugandaMapPolygon.properties['stroke-width'],
+    strokeOpacity: ugandaMapPolygon.properties['stroke-opacity']
+  });
+  polygonData.setMap(map); // Add the polygon to the map
+
+  // Save reference for clearing later
+  this.ugandaPolygonData = polygonData;
+}
   // Method to handle station selection (region and station type)
   loadStation(region: string, station: string) {
     alert(`Loading ---------->  ${station} stations in ${region} region...`);
