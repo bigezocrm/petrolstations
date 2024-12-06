@@ -227,16 +227,19 @@ ugandaPolygonData:any=null;
 
     // Initialize map with Shell stations
     //this.loadStationsGeoJSON('/uganda.geojson', 'north', 'shell');
-
+    this.clearMap();
     this.mapInitialized = true;
   }
 
   // Function to load stations and the polygon based on location and station type
   loadStationsGeoJSON(url: string, location: string, station: string) {
     const map = this.map;
+  this.clearMap();
+    // Log the inputs to this method
+    console.log(`loadStationsGeoJSON called with: url=${url}, location=${location}, station=${station}`);
   
-    // Dynamically handle different locations and load polygons
-    if (location === 'north') {
+    // Dynamically handle different locations
+    if (location === 'North') {
       this.clearMap();
       console.log(`Loading North region polygon for location: ${location}`);
       this.loadEntireMapPolygon();
@@ -247,75 +250,100 @@ ugandaPolygonData:any=null;
       this.loadEntireMapPolygon();
       this.loadUgandaMapPolygon();
     } else {
-      console.log(`No polygon defined for location: ${location}`);
+      console.warn(`No polygon defined for location: ${location}`);
     }
   
     // Load GeoJSON data
-    map.data.loadGeoJson(url, null, (features: any[]) => {
-      if (!features || features.length === 0) {
-        console.error('No data loaded from GeoJSON');
-        return;
-      }
-      console.log('GeoJSON data loaded successfully:', features);
-  
-      // Apply filtering based on location and station
-      map.data.forEach((feature: any) => {
-        const properties = feature.getProperty('properties');
-        if (
-          properties.location === location &&
-          properties.stationType === station
-        ) {
-          console.log('Feature matches:', properties);
-        } else {
-          // Optionally remove features not matching the filters
-          map.data.remove(feature);
+    console.log(`Attempting to load GeoJSON from URL: ${url}`);
+    fetch(url)
+      .then((response) => response.json())
+      .then((geojsonData) => {
+        if (!geojsonData || !geojsonData.features) {
+          console.error('Invalid GeoJSON data.');
+          return;
         }
-      });
   
-      console.log(`Filtered features displayed for ${station} in ${location}.`);
-    });
+        console.log(`GeoJSON data loaded successfully: ${geojsonData.features.length} features found.`);
   
-    // Set the style for markers
-    map.data.setStyle((feature: any) => {
-      const properties = feature.getProperty('properties');
-      if (properties.stationType === station) {
-        return {
+        // Filter features based on location and station
+        const filteredFeatures = geojsonData.features.filter((feature: any) => {
+          const properties = feature.properties;
+          if (!properties) return false;
+  
+          // If station is 'all', only filter by location
+          if (station === 'all') {
+            return properties.location === location;
+          }
+  
+          // Filter by both location and station
+          return properties.location === location && properties.station === station;
+        });
+  
+        console.log(`Filtered features count: ${filteredFeatures.length}`);
+  
+        if (filteredFeatures.length === 0) {
+          console.warn('No features matched the filter criteria.');
+          return;
+        }
+  
+        // Add filtered features to the map
+        filteredFeatures.forEach((feature: any) => {
+          map.data.addGeoJson({ type: 'FeatureCollection', features: [feature] });
+        });
+  
+        // Set the style for markers
+        map.data.setStyle({
           icon: {
-            url: `${station}.png`, // Adjust icon dynamically
+            url: 'shell.png', // Update this path if needed
             scaledSize: new google.maps.Size(16, 16),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(0, 16),
           },
-        };
-      }
-      return null; // Exclude non-matching features
-    });
+        });
   
-    // Add click listener to display popup with details
-    map.data.addListener('click', (event: any) => {
-      const feature = event.feature;
-      const properties = feature.getProperty('properties');
-      if (!properties) {
-        console.error('No properties found for this feature');
-        return;
-      }
+        console.log('Filtered features added to map and styled.');
   
-      const contentString = `
-        <div>
-          <h3>${properties.Code || 'N/A'}</h3>
-          <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
-          <p><strong>Station Type:</strong> ${properties.stationType || 'N/A'}</p>
-          <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
-          <p><strong>Description:</strong> ${properties.description || 'N/A'}</p>
-        </div>
-      `;
+        // Add click listener to display popup with details
+        map.data.addListener('click', (event: any) => {
+          console.log('Map data click event detected:', event);
+          const feature = event.feature;
+          if (!feature) {
+            console.error('No feature found on click event.');
+            return;
+          }
   
-      const infoWindow = new google.maps.InfoWindow({
-        content: contentString,
-        position: event.latLng,
+          const properties = feature.getProperties();
+          if (!properties) {
+            console.error('No properties found for this feature.');
+            return;
+          }
+  
+          console.log('Feature properties:', properties);
+  
+          const contentString = `
+            <div>
+              <h3>${properties.Code || 'N/A'}</h3>
+              <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+              <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+              <p><strong>Description:</strong> ${properties.description?.value || 'N/A'}</p>
+            </div>
+          `;
+  
+          const infoWindow = new google.maps.InfoWindow({
+            content: contentString,
+            position: event.latLng,
+          });
+  
+          infoWindow.open(map);
+          console.log('InfoWindow opened with details for:', properties.Code);
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching or processing GeoJSON data:', error);
       });
-  
-      infoWindow.open(map);
-    });
   }
+  
+  
   
 
 loadNorthPolygon() {
