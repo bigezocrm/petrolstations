@@ -299,7 +299,7 @@ eastPolygon= {
     // Reuse the map instance if already initialized
     if (!this.map) {
       this.map = new google.maps.Map(mapElement, {
-        center: { lat: 0.3740605, lng: 32.7256175 },
+        center: { lat: 1.2740605, lng: 32.7256175 },
         zoom: 7,
         mapTypeId: 'roadmap',
         minZoom: 5,
