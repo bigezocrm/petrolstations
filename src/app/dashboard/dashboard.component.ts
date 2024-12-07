@@ -549,6 +549,7 @@ centralPolygon= {
   
         // Style markers
         map.data.setStyle({
+          
           icon: {
             url: 'shell.png', // Update this path if needed
             scaledSize: new google.maps.Size(16, 16),
