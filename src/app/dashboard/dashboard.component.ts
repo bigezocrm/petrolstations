@@ -2,6 +2,8 @@ import { Component, AfterViewInit, AfterViewChecked } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { SupabaseService } from '../superbase.service';
+import Swal from 'sweetalert2';
+
 
 
 declare var google: any; // Declare Google Maps for TypeScript
@@ -453,41 +455,28 @@ centralPolygon= {
   }
 
   // Function to load stations and the polygon based on location and station type
+
+
   loadStationsGeoJSON(url: string, location: string, station: string) {
     const map = this.map;
-  this.clearMap();
-    // Log the inputs to this method
+    this.clearMap();
+  
     console.log(`loadStationsGeoJSON called with: url=${url}, location=${location}, station=${station}`);
   
     // Dynamically handle different locations
     if (location === 'North') {
-      this.clearMap();
-      console.log(`Loading North region polygon for location: ${location}`);
       this.loadEntireMapPolygon();
       this.loadNorthPolygon();
-    } 
-    else  if (location === 'East') {
-      this.clearMap();
-      console.log(`Loading East region polygon for location: ${location}`);
+    } else if (location === 'East') {
       this.loadEntireMapPolygon();
       this.loadEastPolygon();
-    }
-    else  if (location === 'West') {
-      this.clearMap();
-      console.log(`Loading West region polygon for location: ${location}`);
+    } else if (location === 'West') {
       this.loadEntireMapPolygon();
       this.loadWestPolygon();
-    }
-
-    else  if (location === 'Central') {
-      this.clearMap();
-      console.log(`Loading Central region polygon for location: ${location}`);
+    } else if (location === 'Central') {
       this.loadEntireMapPolygon();
       this.loadCentralPolygon();
-    }
-    else if (location === 'all') {
-      this.clearMap();
-      console.log(`Loading entire map polygon for location: ${location}`);
+    } else if (location === 'all') {
       this.loadEntireMapPolygon();
       this.loadUgandaMapPolygon();
     } else {
@@ -511,12 +500,10 @@ centralPolygon= {
           const properties = feature.properties;
           if (!properties) return false;
   
-          // If station is 'all', only filter by location
           if (station === 'all') {
             return properties.location === location;
           }
   
-          // Filter by both location and station
           return properties.location === location && properties.station === station;
         });
   
@@ -524,15 +511,43 @@ centralPolygon= {
   
         if (filteredFeatures.length === 0) {
           console.warn('No features matched the filter criteria.');
+          Swal.fire({
+            title: 'No Data Found',
+            text: `No stations found for the selected region and station type.`,
+            icon: 'warning',
+          });
           return;
         }
+  
+        // Display SweetAlert table with details
+        Swal.fire({
+          title: 'Region Details',
+          html: `
+            <table style="width:100%; text-align:left; border-collapse: collapse;">
+              <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Station Type</th>
+                <td style="border: 1px solid #ddd; padding: 8px;">${station}</td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Location</th>
+                <td style="border: 1px solid #ddd; padding: 8px;">${location}</td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Total Stations</th>
+                <td style="border: 1px solid #ddd; padding: 8px;">${filteredFeatures.length}</td>
+              </tr>
+            </table>
+          `,
+          icon: 'info',
+          confirmButtonText: 'OK',
+        });
   
         // Add filtered features to the map
         filteredFeatures.forEach((feature: any) => {
           map.data.addGeoJson({ type: 'FeatureCollection', features: [feature] });
         });
   
-        // Set the style for markers
+        // Style markers
         map.data.setStyle({
           icon: {
             url: 'shell.png', // Update this path if needed
@@ -544,9 +559,8 @@ centralPolygon= {
   
         console.log('Filtered features added to map and styled.');
   
-        // Add click listener to display popup with details
+        // Add click listener to display popup details
         map.data.addListener('click', (event: any) => {
-          console.log('Map data click event detected:', event);
           const feature = event.feature;
           if (!feature) {
             console.error('No feature found on click event.');
@@ -727,6 +741,8 @@ loadUgandaMapPolygon() {
       map.data.forEach((feature: any) => {
         map.data.remove(feature); // Remove all features
       });
+           
+   
     }
   
     // Clear North region polygon
@@ -774,8 +790,9 @@ loadUgandaMapPolygon() {
     if (this.overlay) {
       this.overlay.setMap(null); // Remove the overlay from the map
       this.overlay = null; // Reset the overlay
-    }
   
+    }
+ 
     console.log('Map cleared.');
   }
   
