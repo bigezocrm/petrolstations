@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { SupabaseService } from './superbase.service';
+
 @Component({
     selector: 'app-root',
     imports: [RouterOutlet, RouterModule, CommonModule, FormsModule],

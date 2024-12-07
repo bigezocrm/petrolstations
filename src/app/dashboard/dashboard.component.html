@@ -10,96 +10,355 @@
             class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
             id="menu"
           >
-            <li class="nav-item mt-5">
-              <a
-                (click)="toggleMapVisibility()"
-                class="btn blackbtn px-3 align-middle px-0"
+            <!-- All Stations Dropdown -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded"
+                data-bs-toggle="collapse"
+                data-bs-target="#home-collapse"
+                aria-expanded="false"
               >
-                <span class="ms-1 d-none d-sm-inline">ALL STATIONS</span>
-                <i class="fs-4 bi-geo-alt-fill ms-2"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link align-middle px-0">
-                <span class="ms-1 d-none d-sm-inline ps-3">NORTH</span>
-                <i class="fs-4 bi-arrow-bar-up ms-2"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link align-middle px-0">
-                <span class="ms-1 d-none d-sm-inline ps-3">EAST</span>
-                <i class="fs-4 bi-arrow-bar-right ms-2"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link align-middle px-0">
-                <span class="ms-1 d-none d-sm-inline ps-3">WEST</span>
-                <i class="fs-4 bi-arrow-bar-left ms-2"></i>
-              </a>
+                All Stations
+              </button>
+              <div class="collapse" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'all')"
+                      class="link-dark rounded"
+                      >All Stations</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'shell')"
+                      class="link-dark rounded"
+                      >Shell</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'mogas')"
+                      class="link-dark rounded"
+                      >Mogas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'stabex')"
+                      class="link-dark rounded"
+                      >Stabex</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'independent')"
+                      class="link-dark rounded"
+                      >Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('all', 'total')"
+                      class="link-dark rounded"
+                      >Total</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </li>
 
-            <li>
-              <a
-                href="#submenu3"
+            <!-- North Region Dropdown -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded"
                 data-bs-toggle="collapse"
-                class="nav-link px-0 align-middle"
+                data-bs-target="#North-collapse"
+                aria-expanded="false"
               >
-                <span class="ms-1 d-none d-sm-inline ps-3">CENTRAL</span>
-                <i class="fs-4 bi-arrow-repeat ms-2"></i>
-              </a>
-              <ul
-                class="collapse nav flex-column ms-1"
-                id="submenu3"
-                data-bs-parent="#menu"
+                North
+              </button>
+              <div class="collapse" id="North-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'all')"
+                      class="link-dark rounded"
+                      >All Stations</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'shell')"
+                      class="link-dark rounded"
+                      >Shell</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'mogas')"
+                      class="link-dark rounded"
+                      >Mogas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'stabex')"
+                      class="link-dark rounded"
+                      >Stabex</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'independent')"
+                      class="link-dark rounded"
+                      >Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('North', 'total')"
+                      class="link-dark rounded"
+                      >Total</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- East Region Dropdown -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded"
+                data-bs-toggle="collapse"
+                data-bs-target="#East-collapse"
+                aria-expanded="false"
               >
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-dark ps-5">ALL CENTRAL </span>
-                    </span>
-                  </a>
-                </li>
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-secondary ps-5">SUB REGION </span> A
-                    </span>
-                  </a>
-                </li>
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-secondary ps-5">SUB REGION </span> B
-                    </span>
-                  </a>
-                </li>
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-secondary ps-5">SUB REGION </span> C
-                    </span>
-                  </a>
-                </li>
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-secondary ps-5">SUB REGION </span> D
-                    </span>
-                  </a>
-                </li>
-                <li class="w-100">
-                  <a href="#" class="nav-link px-0 text-dark">
-                    <span class="d-none d-sm-inline">
-                      <span class="text-secondary ps-5">SUB REGION </span> E
-                    </span>
-                  </a>
-                </li>
-              </ul>
+                East
+              </button>
+              <div class="collapse" id="East-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'all')"
+                      class="link-dark rounded"
+                      >All Stations</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'shell')"
+                      class="link-dark rounded"
+                      >Shell</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'mogas')"
+                      class="link-dark rounded"
+                      >Mogas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'stabex')"
+                      class="link-dark rounded"
+                      >Stabex</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'independent')"
+                      class="link-dark rounded"
+                      >Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('East', 'total')"
+                      class="link-dark rounded"
+                      >Total</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- West Region Dropdown -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded"
+                data-bs-toggle="collapse"
+                data-bs-target="#West-collapse"
+                aria-expanded="false"
+              >
+                West
+              </button>
+              <div class="collapse" id="West-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'all')"
+                      class="link-dark rounded"
+                      >All Stations</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'shell')"
+                      class="link-dark rounded"
+                      >Shell</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'mogas')"
+                      class="link-dark rounded"
+                      >Mogas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'stabex')"
+                      class="link-dark rounded"
+                      >Stabex</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'independent')"
+                      class="link-dark rounded"
+                      >Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('West', 'total')"
+                      class="link-dark rounded"
+                      >Total</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- Central Region Dropdown -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded"
+                data-bs-toggle="collapse"
+                data-bs-target="#Central-collapse"
+                aria-expanded="false"
+              >
+                Central
+              </button>
+              <div class="collapse" id="Central-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <!-- Station options -->
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'all')"
+                      class="link-dark rounded"
+                      >All Stations</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'shell')"
+                      class="link-dark rounded"
+                      >Shell</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'mogas')"
+                      class="link-dark rounded"
+                      >Mogas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'stabex')"
+                      class="link-dark rounded"
+                      >Stabex</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'independent')"
+                      class="link-dark rounded"
+                      >Independent</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      (click)="loadStation('Central', 'total')"
+                      class="link-dark rounded"
+                      >Total</a
+                    >
+                  </li>
+
+                  <!-- Sub Regions collapsible option -->
+                  <li>
+                    <button
+                      class="btn btn-toggle align-items-center rounded"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CentralSubregions-collapse"
+                      aria-expanded="false"
+                    >
+                      Central Sub Regions
+                    </button>
+                    <div class="collapse" id="CentralSubregions-collapse">
+                      <ul
+                        class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                      >
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionA')"
+                            class="link-dark rounded"
+                            >Sub Region A</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionB')"
+                            class="link-dark rounded"
+                            >Sub Region B</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionC')"
+                            class="link-dark rounded"
+                            >Sub Region C</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionD')"
+                            class="link-dark rounded"
+                            >Sub Region D</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            (click)="loadStation('Central', 'subregionE')"
+                            class="link-dark rounded"
+                            >Sub Region E</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
 
           <hr />
           <p class="mt-auto mb-3 text-primary text-center">© Brema Kalenge</p>
+
+          <!-- Dropdown for options -->
           <div class="dropdown pb-4">
             <a
               href="#"
@@ -112,22 +371,20 @@
               <span class="d-none d-sm-inline mx-1">Options</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-              <li>
-                <a class="dropdown-item" href="#">
-                  <span class="bi bi-plus me-2"></span> New Station</a
+              <li class="d-none">
+                <a class="dropdown-item" href="#"
+                  ><span class="bi bi-plus me-2"></span> New Station</a
                 >
               </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  <span class="bi bi-person-circle me-2"></span> Profile</a
+              <li class="d-none">
+                <a class="dropdown-item" href="#"
+                  ><span class="bi bi-person-circle me-2"></span> Profile</a
                 >
               </li>
+              <li><hr class="dropdown-divider" /></li>
               <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li>
-                <a class="dropdown-item" (click)="logout()">
-                  <span class="bi bi-power me-2"></span> Logout</a
+                <a class="dropdown-item" (click)="logout()"
+                  ><span class="bi bi-power me-2"></span> Logout</a
                 >
               </li>
             </ul>
@@ -151,7 +408,15 @@
         </div>
       </div>
 
-      <app-map *ngIf="showMap"></app-map>
+      <div>
+        <h1>
+          {{ title }}
+          <button class="ms-5 btn btn-dark" (click)="clearMap()">
+            Clear map
+          </button>
+        </h1>
+        <div id="map" style="height: 680px; width: 100%"></div>
+      </div>
     </div>
   </div>
 </div>
