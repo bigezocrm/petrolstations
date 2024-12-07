@@ -513,7 +513,7 @@ centralPolygon= {
           console.warn('No features matched the filter criteria.');
           Swal.fire({
             title: 'No Data Found',
-            text: `No stations found for ${station} stations in ${location} regions.`,
+            html:  `<p> No data found for <span class="text-danger">${station}</span> stations in <span class="text-danger"> ${location} </span> regions.</p>`,
             icon: 'warning',
           });
           return;
@@ -526,7 +526,7 @@ centralPolygon= {
             <table style="width:100%; text-align:left; border-collapse: collapse;">
               <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;">Station Type</td>
-                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${station}</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold; ">${station}</td>
               </tr>
               <tr>
                 <td  style="border: 1px solid #ddd; padding: 8px;">Location</td>
