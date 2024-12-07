@@ -513,7 +513,7 @@ centralPolygon= {
           console.warn('No features matched the filter criteria.');
           Swal.fire({
             title: 'No Data Found',
-            text: `No stations found for the selected region and station type.`,
+            text: `No stations found for ${station} stations in ${location} regions.`,
             icon: 'warning',
           });
           return;
@@ -525,21 +525,21 @@ centralPolygon= {
           html: `
             <table style="width:100%; text-align:left; border-collapse: collapse;">
               <tr>
-                <th style="border: 1px solid #ddd; padding: 8px;">Station Type</th>
-                <td style="border: 1px solid #ddd; padding: 8px;">${station}</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">Station Type</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${station}</td>
               </tr>
               <tr>
-                <th style="border: 1px solid #ddd; padding: 8px;">Location</th>
-                <td style="border: 1px solid #ddd; padding: 8px;">${location}</td>
+                <td  style="border: 1px solid #ddd; padding: 8px;">Location</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${location}</td>
               </tr>
               <tr>
-                <th style="border: 1px solid #ddd; padding: 8px;">Total Stations</th>
-                <td style="border: 1px solid #ddd; padding: 8px;">${filteredFeatures.length}</td>
+                <td  style="border: 1px solid #ddd; padding: 8px;">Total Stations</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${filteredFeatures.length}</td>
               </tr>
             </table>
           `,
           icon: 'info',
-          confirmButtonText: 'OK',
+          confirmButtonText: 'View Map',
         });
   
         // Add filtered features to the map
