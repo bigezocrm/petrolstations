@@ -521,7 +521,7 @@ centralPolygon= {
   
         // Display SweetAlert table with details
         Swal.fire({
-          title: 'Region Details',
+          title: 'Key Analytics',
           html: `
             <table style="width:100%; text-align:left; border-collapse: collapse;">
               <tr>
