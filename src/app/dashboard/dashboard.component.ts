@@ -840,6 +840,14 @@ centralPolygon= {
                   `,
                   icon: 'info',
                   confirmButtonText: 'View Map',
+                  showClass: {
+                    popup: '', // Disable animation for showing
+                  },
+                  hideClass: {
+                    popup: '', // Disable animation for hiding
+                  },
+                  position: 'top-end', // Position the popup at the top-right corner
+                  toast: true, // Use a toast-like design for the popup
                 });
           
                 // Add filtered features to the map
