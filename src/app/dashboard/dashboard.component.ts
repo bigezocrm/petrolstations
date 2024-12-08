@@ -846,6 +846,7 @@ centralPolygon= {
                   hideClass: {
                     popup: '', // Disable animation for hiding
                   },
+                  confirmButtonColor: '#40bf40',
                   position: 'top-end', // Position the popup at the top-right corner
                   toast: true, // Use a toast-like design for the popup
                 });
