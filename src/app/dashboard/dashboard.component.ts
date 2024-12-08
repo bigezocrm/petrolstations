@@ -600,7 +600,7 @@ centralPolygon= {
   } */
   
   
-      loadStationsGeoJSON(url: string, location: string, station: string) {
+ /*      loadStationsGeoJSON(url: string, location: string, station: string) {
         const map = this.map;
         this.clearMap();
       
@@ -745,10 +745,159 @@ centralPolygon= {
           .catch((error) => {
             console.error('Error fetching or processing GeoJSON data:', error);
           });
-    }
+    } */
     
   
-  
+          loadStationsGeoJSON(url: string, location: string, station: string) {
+            const map = this.map;
+            this.clearMap();
+          
+            console.log(`loadStationsGeoJSON called with: url=${url}, location=${location}, station=${station}`);
+          
+            // Dynamically handle different locations
+            if (location === 'North') {
+              this.loadEntireMapPolygon();
+              this.loadNorthPolygon();
+            } else if (location === 'East') {
+              this.loadEntireMapPolygon();
+              this.loadEastPolygon();
+            } else if (location === 'West') {
+              this.loadEntireMapPolygon();
+              this.loadWestPolygon();
+            } else if (location === 'Central') {
+              this.loadEntireMapPolygon();
+              this.loadCentralPolygon();
+            } else if (location === 'all') {
+              this.loadEntireMapPolygon();
+              this.loadUgandaMapPolygon();
+            } else {
+              console.warn(`No polygon defined for location: ${location}`);
+            }
+          
+            // Load GeoJSON data
+            console.log(`Attempting to load GeoJSON from URL: ${url}`);
+            fetch(url)
+              .then((response) => response.json())
+              .then((geojsonData) => {
+                if (!geojsonData || !geojsonData.features) {
+                  console.error('Invalid GeoJSON data.');
+                  return;
+                }
+          
+                console.log(`GeoJSON data loaded successfully: ${geojsonData.features.length} features found.`);
+          
+                // Filter features based on location and station, including 'all' option
+                const filteredFeatures = geojsonData.features.filter((feature: any) => {
+                  const properties = feature.properties;
+                  if (!properties) return false;
+        
+                  // Custom filter for 'all' location
+                  if (location === 'all') {
+                    if (station === 'all') {
+                      return true; // Include all features regardless of station
+                    }
+                    return properties.station === station; // Include features that match the station
+                  }
+        
+                  // Otherwise filter by location
+                  if (station === 'all') {
+                    return properties.location === location; // Include all stations in the specific location
+                  }
+        
+                  return properties.location === location && properties.station === station; // Filter by both location and station
+                });
+          
+                console.log(`Filtered features count: ${filteredFeatures.length}`);
+          
+                if (filteredFeatures.length === 0) {
+                  console.warn('No features matched the filter criteria.');
+                  Swal.fire({
+                    title: 'No Data Found',
+                    html:  `<p> No data found for <span class="text-danger">${station}</span> stations in <span class="text-danger"> ${location} </span> regions.</p>`,
+                    icon: 'warning',
+                  });
+                  return;
+                }
+          
+                // Display SweetAlert table with details
+                Swal.fire({
+                  title: 'Key Analytics',
+                  html: `
+                    <table style="width:100%; text-align:left; border-collapse: collapse;">
+                      <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Station Type</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold; ">${station}</td>
+                      </tr>
+                      <tr>
+                        <td  style="border: 1px solid #ddd; padding: 8px;">Location</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${location}</td>
+                      </tr>
+                      <tr>
+                        <td  style="border: 1px solid #ddd; padding: 8px;">Total Stations</td>
+                        <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${filteredFeatures.length}</td>
+                      </tr>
+                    </table>
+                  `,
+                  icon: 'info',
+                  confirmButtonText: 'View Map',
+                });
+          
+                // Add filtered features to the map
+                filteredFeatures.forEach((feature: any) => {
+                  map.data.addGeoJson({ type: 'FeatureCollection', features: [feature] });
+                });
+          
+                // Style markers
+                map.data.setStyle({
+                  icon: {
+                    url: 'shell.png', // Update this path if needed
+                    scaledSize: new google.maps.Size(16, 16),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(0, 16),
+                  },
+                });
+          
+                console.log('Filtered features added to map and styled.');
+          
+                // Add click listener to display popup details
+                map.data.addListener('click', (event: any) => {
+                  const feature = event.feature;
+                  if (!feature) {
+                    console.error('No feature found on click event.');
+                    return;
+                  }
+          
+                  const properties = feature.getProperties();
+                  if (!properties) {
+                    console.error('No properties found for this feature.');
+                    return;
+                  }
+          
+                  console.log('Feature properties:', properties);
+          
+                  const contentString = `
+                    <div>
+                      <h3>${properties.Code || 'N/A'}</h3>
+                      <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+                      <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+                      <p><strong>Description:</strong> ${properties.description?.value || 'N/A'}</p>
+                    </div>
+                  `;
+          
+                  const infoWindow = new google.maps.InfoWindow({
+                    content: contentString,
+                    position: event.latLng,
+                  });
+          
+                  infoWindow.open(map);
+                  console.log('InfoWindow opened with details for:', properties.Code);
+                });
+              })
+              .catch((error) => {
+                console.error('Error fetching or processing GeoJSON data:', error);
+              });
+        }
+        
 
 loadNorthPolygon() {
   const map = this.map;
