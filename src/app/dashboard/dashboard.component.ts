@@ -857,14 +857,36 @@ centralPolygon= {
                 });
           
                 // Style markers
-                map.data.setStyle({
-                  icon: {
-                    url: 'shell.png', // Update this path if needed
-                    scaledSize: new google.maps.Size(16, 16),
-                    origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(0, 16),
-                  },
-                });
+                map.data.setStyle((feature: any) => {
+                  // Get the station and icon properties from the GeoJSON feature
+                  const station = feature.getProperty('station');
+                  const iconUrl = feature.getProperty('icon'); // Use the icon URL directly if available
+              
+                  // Fallback or dynamic URL assignment
+                  let url = iconUrl; // Use iconUrl from feature properties if defined
+                  if (!url) {
+                      // Dynamically assign a URL based on the station property if no icon is set in properties
+                      if (station === 'Shell') {
+                          url = 'https://i.ibb.co/8Kcffcb/shell.png';
+                      } else if (station === 'Total') {
+                          url = 'https://i.ibb.co/XYZ/total.png'; // Replace with the correct URL
+                      } else {
+                          url = 'https://i.ibb.co/ABC/default.png'; // Fallback icon
+                      }
+                  }
+              
+                  // Return the dynamic style
+                  return {
+                      icon: {
+                          url: url, // Set the resolved URL
+                          scaledSize: new google.maps.Size(16, 16),
+                          origin: new google.maps.Point(0, 0),
+                          anchor: new google.maps.Point(8, 16), // Adjust for alignment
+                      },
+                  };
+              });
+              
+              
           
                 console.log('Filtered features added to map and styled.');
           
