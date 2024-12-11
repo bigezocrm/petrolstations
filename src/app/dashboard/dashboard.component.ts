@@ -600,7 +600,7 @@ centralPolygon= {
   } */
   
   
- /*      loadStationsGeoJSON(url: string, location: string, station: string) {
+  /*    loadStationsGeoJSON(url: string, location: string, station: string) {
         const map = this.map;
         this.clearMap();
       
@@ -656,7 +656,7 @@ centralPolygon= {
               return properties.location === location && properties.station === station;
             });
       
-            console.log(`Filtered features count: ${filteredFeatures.length}`);
+            
       
             if (filteredFeatures.length === 0) {
               console.warn('No features matched the filter criteria.');
@@ -745,10 +745,10 @@ centralPolygon= {
           .catch((error) => {
             console.error('Error fetching or processing GeoJSON data:', error);
           });
-    } */
+    }  */
     
   
-          loadStationsGeoJSON(url: string, location: string, station: string) {
+      loadStationsGeoJSON(url: string, location: string, station: string) {
             const map = this.map;
             this.clearMap();
           
@@ -869,9 +869,9 @@ centralPolygon= {
                       if (station === 'Shell') {
                           url = 'https://i.ibb.co/8Kcffcb/shell.png';
                       } else if (station === 'Total') {
-                          url = 'https://i.ibb.co/XYZ/total.png'; // Replace with the correct URL
+                          url = 'https://i.ibb.co/4S1k5WW/total.png'; // Replace with the correct URL
                       } else {
-                          url = 'https://i.ibb.co/ABC/default.png'; // Fallback icon
+                          url = 'https://i.ibb.co/8Kcffcb/shell.png'; // Fallback icon
                       }
                   }
               
@@ -927,7 +927,7 @@ centralPolygon= {
               .catch((error) => {
                 console.error('Error fetching or processing GeoJSON data:', error);
               });
-        }
+        } 
         
 
 loadNorthPolygon() {
@@ -1058,7 +1058,7 @@ loadUgandaMapPolygon() {
     }
 
     // Update map based on region and station type
-    this.loadStationsGeoJSON('/uganda.geojson', region, station);
+    this.loadStationsGeoJSON('/uganda_shell_total.geojson', region, station);
     this.showMap = true;
   }
 
