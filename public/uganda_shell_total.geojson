@@ -24,7 +24,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -53,7 +53,7 @@
         "location": "Trade area D",
         "Vol": "310.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -83,7 +83,7 @@
         "location": "North",
         "Vol": "130.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -109,7 +109,7 @@
         "location": "East",
         "Vol": "60.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -135,7 +135,7 @@
         "location": "West",
         "Vol": "180.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -164,7 +164,7 @@
         "location": "Trade area E",
         "Vol": "250.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -193,7 +193,7 @@
         "location": "West",
         "Vol": "30.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -222,7 +222,7 @@
         "location": "West",
         "Vol": "160.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -251,7 +251,7 @@
         "location": "West",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -277,7 +277,7 @@
         "location": "West",
         "Vol": "60.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -303,7 +303,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -329,7 +329,7 @@
         "location": "West",
         "Vol": "70.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -355,7 +355,7 @@
         "location": "East",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -381,7 +381,7 @@
         "location": "West",
         "Vol": "120.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -407,7 +407,7 @@
         "location": "Trade area A",
         "Vol": "220.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -433,7 +433,7 @@
         "location": "Trade area A",
         "Vol": "100.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -459,7 +459,7 @@
         "location": "Trade area A",
         "Vol": "340.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -488,7 +488,7 @@
         "location": "Trade area E",
         "Vol": "580.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -517,7 +517,7 @@
         "location": "Trade area A",
         "Vol": "90.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -543,7 +543,7 @@
         "location": "Trade area A",
         "Vol": "300.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -566,10 +566,10 @@
         "lat": 0.373881,
         "lon": 32.649113,
         "Code": "SL015KL",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -595,7 +595,7 @@
         "location": "Trade area A",
         "Vol": "240.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -621,7 +621,7 @@
         "location": "Trade area A",
         "Vol": "300.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -647,7 +647,7 @@
         "location": "Trade area A",
         "Vol": "190.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -676,7 +676,7 @@
         "location": "East",
         "Vol": "80.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -705,7 +705,7 @@
         "location": "East",
         "Vol": "120.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -734,7 +734,7 @@
         "location": "West",
         "Vol": "200.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -763,7 +763,7 @@
         "location": "Trade area D",
         "Vol": "160.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -789,7 +789,7 @@
         "location": "Trade area A",
         "Vol": "100.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -818,7 +818,7 @@
         "location": "West",
         "Vol": "220.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -847,7 +847,7 @@
         "location": "East",
         "Vol": "130.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -873,7 +873,7 @@
         "location": "Trade area D",
         "Vol": "270.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -902,7 +902,7 @@
         "location": "North",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -928,7 +928,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -954,7 +954,7 @@
         "location": "Trade area A",
         "Vol": "340.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -980,7 +980,7 @@
         "location": "Trade area D",
         "Vol": "200.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1009,7 +1009,7 @@
         "location": "West",
         "Vol": "400.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1038,7 +1038,7 @@
         "location": "North",
         "Vol": "240.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1067,7 +1067,7 @@
         "location": "East",
         "Vol": "60.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1096,7 +1096,7 @@
         "location": "West",
         "Vol": "80.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1125,7 +1125,7 @@
         "location": "West",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1151,7 +1151,7 @@
         "location": "West",
         "Vol": "200.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1177,7 +1177,7 @@
         "location": "Trade area B",
         "Vol": "400.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1203,7 +1203,7 @@
         "location": "Trade area D",
         "Vol": "200.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1232,7 +1232,7 @@
         "location": "West",
         "Vol": "130.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1261,7 +1261,7 @@
         "location": "West",
         "Vol": "140.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1284,10 +1284,10 @@
         "lat": 0.354725,
         "lon": 32.56258,
         "Code": "Shell Bwaise",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -1313,7 +1313,7 @@
         "location": "East",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1342,7 +1342,7 @@
         "location": "Trade area E",
         "Vol": "120.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1371,7 +1371,7 @@
         "location": "Trade area D",
         "Vol": "160.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1400,7 +1400,7 @@
         "location": "East",
         "Vol": "80.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1429,7 +1429,7 @@
         "location": "North",
         "Vol": "100.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1458,7 +1458,7 @@
         "location": "East",
         "Vol": "120.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "location": "West",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1516,7 +1516,7 @@
         "location": "North",
         "Vol": "220.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1545,7 +1545,7 @@
         "location": "East",
         "Vol": "90.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1571,7 +1571,7 @@
         "location": "Trade area D",
         "Vol": "200.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1597,7 +1597,7 @@
         "location": "Trade area D",
         "Vol": "190.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "location": "Trade area A ",
         "Vol": "170.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1649,7 +1649,7 @@
         "location": "Trade area D",
         "Vol": "240.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1675,7 +1675,7 @@
         "location": "West",
         "Vol": "100.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1701,7 +1701,7 @@
         "location": "West",
         "Vol": "20.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1727,7 +1727,7 @@
         "location": "Trade area B",
         "Vol": "160.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1753,7 +1753,7 @@
         "location": "Trade area D",
         "Vol": "190.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1779,7 +1779,7 @@
         "location": "Trade area D",
         "Vol": "70.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1808,7 +1808,7 @@
         "location": "North",
         "Vol": "130.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1834,7 +1834,7 @@
         "location": "West",
         "Vol": "100.0",
         "unnamed (1)": "Shell Entebbe",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1863,7 +1863,7 @@
         "location": "Trade area D",
         "Vol": "270.0",
         "unnamed (1)": "Shell2",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1889,7 +1889,7 @@
         "location": "North",
         "Vol": "240.0",
         "unnamed (1)": "Shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1918,7 +1918,7 @@
         "location": "West",
         "Vol": "180.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1944,7 +1944,7 @@
         "location": "Trade area B",
         "Vol": "150.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -1967,10 +1967,10 @@
         "lat": 0.314699,
         "lon": 32.565853,
         "Code": "Shell Namirembe Road",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -1996,7 +1996,7 @@
         "location": "Trade area C",
         "Vol": "240.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2022,7 +2022,7 @@
         "location": "Trade area D",
         "Vol": "120.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2048,7 +2048,7 @@
         "location": "Trade area D",
         "Vol": "250.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2077,7 +2077,7 @@
         "location": "North",
         "Vol": "170.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2106,7 +2106,7 @@
         "location": "North",
         "Vol": "100.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2135,7 +2135,7 @@
         "location": "North",
         "Vol": "80.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2164,7 +2164,7 @@
         "location": "East",
         "Vol": "50.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2193,7 +2193,7 @@
         "location": "North",
         "Vol": "80.0",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2219,10 +2219,10 @@
         "lat": 0.3957438,
         "lon": 32.7003765,
         "Code": "Shell Sonde",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -2248,10 +2248,10 @@
         "lat": 0.35854511,
         "lon": 32.64837245,
         "Code": "Shell Kireka Metro",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -2277,10 +2277,10 @@
         "lat": 0.3795138,
         "lon": 32.6256128,
         "Code": "Shell Najera",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -2306,10 +2306,10 @@
         "lat": 0.3747019,
         "lon": 32.5761886,
         "Code": "Shell Kanyanya",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -2335,10 +2335,10 @@
         "lat": 0.4492056,
         "lon": 32.6116812,
         "Code": "Shell Gayaza",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -2364,10 +2364,10 @@
         "lat": 0.4367119,
         "lon": 32.6021326,
         "Code": "Shell Kasangati",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -2390,10 +2390,10 @@
         "lat": 0.31811,
         "lon": 32.5107819,
         "Code": "Shell Bulenga",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -2419,10 +2419,10 @@
         "lat": 0.3071344,
         "lon": 32.5624413,
         "Code": "Shell Mengo",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2445,10 +2445,10 @@
         "lat": 0.2887666,
         "lon": 32.577939,
         "Code": "Shell Kiwafu",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2474,10 +2474,10 @@
         "lat": 0.3013381,
         "lon": 32.6020586,
         "Code": "Shell Muyenga",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -2503,10 +2503,10 @@
         "lat": 0.2002606,
         "lon": 32.5400892,
         "Code": "Shell Kitende",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2529,10 +2529,10 @@
         "lat": 0.283252,
         "lon": 32.5671941,
         "Code": "Shell Najjanakumbi",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2558,10 +2558,10 @@
         "lat": 0.2906107,
         "lon": 32.4986502,
         "Code": "Shell Kyengera",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2587,10 +2587,10 @@
         "lat": 0.3597174,
         "lon": 32.7486848,
         "Code": "Shell Mukono",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -2616,10 +2616,10 @@
         "lat": 0.3560485,
         "lon": 32.7548254,
         "Code": "Shell Kyagwe",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -2648,7 +2648,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2703,10 +2703,10 @@
         "lat": 0.3181128,
         "lon": 32.6295458,
         "Code": "Shell Kitintale",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -2732,10 +2732,10 @@
         "lat": 0.3450739,
         "lon": 32.6424934,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -2764,7 +2764,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2793,7 +2793,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2819,7 +2819,7 @@
         "location": "EAST",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2842,10 +2842,10 @@
         "lat": 0.069958,
         "lon": 32.4760021,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2871,10 +2871,10 @@
         "lat": 0.0561976,
         "lon": 32.4654338,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2900,10 +2900,10 @@
         "lat": 0.2867371,
         "lon": 32.5692782,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -2929,7 +2929,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -2955,10 +2955,10 @@
         "lat": 0.3289336,
         "lon": 32.6123571,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -2984,10 +2984,10 @@
         "lat": 0.3554548,
         "lon": 32.5346267,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -3013,10 +3013,10 @@
         "lat": 0.4118711,
         "lon": 32.4609089,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -3042,10 +3042,10 @@
         "lat": 0.4201079,
         "lon": 32.3958707,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -3074,7 +3074,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3100,10 +3100,10 @@
         "lat": 0.3468504,
         "lon": 32.6493716,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -3129,10 +3129,10 @@
         "lat": 0.3158071,
         "lon": 32.5927716,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -3161,7 +3161,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3190,7 +3190,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3216,7 +3216,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3234,7 +3234,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3261,7 +3261,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3279,7 +3279,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3306,7 +3306,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3324,7 +3324,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3351,7 +3351,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3369,7 +3369,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3396,7 +3396,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3414,7 +3414,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3441,7 +3441,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3459,7 +3459,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3486,7 +3486,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3504,7 +3504,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3531,7 +3531,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3549,7 +3549,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3579,7 +3579,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3597,7 +3597,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3624,7 +3624,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3642,7 +3642,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -3669,7 +3669,7 @@
         "location": "Trade area A ",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3692,10 +3692,10 @@
         "lat": 0.396713,
         "lon": 32.638411,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -3721,7 +3721,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3747,10 +3747,10 @@
         "lat": 0.3947173,
         "lon": 32.6340667,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -3773,10 +3773,10 @@
         "lat": 0.337348,
         "lon": 32.514561,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -3802,7 +3802,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3828,7 +3828,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3851,10 +3851,10 @@
         "lat": 0.444672,
         "lon": 32.52852,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -3880,10 +3880,10 @@
         "lat": 0.4111128,
         "lon": 32.5718385,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -3912,7 +3912,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -3935,10 +3935,10 @@
         "lat": 0.273158,
         "lon": 32.54685,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -3961,10 +3961,10 @@
         "lat": 0.250521,
         "lon": 32.626158,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -3990,10 +3990,10 @@
         "lat": 0.0807243,
         "lon": 32.4818297,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4016,10 +4016,10 @@
         "lat": 0.331065,
         "lon": 32.496158,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -4042,10 +4042,10 @@
         "lat": 0.353623,
         "lon": 32.671899,
         "Code": "",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -4068,10 +4068,10 @@
         "lat": 0.228921,
         "lon": 32.54678,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4097,10 +4097,10 @@
         "lat": 0.3862568,
         "lon": 32.5929791,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4129,7 +4129,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4155,10 +4155,10 @@
         "lat": 0.3755186,
         "lon": 32.5863815,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4181,10 +4181,10 @@
         "lat": 0.16782,
         "lon": 32.54306,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4210,7 +4210,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4233,10 +4233,10 @@
         "lat": 0.262721,
         "lon": 32.616964,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4262,7 +4262,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4291,7 +4291,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4314,10 +4314,10 @@
         "lat": 0.3026498,
         "lon": 32.540477,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4340,10 +4340,10 @@
         "lat": 0.266,
         "lon": 32.593176,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4366,10 +4366,10 @@
         "lat": 0.337361,
         "lon": 32.635887,
         "Code": "",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area E"
       }
     },
     {
@@ -4395,7 +4395,7 @@
         "location": "EAST",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4418,10 +4418,10 @@
         "lat": 0.387676,
         "lon": 32.643371,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4447,10 +4447,10 @@
         "lat": 0.2794258,
         "lon": 32.4705195,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4473,10 +4473,10 @@
         "lat": 0.281786,
         "lon": 32.4509,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4505,7 +4505,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4531,7 +4531,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4557,7 +4557,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4583,10 +4583,10 @@
         "lat": 0.2869507,
         "lon": 32.6071726,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4615,7 +4615,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4644,7 +4644,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4667,10 +4667,10 @@
         "lat": 0.358545,
         "lon": 32.547131,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -4693,10 +4693,10 @@
         "lat": 0.360637,
         "lon": 32.637291,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -4722,7 +4722,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4748,7 +4748,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4777,7 +4777,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -4800,10 +4800,10 @@
         "lat": 0.397135,
         "lon": 32.676343,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4829,10 +4829,10 @@
         "lat": 0.4007146,
         "lon": 32.6409803,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4855,10 +4855,10 @@
         "lat": 0.353189,
         "lon": 32.59836,
         "Code": "",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -4881,10 +4881,10 @@
         "lat": 0.4484855,
         "lon": 32.611613,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4910,10 +4910,10 @@
         "lat": 0.4241003,
         "lon": 32.6211132,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -4939,10 +4939,10 @@
         "lat": 0.2514355,
         "lon": 32.5612792,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -4968,10 +4968,10 @@
         "lat": 0.3285511,
         "lon": 32.4767041,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -4997,10 +4997,10 @@
         "lat": 0.3242575,
         "lon": 32.4340777,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -5026,10 +5026,10 @@
         "lat": 0.3919011,
         "lon": 32.0678677,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -5058,7 +5058,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5084,7 +5084,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5110,10 +5110,10 @@
         "lat": 0.3772004,
         "lon": 32.5766779,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -5139,10 +5139,10 @@
         "lat": 0.3917311,
         "lon": 32.5045343,
         "Code": "",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -5165,10 +5165,10 @@
         "lat": 0.2981423,
         "lon": 32.536047,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -5197,7 +5197,7 @@
         "location": "East",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5223,10 +5223,10 @@
         "lat": 0.3255319,
         "lon": 32.5382697,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -5255,7 +5255,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5281,10 +5281,10 @@
         "lat": 0.4056665,
         "lon": 32.5887089,
         "Code": "",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -5313,7 +5313,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5342,7 +5342,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5371,7 +5371,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5400,7 +5400,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5426,7 +5426,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5449,10 +5449,10 @@
         "lat": 0.220778,
         "lon": 32.3344607,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -5481,7 +5481,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5510,7 +5510,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5536,7 +5536,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5559,10 +5559,10 @@
         "lat": 0.2507236,
         "lon": 32.625754,
         "Code": "",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -5591,7 +5591,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5620,7 +5620,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5646,7 +5646,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5675,7 +5675,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5704,7 +5704,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5730,7 +5730,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5759,7 +5759,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5788,7 +5788,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5817,7 +5817,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5846,7 +5846,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5875,7 +5875,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5904,7 +5904,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5933,7 +5933,7 @@
         "location": "North",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5959,7 +5959,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -5985,7 +5985,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6014,7 +6014,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6043,7 +6043,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6072,7 +6072,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6101,7 +6101,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6130,7 +6130,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6159,7 +6159,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6188,7 +6188,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6217,7 +6217,7 @@
         "location": "West",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6243,7 +6243,7 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6272,8 +6272,12 @@
         "location": "Central",
         "Vol": "",
         "station": "shell",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
+    },
+    {
+      "_comment": "-------------------------------------------------------TOTAL-----------",
+      "key": "-------------------------------------------------------TOTAL-----------"
     },
 
     {
@@ -6302,7 +6306,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6325,10 +6329,10 @@
         "lat": 0.3747582,
         "lon": 32.643747,
         "Code": "Total Naalya",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -6357,7 +6361,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6386,7 +6390,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6415,7 +6419,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6444,7 +6448,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6473,7 +6477,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6502,7 +6506,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6531,7 +6535,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6560,7 +6564,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6589,7 +6593,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6618,7 +6622,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6644,10 +6648,10 @@
         "lat": 0.3347862,
         "lon": 32.5731344,
         "Code": "Total Bombo road",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -6665,7 +6669,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -6695,7 +6699,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6724,7 +6728,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6753,7 +6757,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6782,7 +6786,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6811,7 +6815,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6840,7 +6844,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6869,7 +6873,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6898,7 +6902,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6927,7 +6931,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6956,7 +6960,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -6985,7 +6989,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7014,7 +7018,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7043,7 +7047,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7072,7 +7076,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7101,7 +7105,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7130,7 +7134,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7156,7 +7160,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7185,7 +7189,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7214,7 +7218,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7243,7 +7247,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7272,7 +7276,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7301,7 +7305,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7327,10 +7331,10 @@
         "lat": 0.3980065,
         "lon": 32.0537556,
         "Code": "Total (Mityana HW)",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -7356,10 +7360,10 @@
         "lat": 0.3996823,
         "lon": 32.0451128,
         "Code": "Total Mityana",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -7388,7 +7392,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7417,7 +7421,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7443,7 +7447,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7472,7 +7476,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7498,7 +7502,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       },
       "id": 42
     },
@@ -7528,7 +7532,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7557,7 +7561,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7586,7 +7590,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7615,7 +7619,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7641,7 +7645,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7670,7 +7674,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7699,7 +7703,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7728,7 +7732,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7757,7 +7761,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7786,7 +7790,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7815,7 +7819,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7844,7 +7848,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7873,7 +7877,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7902,7 +7906,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7931,7 +7935,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7960,7 +7964,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -7989,7 +7993,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8018,7 +8022,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8047,7 +8051,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8076,7 +8080,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8105,7 +8109,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8134,7 +8138,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8163,7 +8167,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8192,7 +8196,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8221,7 +8225,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8250,7 +8254,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8276,7 +8280,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8305,7 +8309,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8331,7 +8335,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8360,7 +8364,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8386,7 +8390,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8415,7 +8419,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8444,7 +8448,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8473,7 +8477,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8502,7 +8506,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8531,7 +8535,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8560,7 +8564,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8586,7 +8590,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8612,7 +8616,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8641,7 +8645,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8670,7 +8674,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8699,7 +8703,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8725,7 +8729,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8754,7 +8758,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8780,7 +8784,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8809,7 +8813,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8838,7 +8842,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8867,7 +8871,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8896,7 +8900,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8925,7 +8929,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8951,7 +8955,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -8966,10 +8970,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Luzira",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -8985,10 +8989,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kitintale",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9004,10 +9008,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kinawataka",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9023,10 +9027,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Bweyogerere",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9042,10 +9046,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Namanve",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9061,10 +9065,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Mukono Highway",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9080,10 +9084,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kawuga Mukono",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9099,10 +9103,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Sseta",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9121,7 +9125,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -9137,10 +9141,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Nsambya",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9159,7 +9163,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -9175,10 +9179,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Munyonyo",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9194,10 +9198,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Ggaba road",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9213,10 +9217,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Bunga",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9232,10 +9236,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kibiri",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9251,10 +9255,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kabusu 2",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9270,10 +9274,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Bunamwaya",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9289,10 +9293,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Salama",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9308,10 +9312,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Busabala",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9327,10 +9331,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Nsambya 2",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9346,10 +9350,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kibuli",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -9376,10 +9380,10 @@
         "lat": 0.2347845,
         "lon": 32.5531448,
         "Code": "Total Seguku",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9405,10 +9409,10 @@
         "lat": 0.2113264,
         "lon": 32.5419247,
         "Code": "Total Kajjansi",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9431,10 +9435,10 @@
         "lat": 0.069073,
         "lon": 32.4759079,
         "Code": "Total Entebbe",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9460,10 +9464,10 @@
         "lat": 0.2910309,
         "lon": 32.5715086,
         "Code": "Total Energies Kibuye",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9486,10 +9490,10 @@
         "lat": 0.2894663,
         "lon": 32.570405,
         "Code": "Total Energies Najjanakumbi",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9515,10 +9519,10 @@
         "lat": 0.0775208,
         "lon": 32.4795751,
         "Code": "Total Energies Katabi",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9544,10 +9548,10 @@
         "lat": 0.2678753,
         "lon": 32.5659902,
         "Code": "Total Namasuba",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9573,10 +9577,10 @@
         "lat": 0.3007508,
         "lon": 32.5369992,
         "Code": "Total Wakaliga",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9602,10 +9606,10 @@
         "lat": 0.2010068,
         "lon": 32.5398399,
         "Code": "Total Kitende",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9631,10 +9635,10 @@
         "lat": 0.3198072,
         "lon": 32.5632011,
         "Code": "Total Bukesa",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9657,10 +9661,10 @@
         "lat": 0.054667,
         "lon": 32.4616509,
         "Code": "Total Kitoro",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9686,10 +9690,10 @@
         "lat": 0.3351732,
         "lon": 32.5484703,
         "Code": "Total Energies (Namugona)",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9715,10 +9719,10 @@
         "lat": 0.3116119,
         "lon": 32.5595901,
         "Code": "Total Mengo",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9744,10 +9748,10 @@
         "lat": 0.3251093,
         "lon": 32.5598247,
         "Code": "Total Nakulabye",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9773,10 +9777,10 @@
         "lat": 0.2967016,
         "lon": 32.5054467,
         "Code": "Total Kyengera",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9791,10 +9795,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Nateete",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -9821,10 +9825,10 @@
         "lat": 0.2212457,
         "lon": 32.3350792,
         "Code": "Total Mpigi",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9850,10 +9854,10 @@
         "lat": 0.2946908,
         "lon": 32.5526286,
         "Code": "Total Kabusu",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9879,10 +9883,10 @@
         "lat": 0.3039477,
         "lon": 32.5743799,
         "Code": "Total Energies Kubiri",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9908,10 +9912,10 @@
         "lat": 0.2932396,
         "lon": 32.5703351,
         "Code": "Total (Mbaawo)",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9937,10 +9941,10 @@
         "lat": 0.2920585,
         "lon": 32.5007328,
         "Code": "Total Kyengera",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9966,10 +9970,10 @@
         "lat": 0.2996285,
         "lon": 32.5087268,
         "Code": "Total Kyengera HW",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -9995,10 +9999,10 @@
         "lat": 0.2929569,
         "lon": 32.5669514,
         "Code": "Total Ndeeba ",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10024,10 +10028,10 @@
         "lat": 0.2999287,
         "lon": 32.5763035,
         "Code": "Total Katwe",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10050,10 +10054,10 @@
         "lat": 0.314497,
         "lon": 32.5645357,
         "Code": "Total (Bakuli)",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10079,10 +10083,10 @@
         "lat": 0.3095952,
         "lon": 32.5770598,
         "Code": "Total Ben Kiwanuka",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10108,10 +10112,10 @@
         "lat": 0.3292382,
         "lon": 32.4780488,
         "Code": "Total Bulenga",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10137,10 +10141,10 @@
         "lat": 0.3724486,
         "lon": 32.5218843,
         "Code": "Total Nansana",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -10166,10 +10170,10 @@
         "lat": 0.3271274,
         "lon": 32.4680747,
         "Code": "Total Energies Buloba",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10195,10 +10199,10 @@
         "lat": 0.3201479,
         "lon": 32.4423425,
         "Code": "Total Buloba",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area D"
       }
     },
     {
@@ -10224,10 +10228,10 @@
         "lat": 0.3941847,
         "lon": 32.5000095,
         "Code": "Total Energies Naluvule",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -10250,10 +10254,10 @@
         "lat": 0.420068,
         "lon": 32.3960988,
         "Code": "Total Kakiri",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -10279,10 +10283,10 @@
         "lat": 0.3607783,
         "lon": 32.5311716,
         "Code": "Total Nabweru",
-        "location": "Trade area C",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area C"
       }
     },
     {
@@ -10308,10 +10312,10 @@
         "lat": 0.4091834,
         "lon": 32.6290162,
         "Code": "Total Buwate",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10337,10 +10341,10 @@
         "lat": 0.4329369,
         "lon": 32.5685657,
         "Code": "Total Kitagobwa",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10366,10 +10370,10 @@
         "lat": 0.3954453,
         "lon": 32.5937132,
         "Code": "Total Kyanja",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10395,10 +10399,10 @@
         "lat": 0.4084658,
         "lon": 32.6199118,
         "Code": "Total Buwate 2",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10424,10 +10428,10 @@
         "lat": 0.4375904,
         "lon": 32.6020184,
         "Code": "Total Kasangati",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10453,10 +10457,10 @@
         "lat": 0.3816325,
         "lon": 32.5876396,
         "Code": "Total Energies Komamboga",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10482,10 +10486,10 @@
         "lat": 0.3674719,
         "lon": 32.5975319,
         "Code": "Total Kisasi",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10511,10 +10515,10 @@
         "lat": 0.3574799,
         "lon": 32.5736763,
         "Code": "Total Kyebando",
-        "location": "Trade Area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10540,10 +10544,10 @@
         "lat": 0.3944118,
         "lon": 32.6323604,
         "Code": "Total Energies Najjera",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10569,10 +10573,10 @@
         "lat": 0.4085651,
         "lon": 32.6422924,
         "Code": "Total Bulindo",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10598,10 +10602,10 @@
         "lat": 0.3855154,
         "lon": 32.6260134,
         "Code": "Total Najjera",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10627,10 +10631,10 @@
         "lat": 0.3883949,
         "lon": 32.5520149,
         "Code": "Total Maganjo",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10656,10 +10660,10 @@
         "lat": 0.3390621,
         "lon": 32.5863644,
         "Code": "Total Acacia",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10682,10 +10686,10 @@
         "lat": 0.343761,
         "lon": 32.5695986,
         "Code": "Total Kavule Bombo road",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10711,10 +10715,10 @@
         "lat": 0.3854405,
         "lon": 32.6441617,
         "Code": "Total Kyaliwajjala",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10737,10 +10741,10 @@
         "lat": 0.343881,
         "lon": 32.5711756,
         "Code": "Total Kalerwe",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10766,10 +10770,10 @@
         "lat": 0.3128038,
         "lon": 32.5843523,
         "Code": "Total City Center",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10792,10 +10796,10 @@
         "lat": 0.3454795,
         "lon": 32.596944,
         "Code": "Total Bukoto",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10818,10 +10822,10 @@
         "lat": 0.3145691,
         "lon": 32.590693,
         "Code": "Total Jinja road",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10844,10 +10848,10 @@
         "lat": 0.353569,
         "lon": 32.562986,
         "Code": "Total Bwaise",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10870,10 +10874,10 @@
         "lat": 0.3485251,
         "lon": 32.563054,
         "Code": "Total Bwaise Kikoni Bombo road",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10896,10 +10900,10 @@
         "lat": 0.3564175,
         "lon": 32.615256,
         "Code": "Total Kiwatule Old Kira",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10925,10 +10929,10 @@
         "lat": 0.3537094,
         "lon": 32.6111714,
         "Code": "Total Ntinda",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -10954,10 +10958,10 @@
         "lat": 0.4411554,
         "lon": 32.6064205,
         "Code": "Total Bulamu",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -10983,10 +10987,10 @@
         "lat": 0.3464144,
         "lon": 32.6476387,
         "Code": "Total Kireka",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area A"
       }
     },
     {
@@ -11012,10 +11016,10 @@
         "lat": 0.3668519,
         "lon": 32.5595453,
         "Code": "Total Energies Kawempe",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -11041,10 +11045,10 @@
         "lat": 0.4421254,
         "lon": 32.5867344,
         "Code": "Total Nangabo",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -11059,10 +11063,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kumbuzi",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area B",
         "name": ""
       }
     },
@@ -11092,7 +11096,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -11108,10 +11112,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Energies Kikaaya",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": "Trade area B"
       }
     },
     {
@@ -11140,7 +11144,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -11155,10 +11159,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Namasuba ",
-        "location": "Trade area D",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area D",
         "name": ""
       }
     },
@@ -11177,7 +11181,7 @@
         "location": "East",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11193,10 +11197,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Energies Kikaaaya (Bahai)",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area B",
         "name": ""
       }
     },
@@ -11212,10 +11216,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Energies Nakawa",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area A",
         "name": ""
       }
     },
@@ -11231,10 +11235,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Wampewo",
-        "location": "Trade area A",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area A",
         "name": ""
       }
     },
@@ -11250,10 +11254,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Energies Old PortBell",
-        "location": "Trade area E",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area E",
         "name": ""
       }
     },
@@ -11272,7 +11276,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11291,7 +11295,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11310,7 +11314,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11329,7 +11333,7 @@
         "location": "North",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11349,7 +11353,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": ""
+        "sub-location": ""
       }
     },
     {
@@ -11364,10 +11368,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kiwologoma",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area B",
         "name": ""
       }
     },
@@ -11383,10 +11387,10 @@
         "lat": "",
         "lon": "",
         "Code": "Total Kimombasa",
-        "location": "Trade area B",
+        "location": "Central",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "Trade area B",
         "name": ""
       }
     },
@@ -11405,7 +11409,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     },
@@ -11424,7 +11428,7 @@
         "location": "West",
         "Vol": "",
         "station": "total",
-        "unnamed (2)": "",
+        "sub-location": "",
         "name": ""
       }
     }

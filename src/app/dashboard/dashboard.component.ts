@@ -879,7 +879,7 @@ centralPolygon= {
                   return {
                       icon: {
                           url: url, // Set the resolved URL
-                          scaledSize: new google.maps.Size(16, 16),
+                          scaledSize: new google.maps.Size(24, 24),
                           origin: new google.maps.Point(0, 0),
                           anchor: new google.maps.Point(8, 16), // Adjust for alignment
                       },
