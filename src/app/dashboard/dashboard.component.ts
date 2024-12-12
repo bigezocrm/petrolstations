@@ -1193,8 +1193,8 @@ map.data.addListener('click', (event: any) => {
     <div>
       <h3>${properties.Code || 'N/A'}</h3>
       <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
-      <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
-      <p><strong>Station Type:</strong> ${properties.station?.value || 'N/A'}</p>
+      <p><strong>Longitude:</strong> ${properties.lon || 'N/A'}</p>
+      <p><strong>Latitude:</strong> ${properties.lat || 'N/A'}</p>
     </div>
   `;
 
