@@ -117,8 +117,8 @@ centralPolygonData:any=null;
       "stroke": "#ffffff",
       "stroke-width": 2,
       "stroke-opacity": 1,
-      "fill": "#33cc33",
-      "fill-opacity": 0.7
+      "fill": "#ffffff",
+      "fill-opacity": 0.5
     },
     "geometry": {
       "coordinates": [
@@ -1033,19 +1033,45 @@ centralPolygon= {
                     });
               
                     // Style markers
-                    map.data.setStyle((feature: any) => {
+               map.data.setStyle((feature: any) => {
                       const station = feature.getProperty('station');
                       const iconUrl = feature.getProperty('icon') || 'https://i.ibb.co/8Kcffcb/shell.png'; // Default icon fallback
               
                       return {
                         icon: {
                           url: iconUrl,
-                          scaledSize: new google.maps.Size(24, 24),
+                          scaledSize: new google.maps.Size(32, 32),
                           origin: new google.maps.Point(0, 0),
                           anchor: new google.maps.Point(8, 16),
                         },
                       };
-                    });
+                    }); 
+                  // Add a listener to detect zoom changes and update styles
+/* map.addListener('zoom_changed', () => {
+  const zoom = map.getZoom(); // Get the current zoom level
+  console.log(`Zoom level changed to: ${zoom}`);
+
+  map.data.setStyle((feature: any) => {
+    const iconUrl = feature.getProperty('icon') || 'https://i.ibb.co/8Kcffcb/independent.png'; // Default icon fallback
+
+    // Adjust icon size based on zoom level
+    const baseSize = 24; // Base size for icons
+    const scaledSize = Math.max(16, baseSize + (zoom - 5) * 5); // Scale with zoom (min size 16px)
+
+    console.log(`Icon scaled size: ${scaledSize}`);
+
+    return {
+      icon: {
+        url: iconUrl,
+        scaledSize: new google.maps.Size(scaledSize, scaledSize),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(scaledSize / 2, scaledSize / 2),
+      },
+    };
+  });
+});
+ */
+                    
               
                     console.log('Filtered features added to map and styled.');
               

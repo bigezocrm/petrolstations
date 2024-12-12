@@ -1,0 +1,919 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.272821, 0.6505087, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.272821 0.6505087)<br>lat: 0.6505087<br>lon: 30.272821<br>Code: Rubis Fortportal<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (30.272821 0.6505087)",
+        "lat": 0.6505087,
+        "lon": 30.272821,
+        "Code": "Rubis Fortportal",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7289206, -0.3438508, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.7289206 -0.3438508)<br>lat: -0.3438508<br>lon: 31.7289206<br>Code: Rubis Masaka<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (31.7289206 -0.3438508)",
+        "lat": -0.3438508,
+        "lon": 31.7289206,
+        "Code": "Rubis Masaka",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.1043477, 0.0616909, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.1043477 0.0616909)<br>lat: 0.0616909<br>lon: 32.1043477<br>Code: Rubis Buwama<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.1043477 0.0616909)",
+        "lat": 0.0616909,
+        "lon": 32.1043477,
+        "Code": "Rubis Buwama",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6598363, -0.6138397, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.6598363 -0.6138397)<br>lat: -0.6138397<br>lon: 30.6598363<br>Code: Rubis Mbarara Kakoba<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (30.6598363 -0.6138397)",
+        "lat": -0.6138397,
+        "lon": 30.6598363,
+        "Code": "Rubis Mbarara Kakoba",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6638837, -0.5983128, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.6638837 -0.5983128)<br>lat: -0.5983128<br>lon: 30.6638837<br>Code: Rubis Mbarara<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (30.6638837 -0.5983128)",
+        "lat": -0.5983128,
+        "lon": 30.6638837,
+        "Code": "Rubis Mbarara",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.08737, 0.1763044, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.08737 0.1763044)<br>lat: 0.1763044<br>lon: 30.08737<br>Code: Rubis Kasese<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (30.08737 0.1763044)",
+        "lat": 0.1763044,
+        "lon": 30.08737,
+        "Code": "Rubis Kasese",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.0125464, -1.2581607, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.0125464 -1.2581607)<br>lat: -1.2581607<br>lon: 30.0125464<br>Code: Rubis Kabale<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (30.0125464 -1.2581607)",
+        "lat": -1.2581607,
+        "lon": 30.0125464,
+        "Code": "Rubis Kabale",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [33.2089999, 0.4316, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.2089999 0.4316)<br>lat: 0.4316<br>lon: 33.2089999<br>Code: Rubis Jinja 1<br>location: East<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (33.2089999 0.4316)",
+        "lat": 0.4316,
+        "lon": 33.2089999,
+        "Code": "Rubis Jinja 1",
+        "location": "East",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3930207, 0.5547481, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3930207 0.5547481)<br>lat: 0.5547481<br>lon: 31.3930207<br>Code: Rubis Mubende<br>location: West<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (31.3930207 0.5547481)",
+        "lat": 0.5547481,
+        "lon": 31.3930207,
+        "Code": "Rubis Mubende",
+        "location": "West",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.0443492, 0.4056487, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.0443492 0.4056487)<br>lat: 0.4056487<br>lon: 32.0443492<br>Code: Rubis Mityana 1<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.0443492 0.4056487)",
+        "lat": 0.4056487,
+        "lon": 32.0443492,
+        "Code": "Rubis Mityana 1",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1683696, 1.1242681, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.1683696 1.1242681)<br>lat: 1.1242681<br>lon: 34.1683696<br>Code: Rubis Namunsi<br>location: East<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (34.1683696 1.1242681)",
+        "lat": 1.1242681,
+        "lon": 34.1683696,
+        "Code": "Rubis Namunsi",
+        "location": "East",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.0094707, 1.8032066, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.0094707 1.8032066)<br>lat: 1.8032066<br>lon: 32.0094707<br>Code: Rubis Kigumba<br>location: North<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.0094707 1.8032066)",
+        "lat": 1.8032066,
+        "lon": 32.0094707,
+        "Code": "Rubis Kigumba",
+        "location": "North",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8985877, 2.2457083, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.8985877 2.2457083)<br>lat: 2.2457083<br>lon: 32.8985877<br>Code: Rubis Lira<br>location: North<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.8985877 2.2457083)",
+        "lat": 2.2457083,
+        "lon": 32.8985877,
+        "Code": "Rubis Lira",
+        "location": "North",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5284115, 0.7164715, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": "{\"@type\":\"html\",\"value\":\"WKT: POINT (32.5284115 0.7164715)<br>lat: 0.7164715<br>lon: 32.5284115<br>Code: Rubis Wobulenzi<br>location: North<br>Vol: <br>station: rubis<br>sub-location: <br>name: \"}",
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": "[32,64]",
+        "icon-offset-units": "[\"pixels\",\"insetPixels\"]",
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5284115 0.7164715)",
+        "lat": 0.7164715,
+        "lon": 32.5284115,
+        "Code": "Rubis Wobulenzi",
+        "location": "North",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.2188778, 0.4510391, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.2188778 0.4510391)<br>lat: 0.4510391<br>lon: 33.2188778<br>Code: Rubis Jinja<br>location: East<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (33.2188778 0.4510391)",
+        "lat": 0.4510391,
+        "lon": 33.2188778,
+        "Code": "Rubis Jinja",
+        "location": "East",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.1673269, 0.6536826, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.1673269 0.6536826)<br>lat: 0.6536826<br>lon: 33.1673269<br>Code: Rubis Buwenge<br>location: East<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (33.1673269 0.6536826)",
+        "lat": 0.6536826,
+        "lon": 33.1673269,
+        "Code": "Rubis Buwenge",
+        "location": "East",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.4600902, 0.6018589, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.4600902 0.6018589)<br>lat: 0.6018589<br>lon: 33.4600902<br>Code: Rubis Iganga 1<br>location: East<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (33.4600902 0.6018589)",
+        "lat": 0.6018589,
+        "lon": 33.4600902,
+        "Code": "Rubis Iganga 1",
+        "location": "East",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4663445, 0.2728878, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4663445 0.2728878)<br>lat: 0.2728878<br>lon: 32.4663445<br>Code: Rubis Kitemu<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.4663445 0.2728878)",
+        "lat": 0.2728878,
+        "lon": 32.4663445,
+        "Code": "Rubis Kitemu",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5401612, 0.172532, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5401612 0.172532)<br>lat: 0.172532<br>lon: 32.5401612<br>Code: Rubis Bwebajja<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5401612 0.172532)",
+        "lat": 0.172532,
+        "lon": 32.5401612,
+        "Code": "Rubis Bwebajja",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5559932, 0.3321661, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5559932 0.3321661)<br>lat: 0.3321661<br>lon: 32.5559932<br>Code: Rubis Kasubi<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5559932 0.3321661)",
+        "lat": 0.3321661,
+        "lon": 32.5559932,
+        "Code": "Rubis Kasubi",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5555041, 0.3084902, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5555041 0.3084902)<br>lat: 0.3084902<br>lon: 32.5555041<br>Code: Rubis Mengo<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5555041 0.3084902)",
+        "lat": 0.3084902,
+        "lon": 32.5555041,
+        "Code": "Rubis Mengo",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5677739, 0.3133182, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5677739 0.3133182)<br>lat: 0.3133182<br>lon: 32.5677739<br>Code: Rubis Namirembe<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5677739 0.3133182)",
+        "lat": 0.3133182,
+        "lon": 32.5677739,
+        "Code": "Rubis Namirembe",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5075117, 0.2986211, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5075117 0.2986211)<br>lat: 0.2986211<br>lon: 32.5075117<br>Code: Rubis Kyengera<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5075117 0.2986211)",
+        "lat": 0.2986211,
+        "lon": 32.5075117,
+        "Code": "Rubis Kyengera",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5638799, 0.2930403, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5638799 0.2930403)<br>lat: 0.2930403<br>lon: 32.5638799<br>Code: Rubis Ndeeba<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5638799 0.2930403)",
+        "lat": 0.2930403,
+        "lon": 32.5638799,
+        "Code": "Rubis Ndeeba",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5729768, 0.3561781, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5729768 0.3561781)<br>lat: 0.3561781<br>lon: 32.5729768<br>Code: Rubis Gayaza<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5729768 0.3561781)",
+        "lat": 0.3561781,
+        "lon": 32.5729768,
+        "Code": "Rubis Gayaza",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4929931, 0.3324696, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4929931 0.3324696)<br>lat: 0.3324696<br>lon: 32.4929931<br>Code: Rubis Biira<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.4929931 0.3324696)",
+        "lat": 0.3324696,
+        "lon": 32.4929931,
+        "Code": "Rubis Biira",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5736543, 0.3219304, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5736543 0.3219304)<br>lat: 0.3219304<br>lon: 32.5736543<br>Code: Rubis Bombo road<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5736543 0.3219304)",
+        "lat": 0.3219304,
+        "lon": 32.5736543,
+        "Code": "Rubis Bombo road",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5768409, 0.3821341, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5768409 0.3821341)<br>lat: 0.3821341<br>lon: 32.5768409<br>Code: Rubis Mpererwe<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5768409 0.3821341)",
+        "lat": 0.3821341,
+        "lon": 32.5768409,
+        "Code": "Rubis Mpererwe",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5893721, 0.3423594, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5893721 0.3423594)<br>lat: 0.3423594<br>lon: 32.5893721<br>Code: Rubis - Kamokya<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5893721 0.3423594)",
+        "lat": 0.3423594,
+        "lon": 32.5893721,
+        "Code": "Rubis - Kamokya",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.4716357, 0.6125184, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.4716357 0.6125184)<br>lat: 0.6125184<br>lon: 33.4716357<br>Code: Independent (Rubis)<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (33.4716357 0.6125184)",
+        "lat": 0.6125184,
+        "lon": 33.4716357,
+        "Code": "Independent (Rubis)",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6173371, 0.3591728, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6173371 0.3591728)<br>lat: 0.3591728<br>lon: 32.6173371<br>Code: Rubis Ntinda<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.6173371 0.3591728)",
+        "lat": 0.3591728,
+        "lon": 32.6173371,
+        "Code": "Rubis Ntinda",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5568851, 0.3801716, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5568851 0.3801716)<br>lat: 0.3801716<br>lon: 32.5568851<br>Code: Rubis Kawempe<br>location: Central<br>Vol: <br>station: rubis<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/L0RQ04J/rubis.png",
+        "WKT": "POINT (32.5568851 0.3801716)",
+        "lat": 0.3801716,
+        "lon": 32.5568851,
+        "Code": "Rubis Kawempe",
+        "location": "Central",
+        "Vol": "",
+        "station": "rubis",
+        "sub-location": "Trade area B"
+      }
+    }
+  ]
+}
