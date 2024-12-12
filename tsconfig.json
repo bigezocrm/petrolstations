@@ -22,7 +22,7 @@
       "dom"
     ],
     "types": [
-      "jasmine","google.maps"
+      "jasmine","google.maps","googlemaps"
     ]
   },
   "angularCompilerOptions": {

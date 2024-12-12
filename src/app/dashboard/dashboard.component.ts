@@ -1077,8 +1077,8 @@ centralPolygon= {
               
                     // Add click listener to display popup details
                   
-                   let activeInfoWindow: any;
-                    map.data.addListener('click', (event: any) => {
+                 //  let activeInfoWindow: any;
+                 /*    map.data.addListener('click', (event: any) => {
                       const feature = event.feature;
                       if (!feature) {
                         console.error('No feature found on click event.');
@@ -1118,8 +1118,123 @@ centralPolygon= {
                         activeInfoWindow.open(map);
                         console.log('InfoWindow opened with details for:', properties.Code);
                       }
-                    });
-                    
+                    }); */
+                    // Initialize variable to track the active InfoWindow
+/// <reference types="google.maps" />
+
+let activeInfoWindow: any;
+
+// Add a click listener for displaying details in a popup
+/* map.data.addListener('click', (event: any) => {
+  const feature = event.feature;
+  console.error('---------------------------------POINT HAS BEEN CLICKED');
+  if (!feature) {
+    console.error('No feature found on click event.');
+    return;
+  }
+
+  const properties = feature.getProperties();
+  if (!properties) {
+    console.error('No properties found for this feature.');
+    return;
+  }
+
+  console.log('Feature properties:', properties);
+
+  // Build content for the InfoWindow
+  const contentString = `
+    <div>
+      <h3>${properties.Code || 'N/A'}</h3>
+      <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+      <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+      <p><strong>Station Type:</strong> ${properties.station?.value || 'N/A'}</p>
+    </div>
+  `;
+
+  // Close the previous InfoWindow if it exists
+  if (activeInfoWindow) {
+    activeInfoWindow.close();
+  }
+
+  // Create and open a new InfoWindow
+  activeInfoWindow = new google.maps.InfoWindow({
+    content: contentString,
+    position: event.latLng,
+  });
+
+  if (activeInfoWindow) {
+    activeInfoWindow.open(map);
+  }
+  console.log('InfoWindow opened with details for:', properties.Code);
+}); */
+
+map.data.addListener('click', (event: any) => {
+  const feature = event.feature;
+  console.error('---------------------------------POINT HAS BEEN CLICKED');
+  
+  if (!feature) {
+    console.error('No feature found on click event.');
+    return;
+  }
+
+  console.log('Feature:', feature);
+
+  // Attempt to access properties directly
+  const properties = feature.Fg;
+  if (!properties) {
+    console.error('No properties found for this feature.');
+    return;
+  }
+  
+  console.log('Feature properties:', properties);
+
+  // Build content for the InfoWindow
+  const contentString = `
+    <div>
+      <h3>${properties.Code || 'N/A'}</h3>
+      <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+      <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+      <p><strong>Station Type:</strong> ${properties.station?.value || 'N/A'}</p>
+    </div>
+  `;
+
+  // Close the previous InfoWindow if it exists
+  if (activeInfoWindow) {
+    activeInfoWindow.close();
+  }
+
+  // Create and open a new InfoWindow
+  activeInfoWindow = new google.maps.InfoWindow({
+    content: contentString,
+    position: event.latLng,
+  });
+
+  if (activeInfoWindow) {
+    activeInfoWindow.open(map);
+  }
+  console.log('InfoWindow opened with details for:', properties.Code);
+});
+
+// Close the InfoWindow when the map is clicked elsewhere
+map.addListener('click', () => {
+  if (activeInfoWindow) {
+    activeInfoWindow.close();
+    activeInfoWindow = null;
+    console.log('InfoWindow closed.');
+  }
+});
+
+
+// Close the InfoWindow when the map is clicked elsewhere
+map.addListener('click', () => {
+  if (activeInfoWindow) {
+    activeInfoWindow.close();
+    activeInfoWindow = null;
+    console.log('InfoWindow closed.');
+  }
+});
+
+
                   })
                   .catch((error) => {
                     console.error('Error fetching or processing GeoJSON data:', error);
