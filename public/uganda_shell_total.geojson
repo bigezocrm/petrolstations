@@ -12887,6 +12887,4335 @@
         "station": "rubis",
         "sub-location": "Trade area B"
       }
+    },
+    {
+      "_comment": "-------------------------------------------------------STABEX-----------",
+      "key": "-------------------------------------------------------STABEX-----------"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.1702401, -0.3982655, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.1702401 -0.3982655)<br>lat: -0.3982655<br>lon: 31.1702401<br>Station Name: Stabex Lyantonde<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.1702401 -0.3982655)",
+        "lat": -0.3982655,
+        "lon": 31.1702401,
+        "Station Name": "Stabex Lyantonde",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2825025, 0.4977733, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.2825025 0.4977733)<br>lat: 0.4977733<br>lon: 31.2825025<br>Station Name: Stabex Lusalira<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.2825025 0.4977733)",
+        "lat": 0.4977733,
+        "lon": 31.2825025,
+        "Station Name": "Stabex Lusalira",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6323634, -0.6264708, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.6323634 -0.6264708)<br>lat: -0.6264708<br>lon: 30.6323634<br>Station Name: Stabex Ruti<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.6323634 -0.6264708)",
+        "lat": -0.6264708,
+        "lon": 30.6323634,
+        "Station Name": "Stabex Ruti",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.930402, 0.4350839, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.930402 0.4350839)<br>lat: 0.4350839<br>lon: 31.930402<br>Station Name: Stabex Luswa<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.930402 0.4350839)",
+        "lat": 0.4350839,
+        "lon": 31.930402,
+        "Station Name": "Stabex Luswa",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7084772, -0.3388825, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.7084772 -0.3388825)<br>lat: -0.3388825<br>lon: 31.7084772<br>Station Name: Stabex Masaka<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.7084772 -0.3388825)",
+        "lat": -0.3388825,
+        "lon": 31.7084772,
+        "Station Name": "Stabex Masaka",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.9981434, -1.2924093, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (29.9981434 -1.2924093)<br>lat: -1.2924093<br>lon: 29.9981434<br>Station Name: Stabex Kitumba<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (29.9981434 -1.2924093)",
+        "lat": -1.2924093,
+        "lon": 29.9981434,
+        "Station Name": "Stabex Kitumba",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.2909111, 0.6599574, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.2909111 0.6599574)<br>lat: 0.6599574<br>lon: 30.2909111<br>Station Name: Stabex Fort<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.2909111 0.6599574)",
+        "lat": 0.6599574,
+        "lon": 30.2909111,
+        "Station Name": "Stabex Fort",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3396387, 1.4557032, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3396387 1.4557032)<br>lat: 1.4557032<br>lon: 31.3396387<br>Station Name: Stabex Katasiha<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3396387 1.4557032)",
+        "lat": 1.4557032,
+        "lon": 31.3396387,
+        "Station Name": "Stabex Katasiha",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.3841182, 0.421338, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.3841182 0.421338)<br>lat: 0.421338<br>lon: 32.3841182<br>Station Name: Stabex Kakiri<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.3841182 0.421338)",
+        "lat": 0.421338,
+        "lon": 32.3841182,
+        "Station Name": "Stabex Kakiri",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4437591, 0.3615339, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4437591 0.3615339)<br>lat: 0.3615339<br>lon: 32.4437591<br>Station Name: Stabex Lukwanga Sentema<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4437591 0.3615339)",
+        "lat": 0.3615339,
+        "lon": 32.4437591,
+        "Station Name": "Stabex Lukwanga Sentema",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.989238, 2.4168041, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.989238 2.4168041)<br>lat: 2.4168041<br>lon: 30.989238<br>Station Name: Stabex Paidha<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.989238 2.4168041)",
+        "lat": 2.4168041,
+        "lon": 30.989238,
+        "Station Name": "Stabex Paidha",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.3127226, 0.490358, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.3127226 0.490358)<br>lat: 0.490358<br>lon: 32.3127226<br>Station Name: Stabex Gobero<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.3127226 0.490358)",
+        "lat": 0.490358,
+        "lon": 32.3127226,
+        "Station Name": "Stabex Gobero",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2667086, 0.5224266, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.2667086 0.5224266)<br>lat: 0.5224266<br>lon: 32.2667086<br>Station Name: Stabex Namayumba<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.2667086 0.5224266)",
+        "lat": 0.5224266,
+        "lon": 32.2667086,
+        "Station Name": "Stabex Namayumba",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.9504125, -0.108127, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.9504125 -0.108127)<br>lat: -0.108127<br>lon: 31.9504125<br>Station Name: Stabex Nabweyenga<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.9504125 -0.108127)",
+        "lat": -0.108127,
+        "lon": 31.9504125,
+        "Station Name": "Stabex Nabweyenga",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.0428782, 0.4058103, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.0428782 0.4058103)<br>lat: 0.4058103<br>lon: 32.0428782<br>Station Name: Stabex Mityana<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.0428782 0.4058103)",
+        "lat": 0.4058103,
+        "lon": 32.0428782,
+        "Station Name": "Stabex Mityana",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.3785469, -0.7165579, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.3785469 -0.7165579)<br>lat: -0.7165579<br>lon: 30.3785469<br>Station Name: Stabex Bugamba<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.3785469 -0.7165579)",
+        "lat": -0.7165579,
+        "lon": 30.3785469,
+        "Station Name": "Stabex Bugamba",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.8353963, -0.0035836, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (29.8353963 -0.0035836)<br>lat: -0.0035836<br>lon: 29.8353963<br>Station Name: Stabex Mpondwe<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (29.8353963 -0.0035836)",
+        "lat": -0.0035836,
+        "lon": 29.8353963,
+        "Station Name": "Stabex Mpondwe",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.6950405, -1.2827262, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (29.6950405 -1.2827262)<br>lat: -1.2827262<br>lon: 29.6950405<br>Station Name: Stabex Kisoro<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (29.6950405 -1.2827262)",
+        "lat": -1.2827262,
+        "lon": 29.6950405,
+        "Station Name": "Stabex Kisoro",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6905824, -0.6708908, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.6905824 -0.6708908)<br>lat: -0.6708908<br>lon: 30.6905824<br>Station Name: Stabex Kaberebre<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.6905824 -0.6708908)",
+        "lat": -0.6708908,
+        "lon": 30.6905824,
+        "Station Name": "Stabex Kaberebre",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6136099, -0.6003419, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.6136099 -0.6003419)<br>lat: -0.6003419<br>lon: 30.6136099<br>Station Name: Stabex Mbarara<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.6136099 -0.6003419)",
+        "lat": -0.6003419,
+        "lon": 30.6136099,
+        "Station Name": "Stabex Mbarara",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.1928132, -0.54136, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.1928132 -0.54136)<br>lat: -0.54136<br>lon: 30.1928132<br>Station Name: Stabex Bushenyi<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.1928132 -0.54136)",
+        "lat": -0.54136,
+        "lon": 30.1928132,
+        "Station Name": "Stabex Bushenyi",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.8916782, 0.8358421, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.8916782 0.8358421)<br>lat: 0.8358421<br>lon: 31.8916782<br>Station Name: Stabex Lwamata (Kla Hoima rd)<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.8916782 0.8358421)",
+        "lat": 0.8358421,
+        "lon": 31.8916782,
+        "Station Name": "Stabex Lwamata (Kla Hoima rd)",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.4526369, 0.5361842, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.4526369 0.5361842)<br>lat: 0.5361842<br>lon: 31.4526369<br>Station Name: Stabex Katabalanga<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.4526369 0.5361842)",
+        "lat": 0.5361842,
+        "lon": 31.4526369,
+        "Station Name": "Stabex Katabalanga",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3425096, 1.4754855, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3425096 1.4754855)<br>lat: 1.4754855<br>lon: 31.3425096<br>Station Name: Stabex Kyesiga (Masindi Kyenjojo road)<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3425096 1.4754855)",
+        "lat": 1.4754855,
+        "lon": 31.3425096,
+        "Station Name": "Stabex Kyesiga (Masindi Kyenjojo road)",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3479657, 1.4292379, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3479657 1.4292379)<br>lat: 1.4292379<br>lon: 31.3479657<br>Station Name: Stabex Kiryatete<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3479657 1.4292379)",
+        "lat": 1.4292379,
+        "lon": 31.3479657,
+        "Station Name": "Stabex Kiryatete",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.0378471, 0.6904261, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.0378471 0.6904261)<br>lat: 0.6904261<br>lon: 32.0378471<br>Station Name: Stabex Bukomoero<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.0378471 0.6904261)",
+        "lat": 0.6904261,
+        "lon": 32.0378471,
+        "Station Name": "Stabex Bukomoero",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.5948868, 1.1260287, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.5948868 1.1260287)<br>lat: 1.1260287<br>lon: 31.5948868<br>Station Name: Stabex Bukwiri<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.5948868 1.1260287)",
+        "lat": 1.1260287,
+        "lon": 31.5948868,
+        "Station Name": "Stabex Bukwiri",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7647742, 0.9171989, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.7647742 0.9171989)<br>lat: 0.9171989<br>lon: 31.7647742<br>Station Name: Stabex Kiboga City Fuel<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.7647742 0.9171989)",
+        "lat": 0.9171989,
+        "lon": 31.7647742,
+        "Station Name": "Stabex Kiboga City Fuel",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.418434, 2.118893, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.418434 2.118893)<br>lat: 2.118893<br>lon: 31.418434<br>Station Name: Stabex Bulisa<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.418434 2.118893)",
+        "lat": 2.118893,
+        "lon": 31.418434,
+        "Station Name": "Stabex Bulisa",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.9517061, 2.5985872, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.9517061 2.5985872)<br>lat: 2.5985872<br>lon: 31.9517061<br>Station Name: Stabex Anaka<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.9517061 2.5985872)",
+        "lat": 2.5985872,
+        "lon": 31.9517061,
+        "Station Name": "Stabex Anaka",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8960591, 2.2257375, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.8960591 2.2257375)<br>lat: 2.2257375<br>lon: 32.8960591<br>Station Name: Stabex Lira<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.8960591 2.2257375)",
+        "lat": 2.2257375,
+        "lon": 32.8960591,
+        "Station Name": "Stabex Lira",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.3000861, 2.7618683, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.3000861 2.7618683)<br>lat: 2.7618683<br>lon: 32.3000861<br>Station Name: Stabex Gulu<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.3000861 2.7618683)",
+        "lat": 2.7618683,
+        "lon": 32.3000861,
+        "Station Name": "Stabex Gulu",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9363282, 2.4776241, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.9363282 2.4776241)<br>lat: 2.4776241<br>lon: 32.9363282<br>Station Name: Stabex Agwen<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.9363282 2.4776241)",
+        "lat": 2.4776241,
+        "lon": 32.9363282,
+        "Station Name": "Stabex Agwen",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.9136487, 3.143719, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.9136487 3.143719)<br>lat: 3.143719<br>lon: 32.9136487<br>Station Name: Stabex Acholibur<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.9136487 3.143719)",
+        "lat": 3.143719,
+        "lon": 32.9136487,
+        "Station Name": "Stabex Acholibur",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9132904, 2.9949564, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.9132904 2.9949564)<br>lat: 2.9949564<br>lon: 30.9132904<br>Station Name: Stabex Arua<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.9132904 2.9949564)",
+        "lat": 2.9949564,
+        "lon": 30.9132904,
+        "Station Name": "Stabex Arua",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.9419883, 2.596082, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.9419883 2.596082)<br>lat: 2.596082<br>lon: 31.9419883<br>Station Name: Stabex Anaka 2<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.9419883 2.596082)",
+        "lat": 2.596082,
+        "lon": 31.9419883,
+        "Station Name": "Stabex Anaka 2",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5320828, 0.5942718, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5320828 0.5942718)<br>lat: 0.5942718<br>lon: 32.5320828<br>Station Name: Stabex Bombo<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5320828 0.5942718)",
+        "lat": 0.5942718,
+        "lon": 32.5320828,
+        "Station Name": "Stabex Bombo",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4846774, 0.8707437, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4846774 0.8707437)<br>lat: 0.8707437<br>lon: 32.4846774<br>Station Name: Stabex Kyevuze<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4846774 0.8707437)",
+        "lat": 0.8707437,
+        "lon": 32.4846774,
+        "Station Name": "Stabex Kyevuze",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5023681, 0.8237726, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5023681 0.8237726)<br>lat: 0.8237726<br>lon: 32.5023681<br>Station Name: Stabex Kasana<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5023681 0.8237726)",
+        "lat": 0.8237726,
+        "lon": 32.5023681,
+        "Station Name": "Stabex Kasana",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1606013, 1.0796942, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.1606013 1.0796942)<br>lat: 1.0796942<br>lon: 34.1606013<br>Station Name: Stabex Hayat<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.1606013 1.0796942)",
+        "lat": 1.0796942,
+        "lon": 34.1606013,
+        "Station Name": "Stabex Hayat",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.7633322, 0.3388108, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.7633322 0.3388108)<br>lat: 0.3388108<br>lon: 32.7633322<br>Station Name: Stabex Dandira Katosi<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.7633322 0.3388108)",
+        "lat": 0.3388108,
+        "lon": 32.7633322,
+        "Station Name": "Stabex Dandira Katosi",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8537103, 0.3890743, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.8537103 0.3890743)<br>lat: 0.3890743<br>lon: 32.8537103<br>Station Name: Stabex Namataba<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.8537103 0.3890743)",
+        "lat": 0.3890743,
+        "lon": 32.8537103,
+        "Station Name": "Stabex Namataba",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.2339609, 0.6466697, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.2339609 0.6466697)<br>lat: 0.6466697<br>lon: 34.2339609<br>Station Name: Stabex Malaba<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.2339609 0.6466697)",
+        "lat": 0.6466697,
+        "lon": 34.2339609,
+        "Station Name": "Stabex Malaba",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.1980527, 0.4441983, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.1980527 0.4441983)<br>lat: 0.4441983<br>lon: 33.1980527<br>Station Name: Stabex Ambercourt<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.1980527 0.4441983)",
+        "lat": 0.4441983,
+        "lon": 33.1980527,
+        "Station Name": "Stabex Ambercourt",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.2300524, 0.4629838, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.2300524 0.4629838)<br>lat: 0.4629838<br>lon: 33.2300524<br>Station Name: Stabex Bugembe<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.2300524 0.4629838)",
+        "lat": 0.4629838,
+        "lon": 33.2300524,
+        "Station Name": "Stabex Bugembe",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.2168618, 0.4440548, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.2168618 0.4440548)<br>lat: 0.4440548<br>lon: 33.2168618<br>Station Name: Stabex Jinja<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.2168618 0.4440548)",
+        "lat": 0.4440548,
+        "lon": 33.2168618,
+        "Station Name": "Stabex Jinja",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.4767148, 0.4602556, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.4767148 0.4602556)<br>lat: 0.4602556<br>lon: 33.4767148<br>Station Name: Stabex (<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.4767148 0.4602556)",
+        "lat": 0.4602556,
+        "lon": 33.4767148,
+        "Station Name": "Stabex (",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1756795, 1.0972431, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.1756795 1.0972431)<br>lat: 1.0972431<br>lon: 34.1756795<br>Station Name: Stabex Imran<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.1756795 1.0972431)",
+        "lat": 1.0972431,
+        "lon": 34.1756795,
+        "Station Name": "Stabex Imran",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1671958, 0.9845652, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.1671958 0.9845652)<br>lat: 0.9845652<br>lon: 34.1671958<br>Station Name: Stabex Tororo<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.1671958 0.9845652)",
+        "lat": 0.9845652,
+        "lon": 34.1671958,
+        "Station Name": "Stabex Tororo",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5548971, 0.363455, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5548971 0.363455)<br>lat: 0.363455<br>lon: 32.5548971<br>Station Name: Stabex Kawempe<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5548971 0.363455)",
+        "lat": 0.363455,
+        "lon": 32.5548971,
+        "Station Name": "Stabex Kawempe",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5456495, 0.1571486, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5456495 0.1571486)<br>lat: 0.1571486<br>lon: 32.5456495<br>Station Name: Stabex Namulanda<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5456495 0.1571486)",
+        "lat": 0.1571486,
+        "lon": 32.5456495,
+        "Station Name": "Stabex Namulanda",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [33.6037247, 0.626318, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.6037247 0.626318)<br>lat: 0.626318<br>lon: 33.6037247<br>Station Name: Stabex Busesa<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.6037247 0.626318)",
+        "lat": 0.626318,
+        "lon": 33.6037247,
+        "Station Name": "Stabex Busesa",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.7842562, 0.4280085, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.7842562 0.4280085)<br>lat: 0.4280085<br>lon: 33.7842562<br>Station Name: Stabex Muterere<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.7842562 0.4280085)",
+        "lat": 0.4280085,
+        "lon": 33.7842562,
+        "Station Name": "Stabex Muterere",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [33.255187, 0.4727119, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.255187 0.4727119)<br>lat: 0.4727119<br>lon: 33.255187<br>Station Name: Stabex Mungano<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.255187 0.4727119)",
+        "lat": 0.4727119,
+        "lon": 33.255187,
+        "Station Name": "Stabex Mungano",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.0569006, 0.4731265, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.0569006 0.4731265)<br>lat: 0.4731265<br>lon: 34.0569006<br>Station Name: Stabex Busia<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.0569006 0.4731265)",
+        "lat": 0.4731265,
+        "lon": 34.0569006,
+        "Station Name": "Stabex Busia",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [33.493582, 0.6230968, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.493582 0.6230968)<br>lat: 0.6230968<br>lon: 33.493582<br>Station Name: Stabex Iganga<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.493582 0.6230968)",
+        "lat": 0.6230968,
+        "lon": 33.493582,
+        "Station Name": "Stabex Iganga",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.1666155, 1.1313028, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.1666155 1.1313028)<br>lat: 1.1313028<br>lon: 34.1666155<br>Station Name: Stabex Mbale<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.1666155 1.1313028)",
+        "lat": 1.1313028,
+        "lon": 34.1666155,
+        "Station Name": "Stabex Mbale",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6353868, 0.3329968, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6353868 0.3329968)<br>lat: 0.3329968<br>lon: 32.6353868<br>Station Name: Stabex Kinwataka<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6353868 0.3329968)",
+        "lat": 0.3329968,
+        "lon": 32.6353868,
+        "Station Name": "Stabex Kinwataka",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.735451, 0.3713366, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.735451 0.3713366)<br>lat: 0.3713366<br>lon: 32.735451<br>Station Name: Stabex Mukono<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.735451 0.3713366)",
+        "lat": 0.3713366,
+        "lon": 32.735451,
+        "Station Name": "Stabex Mukono",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.7038199, 0.3890128, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.7038199 0.3890128)<br>lat: 0.3890128<br>lon: 32.7038199<br>Station Name: Stabex Sonde<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.7038199 0.3890128)",
+        "lat": 0.3890128,
+        "lon": 32.7038199,
+        "Station Name": "Stabex Sonde",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6707999, 0.3974046, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6707999 0.3974046)<br>lat: 0.3974046<br>lon: 32.6707999<br>Station Name: Stabex Namugongo<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6707999 0.3974046)",
+        "lat": 0.3974046,
+        "lon": 32.6707999,
+        "Station Name": "Stabex Namugongo",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5867676, 0.2951929, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5867676 0.2951929)<br>lat: 0.2951929<br>lon: 32.5867676<br>Station Name: Stabex Nsambya<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5867676 0.2951929)",
+        "lat": 0.2951929,
+        "lon": 32.5867676,
+        "Station Name": "Stabex Nsambya",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6064314, 0.2539866, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6064314 0.2539866)<br>lat: 0.2539866<br>lon: 32.6064314<br>Station Name: Stabex (Salama)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6064314 0.2539866)",
+        "lat": 0.2539866,
+        "lon": 32.6064314,
+        "Station Name": "Stabex (Salama)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6138128, 0.2778744, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6138128 0.2778744)<br>lat: 0.2778744<br>lon: 32.6138128<br>Station Name: Stabex Ggaba<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6138128 0.2778744)",
+        "lat": 0.2778744,
+        "lon": 32.6138128,
+        "Station Name": "Stabex Ggaba",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5683623, 0.2603981, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5683623 0.2603981)<br>lat: 0.2603981<br>lon: 32.5683623<br>Station Name: Stabex (Ndejje )<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5683623 0.2603981)",
+        "lat": 0.2603981,
+        "lon": 32.5683623,
+        "Station Name": "Stabex (Ndejje )",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5376188, 0.3117705, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5376188 0.3117705)<br>lat: 0.3117705<br>lon: 32.5376188<br>Station Name: Staabex Lunguja<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5376188 0.3117705)",
+        "lat": 0.3117705,
+        "lon": 32.5376188,
+        "Station Name": "Staabex Lunguja",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5631983, 0.3425671, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5631983 0.3425671)<br>lat: 0.3425671<br>lon: 32.5631983<br>Station Name: Stabex (Sir Apollo)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5631983 0.3425671)",
+        "lat": 0.3425671,
+        "lon": 32.5631983,
+        "Station Name": "Stabex (Sir Apollo)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5964788, 0.2895079, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5964788 0.2895079)<br>lat: 0.2895079<br>lon: 32.5964788<br>Station Name: Stabex Kirombe<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5964788 0.2895079)",
+        "lat": 0.2895079,
+        "lon": 32.5964788,
+        "Station Name": "Stabex Kirombe",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6211214, 0.2684786, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6211214 0.2684786)<br>lat: 0.2684786<br>lon: 32.6211214<br>Station Name: Stabex Bunga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6211214 0.2684786)",
+        "lat": 0.2684786,
+        "lon": 32.6211214,
+        "Station Name": "Stabex Bunga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5451204, 0.2267305, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5451204 0.2267305)<br>lat: 0.2267305<br>lon: 32.5451204<br>Station Name: Stabex Lweza<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5451204 0.2267305)",
+        "lat": 0.2267305,
+        "lon": 32.5451204,
+        "Station Name": "Stabex Lweza",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5602528, 0.3056285, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5602528 0.3056285)<br>lat: 0.3056285<br>lon: 32.5602528<br>Station Name: Stabex Rubaga road<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5602528 0.3056285)",
+        "lat": 0.3056285,
+        "lon": 32.5602528,
+        "Station Name": "Stabex Rubaga road",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5854093, 0.2874337, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5854093 0.2874337)<br>lat: 0.2874337<br>lon: 32.5854093<br>Station Name: Stabex (Makindye road)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5854093 0.2874337)",
+        "lat": 0.2874337,
+        "lon": 32.5854093,
+        "Station Name": "Stabex (Makindye road)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4638447, 0.1899637, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4638447 0.1899637)<br>lat: 0.1899637<br>lon: 32.4638447<br>Station Name: Stabex Nakwauka<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4638447 0.1899637)",
+        "lat": 0.1899637,
+        "lon": 32.4638447,
+        "Station Name": "Stabex Nakwauka",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5924529, 0.2475183, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5924529 0.2475183)<br>lat: 0.2475183<br>lon: 32.5924529<br>Station Name: Stabex Gangu<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5924529 0.2475183)",
+        "lat": 0.2475183,
+        "lon": 32.5924529,
+        "Station Name": "Stabex Gangu",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5476999, 0.3367816, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5476999 0.3367816)<br>lat: 0.3367816<br>lon: 32.5476999<br>Station Name: Stabex (Namugona)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5476999 0.3367816)",
+        "lat": 0.3367816,
+        "lon": 32.5476999,
+        "Station Name": "Stabex (Namugona)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6004529, 0.3094205, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6004529 0.3094205)<br>lat: 0.3094205<br>lon: 32.6004529<br>Station Name: Stabex Kibuli<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6004529 0.3094205)",
+        "lat": 0.3094205,
+        "lon": 32.6004529,
+        "Station Name": "Stabex Kibuli",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5477116, 0.2879594, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5477116 0.2879594)<br>lat: 0.2879594<br>lon: 32.5477116<br>Station Name: Stabex Mutundwe<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5477116 0.2879594)",
+        "lat": 0.2879594,
+        "lon": 32.5477116,
+        "Station Name": "Stabex Mutundwe",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5666746, 0.2638289, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5666746 0.2638289)<br>lat: 0.2638289<br>lon: 32.5666746<br>Station Name: Stabex Namasuba<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5666746 0.2638289)",
+        "lat": 0.2638289,
+        "lon": 32.5666746,
+        "Station Name": "Stabex Namasuba",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5080276, 0.1014623, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5080276 0.1014623)<br>lat: 0.1014623<br>lon: 32.5080276<br>Station Name: Stabex Mpala<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5080276 0.1014623)",
+        "lat": 0.1014623,
+        "lon": 32.5080276,
+        "Station Name": "Stabex Mpala",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.520851, 0.1063533, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.520851 0.1063533)<br>lat: 0.1063533<br>lon: 32.520851<br>Station Name: Stabex (Garuga)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.520851 0.1063533)",
+        "lat": 0.1063533,
+        "lon": 32.520851,
+        "Station Name": "Stabex (Garuga)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5562636, 0.2419203, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5562636 0.2419203)<br>lat: 0.2419203<br>lon: 32.5562636<br>Station Name: Stabex Lubowa<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5562636 0.2419203)",
+        "lat": 0.2419203,
+        "lon": 32.5562636,
+        "Station Name": "Stabex Lubowa",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5386036, 0.1863413, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5386036 0.1863413)<br>lat: 0.1863413<br>lon: 32.5386036<br>Station Name: Stabex Kitende<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5386036 0.1863413)",
+        "lat": 0.1863413,
+        "lon": 32.5386036,
+        "Station Name": "Stabex Kitende",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5533339, 0.3238128, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5533339 0.3238128)<br>lat: 0.3238128<br>lon: 32.5533339<br>Station Name: Stabex Munaku Nabulagala road<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5533339 0.3238128)",
+        "lat": 0.3238128,
+        "lon": 32.5533339,
+        "Station Name": "Stabex Munaku Nabulagala road",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5380873, 0.137264, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5380873 0.137264)<br>lat: 0.137264<br>lon: 32.5380873<br>Station Name: Stabex Kawuku<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5380873 0.137264)",
+        "lat": 0.137264,
+        "lon": 32.5380873,
+        "Station Name": "Stabex Kawuku",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5508247, 0.306437, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5508247 0.306437)<br>lat: 0.306437<br>lon: 32.5508247<br>Station Name: Stabex Wakaliga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5508247 0.306437)",
+        "lat": 0.306437,
+        "lon": 32.5508247,
+        "Station Name": "Stabex Wakaliga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5391895, 0.3253825, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5391895 0.3253825)<br>lat: 0.3253825<br>lon: 32.5391895<br>Station Name: Stabex (Lugala) Sentema road<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5391895 0.3253825)",
+        "lat": 0.3253825,
+        "lon": 32.5391895,
+        "Station Name": "Stabex (Lugala) Sentema road",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5389652, 0.3497964, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5389652 0.3497964)<br>lat: 0.3497964<br>lon: 32.5389652<br>Station Name: Stabex Nansana 2<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5389652 0.3497964)",
+        "lat": 0.3497964,
+        "lon": 32.5389652,
+        "Station Name": "Stabex Nansana 2",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4871971, 0.3332615, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4871971 0.3332615)<br>lat: 0.3332615<br>lon: 32.4871971<br>Station Name: Stabex Bulenga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4871971 0.3332615)",
+        "lat": 0.3332615,
+        "lon": 32.4871971,
+        "Station Name": "Stabex Bulenga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4492693, 0.2808582, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4492693 0.2808582)<br>lat: 0.2808582<br>lon: 32.4492693<br>Station Name: Stabex Nsangi<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4492693 0.2808582)",
+        "lat": 0.2808582,
+        "lon": 32.4492693,
+        "Station Name": "Stabex Nsangi",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5614154, 0.2936635, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5614154 0.2936635)<br>lat: 0.2936635<br>lon: 32.5614154<br>Station Name: Stabex Ndeeba<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5614154 0.2936635)",
+        "lat": 0.2936635,
+        "lon": 32.5614154,
+        "Station Name": "Stabex Ndeeba",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4697024, 0.3268527, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4697024 0.3268527)<br>lat: 0.3268527<br>lon: 32.4697024<br>Station Name: Stabex Bulaga (Buloba)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4697024 0.3268527)",
+        "lat": 0.3268527,
+        "lon": 32.4697024,
+        "Station Name": "Stabex Bulaga (Buloba)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5709827, 0.303408, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5709827 0.303408)<br>lat: 0.303408<br>lon: 32.5709827<br>Station Name: Stabex Mengo Hill<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5709827 0.303408)",
+        "lat": 0.303408,
+        "lon": 32.5709827,
+        "Station Name": "Stabex Mengo Hill",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.453292, 0.4136562, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.453292 0.4136562)<br>lat: 0.4136562<br>lon: 32.453292<br>Station Name: Stabex Namusera<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.453292 0.4136562)",
+        "lat": 0.4136562,
+        "lon": 32.453292,
+        "Station Name": "Stabex Namusera",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4979237, 0.3958204, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4979237 0.3958204)<br>lat: 0.3958204<br>lon: 32.4979237<br>Station Name: Stabex Kayunga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4979237 0.3958204)",
+        "lat": 0.3958204,
+        "lon": 32.4979237,
+        "Station Name": "Stabex Kayunga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5393512, 0.3502657, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5393512 0.3502657)<br>lat: 0.3502657<br>lon: 32.5393512<br>Station Name: Stabex headoffice<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5393512 0.3502657)",
+        "lat": 0.3502657,
+        "lon": 32.5393512,
+        "Station Name": "Stabex headoffice",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5865185, 0.3920435, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5865185 0.3920435)<br>lat: 0.3920435<br>lon: 32.5865185<br>Station Name: Stabex Komamboga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5865185 0.3920435)",
+        "lat": 0.3920435,
+        "lon": 32.5865185,
+        "Station Name": "Stabex Komamboga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5740579, 0.3588976, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5740579 0.3588976)<br>lat: 0.3588976<br>lon: 32.5740579<br>Station Name: Stabex Kyebando<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5740579 0.3588976)",
+        "lat": 0.3588976,
+        "lon": 32.5740579,
+        "Station Name": "Stabex Kyebando",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5783167, 0.3872376, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5783167 0.3872376)<br>lat: 0.3872376<br>lon: 32.5783167<br>Station Name: Stabex Mpererwe<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5783167 0.3872376)",
+        "lat": 0.3872376,
+        "lon": 32.5783167,
+        "Station Name": "Stabex Mpererwe",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6107306, 0.3586283, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6107306 0.3586283)<br>lat: 0.3586283<br>lon: 32.6107306<br>Station Name: Stabex Ntinda<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6107306 0.3586283)",
+        "lat": 0.3586283,
+        "lon": 32.6107306,
+        "Station Name": "Stabex Ntinda",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5770527, 0.3816983, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5770527 0.3816983)<br>lat: 0.3816983<br>lon: 32.5770527<br>Station Name: Stabex Mpererwe 2<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5770527 0.3816983)",
+        "lat": 0.3816983,
+        "lon": 32.5770527,
+        "Station Name": "Stabex Mpererwe 2",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6251192, 0.4632047, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6251192 0.4632047)<br>lat: 0.4632047<br>lon: 32.6251192<br>Station Name: Stabex Manyagwa<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6251192 0.4632047)",
+        "lat": 0.4632047,
+        "lon": 32.6251192,
+        "Station Name": "Stabex Manyagwa",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5828856, 0.44474, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5828856 0.44474)<br>lat: 0.44474<br>lon: 32.5828856<br>Station Name: Stabex Nangabo<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5828856 0.44474)",
+        "lat": 0.44474,
+        "lon": 32.5828856,
+        "Station Name": "Stabex Nangabo",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.6262075, 0.381849, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6262075 0.381849)<br>lat: 0.381849<br>lon: 32.6262075<br>Station Name: Stabex Najjera<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6262075 0.381849)",
+        "lat": 0.381849,
+        "lon": 32.6262075,
+        "Station Name": "Stabex Najjera",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6434266, 0.3635202, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6434266 0.3635202)<br>lat: 0.3635202<br>lon: 32.6434266<br>Station Name: Stabex Kamuli<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6434266 0.3635202)",
+        "lat": 0.3635202,
+        "lon": 32.6434266,
+        "Station Name": "Stabex Kamuli",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.572417, 0.3373528, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.572417 0.3373528)<br>lat: 0.3373528<br>lon: 32.572417<br>Station Name: Stabex Wandegeya Bombo road<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area A<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.572417 0.3373528)",
+        "lat": 0.3373528,
+        "lon": 32.572417,
+        "Station Name": "Stabex Wandegeya Bombo road",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6502547, 0.3561554, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6502547 0.3561554)<br>lat: 0.3561554<br>lon: 32.6502547<br>Station Name: Stabex Namugongo<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6502547 0.3561554)",
+        "lat": 0.3561554,
+        "lon": 32.6502547,
+        "Station Name": "Stabex Namugongo",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5297567, 0.4468218, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5297567 0.4468218)<br>lat: 0.4468218<br>lon: 32.5297567<br>Station Name: Stabex Matugga<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5297567 0.4468218)",
+        "lat": 0.4468218,
+        "lon": 32.5297567,
+        "Station Name": "Stabex Matugga",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6408587, 0.3935128, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6408587 0.3935128)<br>lat: 0.3935128<br>lon: 32.6408587<br>Station Name: Stabex Kiwatule<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6408587 0.3935128)",
+        "lat": 0.3935128,
+        "lon": 32.6408587,
+        "Station Name": "Stabex Kiwatule",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6445478, 0.4221889, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6445478 0.4221889)<br>lat: 0.4221889<br>lon: 32.6445478<br>Station Name: Stabex (Bulindo)<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6445478 0.4221889)",
+        "lat": 0.4221889,
+        "lon": 32.6445478,
+        "Station Name": "Stabex (Bulindo)",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.4346526, 0.323391, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4346526 0.323391)<br>lat: 0.323391<br>lon: 32.4346526<br>Station Name: Stabex Buloba Annex<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4346526 0.323391)",
+        "lat": 0.323391,
+        "lon": 32.4346526,
+        "Station Name": "Stabex Buloba Annex",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.7849585, 0.2936342, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.7849585 0.2936342)<br>lat: 0.2936342<br>lon: 32.7849585<br>Station Name: Stabex Namaiba<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.7849585 0.2936342)",
+        "lat": 0.2936342,
+        "lon": 32.7849585,
+        "Station Name": "Stabex Namaiba",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.4211719, 0.5045082, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.4211719 0.5045082)<br>lat: 0.5045082<br>lon: 33.4211719<br>Station Name: Stabex Mayuge 2<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.4211719 0.5045082)",
+        "lat": 0.5045082,
+        "lon": 33.4211719,
+        "Station Name": "Stabex Mayuge 2",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.526901, 0.3500527, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.526901 0.3500527)<br>lat: 0.3500527<br>lon: 32.526901<br>Station Name: Stabex Gganda<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.526901 0.3500527)",
+        "lat": 0.3500527,
+        "lon": 32.526901,
+        "Station Name": "Stabex Gganda",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6499331, 0.3648779, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6499331 0.3648779)<br>lat: 0.3648779<br>lon: 32.6499331<br>Station Name: Stabex Mbalwa<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6499331 0.3648779)",
+        "lat": 0.3648779,
+        "lon": 32.6499331,
+        "Station Name": "Stabex Mbalwa",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6509346, 0.3444424, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6509346 0.3444424)<br>lat: 0.3444424<br>lon: 32.6509346<br>Station Name: Stabex Kireka<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6509346 0.3444424)",
+        "lat": 0.3444424,
+        "lon": 32.6509346,
+        "Station Name": "Stabex Kireka",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6001124, 0.2788566, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6001124 0.2788566)<br>lat: 0.2788566<br>lon: 32.6001124<br>Station Name: Stabex Lukuli 2<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6001124 0.2788566)",
+        "lat": 0.2788566,
+        "lon": 32.6001124,
+        "Station Name": "Stabex Lukuli 2",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4901146, 0.8470015, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4901146 0.8470015)<br>lat: 0.8470015<br>lon: 32.4901146<br>Station Name: Stabex Luweero<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4901146 0.8470015)",
+        "lat": 0.8470015,
+        "lon": 32.4901146,
+        "Station Name": "Stabex Luweero",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.2130598, 0.6124868, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.2130598 0.6124868)<br>lat: 0.6124868<br>lon: 30.2130598<br>Station Name: Stabex Kamwenge<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.2130598 0.6124868)",
+        "lat": 0.6124868,
+        "lon": 30.2130598,
+        "Station Name": "Stabex Kamwenge",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.5038021, 0.8913271, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.5038021 0.8913271)<br>lat: 0.8913271<br>lon: 33.5038021<br>Station Name: Stabex Kaliro<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.5038021 0.8913271)",
+        "lat": 0.8913271,
+        "lon": 33.5038021,
+        "Station Name": "Stabex Kaliro",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2027964, 0.5667941, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.2027964 0.5667941)<br>lat: 0.5667941<br>lon: 32.2027964<br>Station Name: Stabex Busunju<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.2027964 0.5667941)",
+        "lat": 0.5667941,
+        "lon": 32.2027964,
+        "Station Name": "Stabex Busunju",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6749429, 0.3541542, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6749429 0.3541542)<br>lat: 0.3541542<br>lon: 32.6749429<br>Station Name: Stabex Namanve<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6749429 0.3541542)",
+        "lat": 0.3541542,
+        "lon": 32.6749429,
+        "Station Name": "Stabex Namanve",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.2781332, 0.6556897, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.2781332 0.6556897)<br>lat: 0.6556897<br>lon: 30.2781332<br>Station Name: Stabex Asimwe Fortportal<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.2781332 0.6556897)",
+        "lat": 0.6556897,
+        "lon": 30.2781332,
+        "Station Name": "Stabex Asimwe Fortportal",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.3239132, 0.783111, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3239132 0.783111)<br>lat: 0.783111<br>lon: 31.3239132<br>Station Name: Stabex Kakumiro<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3239132 0.783111)",
+        "lat": 0.783111,
+        "lon": 31.3239132,
+        "Station Name": "Stabex Kakumiro",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3605356, 1.4258866, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3605356 1.4258866)<br>lat: 1.4258866<br>lon: 31.3605356<br>Station Name: Stabex Hoima<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3605356 1.4258866)",
+        "lat": 1.4258866,
+        "lon": 31.3605356,
+        "Station Name": "Stabex Hoima",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7631659, 0.9177473, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.7631659 0.9177473)<br>lat: 0.9177473<br>lon: 31.7631659<br>Station Name: Stabex Kiboga<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.7631659 0.9177473)",
+        "lat": 0.9177473,
+        "lon": 31.7631659,
+        "Station Name": "Stabex Kiboga",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9552636, 1.0170415, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.9552636 1.0170415)<br>lat: 1.0170415<br>lon: 33.9552636<br>Station Name: Stabex Budaka<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.9552636 1.0170415)",
+        "lat": 1.0170415,
+        "lon": 33.9552636,
+        "Station Name": "Stabex Budaka",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.1764348, 0.6431598, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (33.1764348 0.6431598)<br>lat: 0.6431598<br>lon: 33.1764348<br>Station Name: Stabex Buwenge<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (33.1764348 0.6431598)",
+        "lat": 0.6431598,
+        "lon": 33.1764348,
+        "Station Name": "Stabex Buwenge",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.4480076, 1.3972596, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (34.4480076 1.3972596)<br>lat: 1.3972596<br>lon: 34.4480076<br>Station Name: Stabex Kapchorwa<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (34.4480076 1.3972596)",
+        "lat": 1.3972596,
+        "lon": 34.4480076,
+        "Station Name": "Stabex Kapchorwa",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9287447, 2.1332904, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.9287447 2.1332904)<br>lat: 2.1332904<br>lon: 32.9287447<br>Station Name: Stabex Awela<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.9287447 2.1332904)",
+        "lat": 2.1332904,
+        "lon": 32.9287447,
+        "Station Name": "Stabex Awela",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8994301, 2.2165904, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.8994301 2.2165904)<br>lat: 2.2165904<br>lon: 32.8994301<br>Station Name: Stabex Nakaloke (Obote Av)<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.8994301 2.2165904)",
+        "lat": 2.2165904,
+        "lon": 32.8994301,
+        "Station Name": "Stabex Nakaloke (Obote Av)",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4959295, 0.0909291, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4959295 0.0909291)<br>lat: 0.0909291<br>lon: 32.4959295<br>Station Name: Stabex Abayita<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4959295 0.0909291)",
+        "lat": 0.0909291,
+        "lon": 32.4959295,
+        "Station Name": "Stabex Abayita",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5457348, 0.5784622, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5457348 0.5784622)<br>lat: 0.5784622<br>lon: 32.5457348<br>Station Name: Stabex Annex<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5457348 0.5784622)",
+        "lat": 0.5784622,
+        "lon": 32.5457348,
+        "Station Name": "Stabex Annex",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5230375, 0.3039862, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5230375 0.3039862)<br>lat: 0.3039862<br>lon: 32.5230375<br>Station Name: Stabex Busega<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5230375 0.3039862)",
+        "lat": 0.3039862,
+        "lon": 32.5230375,
+        "Station Name": "Stabex Busega",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6592428, 0.5893474, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.6592428 0.5893474)<br>lat: 0.5893474<br>lon: 32.6592428<br>Station Name: Stabex Busiika<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.6592428 0.5893474)",
+        "lat": 0.5893474,
+        "lon": 32.6592428,
+        "Station Name": "Stabex Busiika",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.562565, 0.2813861, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.562565 0.2813861)<br>lat: 0.2813861<br>lon: 32.562565<br>Station Name: Stabex Kabowa<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area E<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.562565 0.2813861)",
+        "lat": 0.2813861,
+        "lon": 32.562565,
+        "Station Name": "Stabex Kabowa",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2913028, -0.3217448, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.2913028 -0.3217448)<br>lat: -0.3217448<br>lon: 32.2913028<br>Station Name: Stabex Kalangala<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.2913028 -0.3217448)",
+        "lat": -0.3217448,
+        "lon": 32.2913028,
+        "Station Name": "Stabex Kalangala",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4624806, 0.0550562, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4624806 0.0550562)<br>lat: 0.0550562<br>lon: 32.4624806<br>Station Name: Stabex Kitooro<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area D<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4624806 0.0550562)",
+        "lat": 0.0550562,
+        "lon": 32.4624806,
+        "Station Name": "Stabex Kitooro",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.8819701, 1.7909893, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": "{\"@type\":\"html\",\"value\":\"WKT: POINT (31.8819701 1.7909893)<br>lat: 1.7909893<br>lon: 31.8819701<br>Station Name: Stabex Kyatiri<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: \"}",
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": "[32,64]",
+        "icon-offset-units": "[\"pixels\",\"insetPixels\"]",
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.8819701 1.7909893)",
+        "lat": 1.7909893,
+        "lon": 31.8819701,
+        "Station Name": "Stabex Kyatiri",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4815974, 0.8889703, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4815974 0.8889703)<br>lat: 0.8889703<br>lon: 32.4815974<br>Station Name: Stabex Magoma (Kla Gulu)<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4815974 0.8889703)",
+        "lat": 0.8889703,
+        "lon": 32.4815974,
+        "Station Name": "Stabex Magoma (Kla Gulu)",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3160205, 1.3472541, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3160205 1.3472541)<br>lat: 1.3472541<br>lon: 31.3160205<br>Station Name: Independent Oil Plus<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3160205 1.3472541)",
+        "lat": 1.3472541,
+        "lon": 31.3160205,
+        "Station Name": "Independent Oil Plus",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4510659, 0.5336867, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.4510659 0.5336867)<br>lat: 0.5336867<br>lon: 32.4510659<br>Station Name: Stabex Busiriki<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area C<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.4510659 0.5336867)",
+        "lat": 0.5336867,
+        "lon": 32.4510659,
+        "Station Name": "Stabex Busiriki",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2959917, 0.1931659, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.2959917 0.1931659)<br>lat: 0.1931659<br>lon: 32.2959917<br>Station Name: Stabex  Mpambire<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.2959917 0.1931659)",
+        "lat": 0.1931659,
+        "lon": 32.2959917,
+        "Station Name": "Stabex  Mpambire",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.7915031, 0.541853, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.7915031 0.541853)<br>lat: 0.541853<br>lon: 32.7915031<br>Station Name: Stabex Nakifuma<br>location: East<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.7915031 0.541853)",
+        "lat": 0.541853,
+        "lon": 32.7915031,
+        "Station Name": "Stabex Nakifuma",
+        "location": "East",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3121934, 2.2341697, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3121934 2.2341697)<br>lat: 2.2341697<br>lon: 31.3121934<br>Station Name: Stabex Panyimur<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3121934 2.2341697)",
+        "lat": 2.2341697,
+        "lon": 31.3121934,
+        "Station Name": "Stabex Panyimur",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2025544, 2.3049875, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.2025544 2.3049875)<br>lat: 2.3049875<br>lon: 31.2025544<br>Station Name: Stabex Porombo<br>location: North<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.2025544 2.3049875)",
+        "lat": 2.3049875,
+        "lon": 31.2025544,
+        "Station Name": "Stabex Porombo",
+        "location": "North",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.9055134, -0.4983576, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (30.9055134 -0.4983576)<br>lat: -0.4983576<br>lon: 30.9055134<br>Station Name: Stabex Nsanga<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (30.9055134 -0.4983576)",
+        "lat": -0.4983576,
+        "lon": 30.9055134,
+        "Station Name": "Stabex Nsanga",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5697761, 0.3639689, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5697761 0.3639689)<br>lat: 0.3639689<br>lon: 32.5697761<br>Station Name: Stabex Tula<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5697761 0.3639689)",
+        "lat": 0.3639689,
+        "lon": 32.5697761,
+        "Station Name": "Stabex Tula",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.569406, 0.3655982, 0] },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.569406 0.3655982)<br>lat: 0.3655982<br>lon: 32.569406<br>Station Name: Stabex Tula 2<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.569406 0.3655982)",
+        "lat": 0.3655982,
+        "lon": 32.569406,
+        "Station Name": "Stabex Tula 2",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5833709, 0.3586464, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.5833709 0.3586464)<br>lat: 0.3586464<br>lon: 32.5833709<br>Station Name: Stabex Kyebando<br>location: Central<br>Vol: <br>station: stabex<br>sub-location: Trade area B<br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.5833709 0.3586464)",
+        "lat": 0.3586464,
+        "lon": 32.5833709,
+        "Station Name": "Stabex Kyebando",
+        "location": "Central",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": "Trade area B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2969059, 0.3527879, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (32.2969059 0.3527879)<br>lat: 0.3527879<br>lon: 32.2969059<br>Station Name: Stabex Muduma<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (32.2969059 0.3527879)",
+        "lat": 0.3527879,
+        "lon": 32.2969059,
+        "Station Name": "Stabex Muduma",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.4213317, 0.5484484, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.4213317 0.5484484)<br>lat: 0.5484484<br>lon: 31.4213317<br>Station Name: Stabex Mubende 2<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.4213317 0.5484484)",
+        "lat": 0.5484484,
+        "lon": 31.4213317,
+        "Station Name": "Stabex Mubende 2",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.3163951, 1.3471937, 0]
+      },
+      "properties": {
+        "name": "",
+        "description": {
+          "@type": "html",
+          "value": "WKT: POINT (31.3163951 1.3471937)<br>lat: 1.3471937<br>lon: 31.3163951<br>Station Name: Stabex Buhimba<br>location: West<br>Vol: <br>station: stabex<br>sub-location: <br>name: "
+        },
+        "styleUrl": "#icon-1899-DB4436",
+        "icon-opacity": 1,
+        "icon-color": "#db4436",
+        "icon-scale": 1,
+        "icon-offset": [32, 64],
+        "icon-offset-units": ["pixels", "insetPixels"],
+        "icon": "https://i.ibb.co/pyH32Z6/stabex.png",
+        "WKT": "POINT (31.3163951 1.3471937)",
+        "lat": 1.3471937,
+        "lon": 31.3163951,
+        "Station Name": "Stabex Buhimba",
+        "location": "West",
+        "Vol": "",
+        "station": "stabex",
+        "sub-location": ""
+      }
     }
   ]
 }
