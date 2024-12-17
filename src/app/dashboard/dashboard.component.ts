@@ -1040,7 +1040,7 @@ centralPolygon= {
                       return {
                         icon: {
                           url: iconUrl,
-                          scaledSize: new google.maps.Size(32, 32),
+                          scaledSize: new google.maps.Size(24, 24),
                           origin: new google.maps.Point(0, 0),
                           anchor: new google.maps.Point(8, 16),
                         },
@@ -1479,7 +1479,7 @@ loadUgandaMapPolygon() {
           return {
             icon: {
               url: iconUrl,
-              scaledSize: new google.maps.Size(32, 32),
+              scaledSize: new google.maps.Size(24, 24),
               origin: new google.maps.Point(0, 0),
               anchor: new google.maps.Point(8, 16),
             },
