@@ -1385,31 +1385,15 @@ loadUgandaMapPolygon() {
     this.showMap = true;
   }
 
-  loadSubStationsGeoJSON(url: string, location: string, station: string) {
+  loadSubStationsGeoJSON(url: string, sublocation: string, station: string) {
     const map = this.map;
     this.clearMap();
   
-    console.log(`loadStationsGeoJSON called with: url=${url}, location=${location}, station=${station}`);
+    console.log(`loadStationsGeoJSON called with: url=${url}, location=${sublocation}, station=${station}`);
   
-    // Dynamically handle different locations
-    if (location === 'North') {
-      this.loadEntireMapPolygon();
-      this.loadNorthPolygon();
-    } else if (location === 'East') {
-      this.loadEntireMapPolygon();
-      this.loadEastPolygon();
-    } else if (location === 'West') {
-      this.loadEntireMapPolygon();
-      this.loadWestPolygon();
-    } else if (location === 'Central') {
-      this.loadEntireMapPolygon();
-      this.loadCentralPolygon();
-    } else if (location === 'all') {
-      this.loadEntireMapPolygon();
-      this.loadUgandaMapPolygon();
-    } else {
-      console.warn(`No polygon defined for location: ${location}`);
-    }
+    this.loadEntireMapPolygon();
+    this.loadCentralPolygon();
+   
   
     // Load GeoJSON data
     console.log(`Attempting to load GeoJSON from URL: ${url}`);
@@ -1429,7 +1413,7 @@ loadUgandaMapPolygon() {
           if (!properties) return false;
   
           // Custom filter for 'all' location
-          if (location === 'all') {
+          if (sublocation === 'all') {
             if (station === 'all') {
               return true; // Include all features regardless of station
             }
@@ -1438,10 +1422,10 @@ loadUgandaMapPolygon() {
   
           // Otherwise filter by location
           if (station === 'all') {
-            return properties.location === location; // Include all stations in the specific location
+            return properties.sublocation === sublocation; // Include all stations in the specific location
           }
-  
-          return properties.location === location && properties.station === station; // Filter by both location and station
+          return properties.sublocation === sublocation;
+        //  return properties.location === location && properties.station === station; // Filter by both location and station
         });
   
         console.log(`Filtered features count: ${filteredFeatures.length}`);
@@ -1450,7 +1434,7 @@ loadUgandaMapPolygon() {
           console.warn('No features matched the filter criteria.');
           Swal.fire({
             title: 'No Data Found',
-            html: `<p>No data found for <span class="text-danger">${station}</span> stations in <span class="text-danger">${location}</span> regions.</p>`,
+            html: `<p>No data found for <span class="text-danger">${station}</span> stations in <span class="text-danger">${sublocation}</span> regions.</p>`,
             icon: 'warning',
           });
           return;
@@ -1467,7 +1451,7 @@ loadUgandaMapPolygon() {
               </tr>
               <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;">Location</td>
-                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${location}</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${sublocation}</td>
               </tr>
               <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;">Total Stations</td>
