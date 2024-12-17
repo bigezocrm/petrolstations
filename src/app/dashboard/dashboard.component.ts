@@ -1373,6 +1373,328 @@ loadUgandaMapPolygon() {
     this.loadStationsGeoJSON('/uganda_shell_total.geojson', region, station);
     this.showMap = true;
   }
+  loadSubStation(region: string, station: string) {
+    alert(`Loading ---------->  ${station} stations sub in ${region} region...`);
+
+    if (!this.mapInitialized) {
+      this.initMap(); // Initialize the North Shell map
+    }
+
+    // Update map based on region and station type
+    this.loadSubStationsGeoJSON('/uganda_shell_total.geojson', region, station);
+    this.showMap = true;
+  }
+
+  loadSubStationsGeoJSON(url: string, location: string, station: string) {
+    const map = this.map;
+    this.clearMap();
+  
+    console.log(`loadStationsGeoJSON called with: url=${url}, location=${location}, station=${station}`);
+  
+    // Dynamically handle different locations
+    if (location === 'North') {
+      this.loadEntireMapPolygon();
+      this.loadNorthPolygon();
+    } else if (location === 'East') {
+      this.loadEntireMapPolygon();
+      this.loadEastPolygon();
+    } else if (location === 'West') {
+      this.loadEntireMapPolygon();
+      this.loadWestPolygon();
+    } else if (location === 'Central') {
+      this.loadEntireMapPolygon();
+      this.loadCentralPolygon();
+    } else if (location === 'all') {
+      this.loadEntireMapPolygon();
+      this.loadUgandaMapPolygon();
+    } else {
+      console.warn(`No polygon defined for location: ${location}`);
+    }
+  
+    // Load GeoJSON data
+    console.log(`Attempting to load GeoJSON from URL: ${url}`);
+    fetch(url)
+      .then((response) => response.json())
+      .then((geojsonData) => {
+        if (!geojsonData || !geojsonData.features) {
+          console.error('Invalid GeoJSON data.');
+          return;
+        }
+  
+        console.log(`GeoJSON data loaded successfully: ${geojsonData.features.length} features found.`);
+  
+        // Filter features based on location and station, including 'all' option
+        const filteredFeatures = geojsonData.features.filter((feature: any) => {
+          const properties = feature.properties;
+          if (!properties) return false;
+  
+          // Custom filter for 'all' location
+          if (location === 'all') {
+            if (station === 'all') {
+              return true; // Include all features regardless of station
+            }
+            return properties.station === station; // Include features that match the station
+          }
+  
+          // Otherwise filter by location
+          if (station === 'all') {
+            return properties.location === location; // Include all stations in the specific location
+          }
+  
+          return properties.location === location && properties.station === station; // Filter by both location and station
+        });
+  
+        console.log(`Filtered features count: ${filteredFeatures.length}`);
+  
+        if (filteredFeatures.length === 0) {
+          console.warn('No features matched the filter criteria.');
+          Swal.fire({
+            title: 'No Data Found',
+            html: `<p>No data found for <span class="text-danger">${station}</span> stations in <span class="text-danger">${location}</span> regions.</p>`,
+            icon: 'warning',
+          });
+          return;
+        }
+  
+        // Display SweetAlert table with details
+        Swal.fire({
+          title: 'Key Analytics',
+          html: `
+            <table style="width:100%; text-align:left; border-collapse: collapse;">
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Station Type</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${station}</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Location</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${location}</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Total Stations</td>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight:bold;">${filteredFeatures.length}</td>
+              </tr>
+            </table>
+          `,
+          icon: 'info',
+          confirmButtonText: 'View Map',
+          confirmButtonColor: '#40bf40',
+          position: 'top-end',
+          toast: false,
+        });
+  
+        // Add filtered features to the map
+        filteredFeatures.forEach((feature: any) => {
+          map.data.addGeoJson({ type: 'FeatureCollection', features: [feature] });
+        });
+  
+        // Style markers
+   map.data.setStyle((feature: any) => {
+          const station = feature.getProperty('station');
+          const iconUrl = feature.getProperty('icon') || 'https://i.ibb.co/8Kcffcb/shell.png'; // Default icon fallback
+  
+          return {
+            icon: {
+              url: iconUrl,
+              scaledSize: new google.maps.Size(32, 32),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(8, 16),
+            },
+          };
+        }); 
+      // Add a listener to detect zoom changes and update styles
+/* map.addListener('zoom_changed', () => {
+const zoom = map.getZoom(); // Get the current zoom level
+console.log(`Zoom level changed to: ${zoom}`);
+
+map.data.setStyle((feature: any) => {
+const iconUrl = feature.getProperty('icon') || 'https://i.ibb.co/8Kcffcb/independent.png'; // Default icon fallback
+
+// Adjust icon size based on zoom level
+const baseSize = 24; // Base size for icons
+const scaledSize = Math.max(16, baseSize + (zoom - 5) * 5); // Scale with zoom (min size 16px)
+
+console.log(`Icon scaled size: ${scaledSize}`);
+
+return {
+icon: {
+url: iconUrl,
+scaledSize: new google.maps.Size(scaledSize, scaledSize),
+origin: new google.maps.Point(0, 0),
+anchor: new google.maps.Point(scaledSize / 2, scaledSize / 2),
+},
+};
+});
+});
+*/
+        
+  
+        console.log('Filtered features added to map and styled.');
+  
+        // Add click listener to display popup details
+      
+     //  let activeInfoWindow: any;
+     /*    map.data.addListener('click', (event: any) => {
+          const feature = event.feature;
+          if (!feature) {
+            console.error('No feature found on click event.');
+            return;
+          }
+        
+          const properties = feature.getProperties();
+          if (!properties) {
+            console.error('No properties found for this feature.');
+            return;
+          }
+        
+          console.log('Feature properties:', properties);
+        
+          const contentString = `
+            <div>
+              <h3>${properties.Code || 'N/A'}</h3>
+              <p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+              <p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+              <p><strong>Station type:</strong> ${properties.station?.value || 'N/A'}</p>
+            </div>
+          `;
+        
+          // Close the previously active InfoWindow
+          if (activeInfoWindow) {
+            activeInfoWindow.close();
+          }
+        
+          // Create a new InfoWindow
+          activeInfoWindow = new google.maps.InfoWindow({
+            content: contentString,
+            position: event.latLng,
+          });
+        
+          // Ensure activeInfoWindow is not null before calling open
+          if (activeInfoWindow) {
+            activeInfoWindow.open(map);
+            console.log('InfoWindow opened with details for:', properties.Code);
+          }
+        }); */
+        // Initialize variable to track the active InfoWindow
+/// <reference types="google.maps" />
+
+let activeInfoWindow: any;
+
+// Add a click listener for displaying details in a popup
+/* map.data.addListener('click', (event: any) => {
+const feature = event.feature;
+console.error('---------------------------------POINT HAS BEEN CLICKED');
+if (!feature) {
+console.error('No feature found on click event.');
+return;
+}
+
+const properties = feature.getProperties();
+if (!properties) {
+console.error('No properties found for this feature.');
+return;
+}
+
+console.log('Feature properties:', properties);
+
+// Build content for the InfoWindow
+const contentString = `
+<div>
+<h3>${properties.Code || 'N/A'}</h3>
+<p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+<p><strong>Volume:</strong> ${properties.Vol || 'N/A'}</p>
+<p><strong>Station Type:</strong> ${properties.station?.value || 'N/A'}</p>
+</div>
+`;
+
+// Close the previous InfoWindow if it exists
+if (activeInfoWindow) {
+activeInfoWindow.close();
+}
+
+// Create and open a new InfoWindow
+activeInfoWindow = new google.maps.InfoWindow({
+content: contentString,
+position: event.latLng,
+});
+
+if (activeInfoWindow) {
+activeInfoWindow.open(map);
+}
+console.log('InfoWindow opened with details for:', properties.Code);
+}); */
+
+map.data.addListener('click', (event: any) => {
+const feature = event.feature;
+console.error('---------------------------------POINT HAS BEEN CLICKED');
+
+if (!feature) {
+console.error('No feature found on click event.');
+return;
+}
+
+console.log('Feature:', feature);
+
+// Attempt to access properties directly
+const properties = feature.Fg;
+if (!properties) {
+console.error('No properties found for this feature.');
+return;
+}
+
+console.log('Feature properties:', properties);
+
+// Build content for the InfoWindow
+const contentString = `
+<div>
+<h3>${properties.Code || 'N/A'}</h3>
+<p><strong>Location:</strong> ${properties.location || 'N/A'}</p>
+<p><strong>Longitude:</strong> ${properties.lon || 'N/A'}</p>
+<p><strong>Latitude:</strong> ${properties.lat || 'N/A'}</p>
+</div>
+`;
+
+// Close the previous InfoWindow if it exists
+if (activeInfoWindow) {
+activeInfoWindow.close();
+}
+
+// Create and open a new InfoWindow
+activeInfoWindow = new google.maps.InfoWindow({
+content: contentString,
+position: event.latLng,
+});
+
+if (activeInfoWindow) {
+activeInfoWindow.open(map);
+}
+console.log('InfoWindow opened with details for:', properties.Code);
+});
+
+// Close the InfoWindow when the map is clicked elsewhere
+map.addListener('click', () => {
+if (activeInfoWindow) {
+activeInfoWindow.close();
+activeInfoWindow = null;
+console.log('InfoWindow closed.');
+}
+});
+
+
+// Close the InfoWindow when the map is clicked elsewhere
+map.addListener('click', () => {
+if (activeInfoWindow) {
+activeInfoWindow.close();
+activeInfoWindow = null;
+console.log('InfoWindow closed.');
+}
+});
+
+
+      })
+      .catch((error) => {
+        console.error('Error fetching or processing GeoJSON data:', error);
+      });
+  }
 
   clearMap() {
     const map = this.map;
