@@ -28,6 +28,7 @@ ugandaPolygonData:any=null;
 eastPolygonData:any=null;
 westPolygonData:any=null;
 centralPolygonData:any=null;
+chosenLocation:string="";
 
 
 
@@ -988,29 +989,81 @@ centralPolygon= {
 };
 
   constructor(private router: Router, private supabaseService: SupabaseService) {}
-
-  // Logout function
-  logout() {
-    this.supabaseService
-      .logout()
-      .then(() => {
-        this.router.navigate(['/login']); // Redirect after logout
-      })
-      .catch((error) => {
-        console.error('Logout failed:', error);
-      });
+  ngAfterViewChecked(): void {
+    throw new Error('Method not implemented.');
   }
-
-  ngAfterViewInit() {
     // Initialize map only once when the view is ready
-  }
+    private toggleListener: ((event: Event) => void) | null = null;
 
-  ngAfterViewChecked() {
-    if (this.showMap && !this.mapInitialized) {
+    ngAfterViewInit() {
       this.initMap();
-    }
-  }
+      const toggleButton = document.getElementById("togglePolygons"); 
+    
+      if (toggleButton) {
+        
+        this.toggleListener = (event: Event) => {
+          const isChecked = (event.target as HTMLInputElement).checked;
+          if (isChecked) {
+            //alert('Toggle button clicked: ON');
+            if(this.chosenLocation==="North"){
+              this.loadNorthPolygon();
+            }
+            if(this.chosenLocation==="East"){
+              this.loadEastPolygon();
+            }
+            if(this.chosenLocation==="West"){
+              this.loadWestPolygon();
+            }
+            if(this.chosenLocation==="Central"){
+              this.loadCentralPolygon();
+            }
+         
 
+
+
+            //------------------end if checked
+          } else {
+          if(this.chosenLocation==="North"){
+            if (this.northPolygonData) {
+              this.northPolygonData.setMap(null); // Remove the polygon
+              this.northPolygonData = null; // Clear reference
+            }
+          }
+          if(this.chosenLocation==="East"){
+            if (this.eastPolygonData) {
+              this.eastPolygonData.setMap(null); // Remove the polygon
+              this.eastPolygonData = null; // Clear reference
+            }
+          }
+          if(this.chosenLocation==="West"){
+            if (this.westPolygonData) {
+              this.westPolygonData.setMap(null); // Remove the polygon
+              this.westPolygonData = null; // Clear reference
+            }
+          }
+
+          if(this.chosenLocation==="Central"){
+            if (this.centralPolygonData) {
+              this.centralPolygonData.setMap(null); // Remove the polygon
+              this.centralPolygonData = null; // Clear reference
+            }
+          }
+          
+          }
+        };
+    
+        toggleButton.addEventListener("change", this.toggleListener);
+      }
+    }
+    
+    ngOnDestroy() {
+      // Clean up the event listener to prevent memory leaks
+      const toggleButton = document.getElementById("togglePolygons");
+      if (toggleButton && this.toggleListener) {
+        toggleButton.removeEventListener("change", this.toggleListener);
+      }
+    }
+    
   // Method to initialize the map
   initMap() {
     const mapElement = document.getElementById('map');
@@ -1038,6 +1091,19 @@ centralPolygon= {
     this.mapInitialized = true;
   }
 
+
+    // Logout function
+    logout() {
+      this.supabaseService
+        .logout()
+        .then(() => {
+          this.router.navigate(['/login']); // Redirect after logout
+        })
+        .catch((error) => {
+          console.error('Logout failed:', error);
+        });
+    }
+  
   // Function to load stations and the polygon based on location and station type
 
 
@@ -1512,6 +1578,12 @@ centralPolygon= {
                 console.error('Error fetching or processing GeoJSON data:', error);
               });
         }  */
+            
+          
+              
+              
+            
+              
               loadStationsGeoJSON(url: string, location: string, station: string) {
                 const map = this.map;
                 this.clearMap();
@@ -1827,7 +1899,7 @@ map.addListener('click', () => {
 loadNorthPolygon() {
   const map = this.map;
   const northPolygon = this.northPolygon;
-
+this.chosenLocation="North";
   // Create a new Data instance and store it
   const polygonData = new google.maps.Data();
   polygonData.addGeoJson(northPolygon);
@@ -1847,6 +1919,7 @@ loadNorthPolygon() {
 loadEastPolygon() {
   const map = this.map;
   const eastPolygon = this.eastPolygon;
+  this.chosenLocation="East";
 
   // Create a new Data instance and store it
   const polygonData = new google.maps.Data();
@@ -1867,6 +1940,7 @@ loadEastPolygon() {
 loadWestPolygon() {
   const map = this.map;
   const westPolygon = this.westPolygon;
+  this.chosenLocation="West";
 
   // Create a new Data instance and store it
   const polygonData = new google.maps.Data();
@@ -1888,7 +1962,7 @@ loadWestPolygon() {
 loadCentralPolygon() {
   const map = this.map;
   const centralPolygon = this.centralPolygon;
-
+  this.chosenLocation="Central";
   // Create a new Data instance and store it
   const polygonData = new google.maps.Data();
   polygonData.addGeoJson(centralPolygon);
@@ -1907,6 +1981,7 @@ loadCentralPolygon() {
 loadEntireMapPolygon() {
   const map = this.map;
   const entiremapPolygon = this.entiremapPolygon;
+  this.chosenLocation="all";
 
   // Create a new Data instance and store it
   const polygonData = new google.maps.Data();
@@ -1945,6 +2020,8 @@ loadUgandaMapPolygon() {
 }
   // Method to handle station selection (region and station type)
   loadStation(region: string, station: string) {
+    const toggleButton:any = document.getElementById("togglePolygons")||null;  
+    toggleButton.checked = true;
     alert(`Loading ---------->  ${station} stations in ${region} region...`);
 
     if (!this.mapInitialized) {

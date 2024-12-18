@@ -410,10 +410,21 @@
 
       <div>
         <h1>
-          {{ title }}
-          <button class="ms-5 btn btn-dark" (click)="clearMap()">
-            Clear map
-          </button>
+          <div class="row">
+            <div class="col-md-6">
+              {{ title }}
+              <button class="ms-5 btn btn-dark" (click)="clearMap()">
+                Clear map
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="custom-toggle">
+                <span class="toggle-text me-2">Show Region</span>
+                <input type="checkbox" id="togglePolygons" checked />
+                <label class="custom-toggle-label" for="togglePolygons"></label>
+              </div>
+            </div>
+          </div>
         </h1>
         <div id="map" style="height: 680px; width: 100%"></div>
       </div>

@@ -2,3 +2,45 @@ h1 {
   font-size: 27px;
   color: rgb(255, 169, 93);
 }
+
+.custom-toggle {
+  display: flex;
+  align-items: center;
+}
+.custom-toggle input {
+  display: none; /* Hide the default checkbox */
+}
+.custom-toggle-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 30px;
+  background-color: #ba1717;
+  border-radius: 15px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+.custom-toggle-label::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  transition: transform 0.3s;
+}
+.custom-toggle input:checked + .custom-toggle-label {
+  background-color: #198754;
+}
+.custom-toggle input:checked + .custom-toggle-label::after {
+  transform: translateX(30px);
+}
+.toggle-text {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #495057;
+}
