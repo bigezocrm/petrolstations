@@ -2033,7 +2033,7 @@ loadUgandaMapPolygon() {
     this.showMap = true;
   }
   loadSubStation(region: string, station: string) {
-    alert(`Loading ---------->  ${station} stations sub in ${region} region...`);
+    alert(`Loading ---------->  ${station} stations in ${region} sub  region...`);
 
     if (!this.mapInitialized) {
       this.initMap(); // Initialize the North Shell map
